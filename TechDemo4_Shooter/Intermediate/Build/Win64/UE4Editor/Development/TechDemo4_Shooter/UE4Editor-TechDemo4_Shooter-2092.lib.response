@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TechDemo4_Shooter-2092.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\TechDemo4_Shooter\Intermediate\Build\Win64\TechDemo4_ShooterEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\TechDemo4_Shooter\Intermediate\Build\Win64\UE4Editor\Development\TechDemo4_Shooter\TechDemo4_Shooter.cpp.obj"
+"C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\TechDemo4_Shooter\Intermediate\Build\Win64\UE4Editor\Development\TechDemo4_Shooter\TechDemo4_ShooterCharacter.cpp.obj"
+"C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\TechDemo4_Shooter\Intermediate\Build\Win64\UE4Editor\Development\TechDemo4_Shooter\TechDemo4_ShooterGameMode.cpp.obj"
+"C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\TechDemo4_Shooter\Intermediate\Build\Win64\UE4Editor\Development\TechDemo4_Shooter\TechDemo4_Shooter.init.gen.cpp.obj"
+"C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\TechDemo4_Shooter\Intermediate\Build\Win64\UE4Editor\Development\TechDemo4_Shooter\TechDemo4_ShooterCharacter.gen.cpp.obj"
+"C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\TechDemo4_Shooter\Intermediate\Build\Win64\UE4Editor\Development\TechDemo4_Shooter\TechDemo4_ShooterGameMode.gen.cpp.obj"
+"C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\TechDemo4_Shooter\Intermediate\Build\Win64\UE4Editor\Development\TechDemo4_Shooter\Default.rc2.res"
+/OUT:"C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\TechDemo4_Shooter\Intermediate\Build\Win64\UE4Editor\Development\TechDemo4_Shooter\UE4Editor-TechDemo4_Shooter-2092.lib"

@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\jowet\\OneDrive\\Documents\\UNI Year 2\\TechDemo4-UnrealShooter\\TechDemo4_Shooter\\Source\\TechDemo4_Shooter\\TechDemo4_Shooter.Build.cs",
+		"C:\\Users\\jowet\\OneDrive\\Documents\\UNI Year 2\\TechDemo4-UnrealShooter\\TechDemo4_Shooter\\Source\\TechDemo4_Shooter.Target.cs",
+		"C:\\Users\\jowet\\OneDrive\\Documents\\UNI Year 2\\TechDemo4-UnrealShooter\\TechDemo4_Shooter\\Source\\TechDemo4_ShooterEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

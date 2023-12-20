@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TechDemo4_Shooter.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{956FD481-7E08-4FA5-915A-ABCFA52A4AE5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TechDemo4_Shooter.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TechDemo4_ShooterEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{E76AF06A-C965-4DE2-A088-861D148D8C4E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TechDemo4_Shooter">
+      <UniqueIdentifier>{D24B1BF6-9E97-467D-9BE9-66A318F29D21}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TechDemo4_Shooter\TechDemo4_Shooter.Build.cs">
+      <Filter>Source\TechDemo4_Shooter</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TechDemo4_Shooter\TechDemo4_Shooter.cpp">
+      <Filter>Source\TechDemo4_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TechDemo4_Shooter\TechDemo4_Shooter.h">
+      <Filter>Source\TechDemo4_Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TechDemo4_Shooter\TechDemo4_ShooterCharacter.cpp">
+      <Filter>Source\TechDemo4_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TechDemo4_Shooter\TechDemo4_ShooterCharacter.h">
+      <Filter>Source\TechDemo4_Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TechDemo4_Shooter\TechDemo4_ShooterGameMode.cpp">
+      <Filter>Source\TechDemo4_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TechDemo4_Shooter\TechDemo4_ShooterGameMode.h">
+      <Filter>Source\TechDemo4_Shooter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

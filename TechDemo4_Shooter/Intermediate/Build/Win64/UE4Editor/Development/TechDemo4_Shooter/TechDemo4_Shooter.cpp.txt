@@ -1,0 +1,2 @@
+C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\TechDemo4_Shooter\Intermediate\Build\Win64\UE4Editor\Development\TechDemo4_Shooter\Definitions.TechDemo4_Shooter.h
+C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\TechDemo4_Shooter\Source\TechDemo4_Shooter\TechDemo4_Shooter.h
