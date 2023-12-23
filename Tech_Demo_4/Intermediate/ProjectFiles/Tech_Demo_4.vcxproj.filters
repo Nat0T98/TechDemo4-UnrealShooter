@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Tech_Demo_4.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{DC92EC40-E1BC-4D00-BC73-EA988C99C6E3}</UniqueIdentifier>
+      <UniqueIdentifier>{A1E18499-719A-4A63-917C-4DE96AEAFF14}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Tech_Demo_4.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\Tech_Demo_4.png" />
     <None Include="..\..\West_Carrier_CVN76.png" />
     <Filter Include="Config">
-      <UniqueIdentifier>{61A8FE69-F22E-4AD8-905D-827D2EA9585F}</UniqueIdentifier>
+      <UniqueIdentifier>{4CD77E61-FF1A-4D6E-88B7-A0A4924A117F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Tech_Demo_4">
-      <UniqueIdentifier>{186A70A8-FC79-4027-BEDF-0AB91CD43C11}</UniqueIdentifier>
+      <UniqueIdentifier>{296594FD-B8EA-42B0-8C36-9748E7FBCA93}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Tech_Demo_4\CharacterAnimationController.cpp">
       <Filter>Source\Tech_Demo_4</Filter>
