@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Tech_Demo_4.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{4DB3887D-9F62-4C9D-B8A8-AA5673AC0E31}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Tech_Demo_4.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Tech_Demo_4Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{53C60604-305F-4988-90D0-F1B013636E84}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Tech_Demo_4">
+      <UniqueIdentifier>{2634E254-1A91-42B4-B471-C01D5743AD3F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tech_Demo_4\CharacterAnimationController.cpp">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tech_Demo_4\CharacterAnimationController.h">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tech_Demo_4\CharacterController.cpp">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tech_Demo_4\CharacterController.h">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tech_Demo_4\CharacterWidget.cpp">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tech_Demo_4\CharacterWidget.h">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tech_Demo_4\CountdownWidget.cpp">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tech_Demo_4\CountdownWidget.h">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tech_Demo_4\ExplosionController.cpp">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tech_Demo_4\ExplosionController.h">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tech_Demo_4\GrenadeController.cpp">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tech_Demo_4\GrenadeController.h">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tech_Demo_4\MainMenuWidget.cpp">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tech_Demo_4\MainMenuWidget.h">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tech_Demo_4\MainMenu_GameModeBase.cpp">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tech_Demo_4\MainMenu_GameModeBase.h">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tech_Demo_4\PickupController.cpp">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tech_Demo_4\PickupController.h">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tech_Demo_4\PickupLocationController.cpp">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tech_Demo_4\PickupLocationController.h">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Tech_Demo_4\Tech_Demo_4.Build.cs">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Tech_Demo_4\Tech_Demo_4.cpp">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tech_Demo_4\Tech_Demo_4.h">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tech_Demo_4\Tech_Demo_4GameModeBase.cpp">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tech_Demo_4\Tech_Demo_4GameModeBase.h">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tech_Demo_4\WeaponController.cpp">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tech_Demo_4\WeaponController.h">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
