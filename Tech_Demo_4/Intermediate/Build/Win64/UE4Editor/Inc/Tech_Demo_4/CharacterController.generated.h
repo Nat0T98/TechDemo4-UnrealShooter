@@ -59,9 +59,8 @@ public: \
 
 
 #define Tech_Demo_4_Source_Tech_Demo_4_CharacterController_h_17_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__CharMove() { return STRUCT_OFFSET(ACharacterController, CharMove); } \
-	FORCEINLINE static uint32 __PPO__ShotDuration() { return STRUCT_OFFSET(ACharacterController, ShotDuration); } \
-	FORCEINLINE static uint32 __PPO__ReloadDuration() { return STRUCT_OFFSET(ACharacterController, ReloadDuration); } \
+	FORCEINLINE static uint32 __PPO__PlayerMove() { return STRUCT_OFFSET(ACharacterController, PlayerMove); } \
+	FORCEINLINE static uint32 __PPO__ShootTime() { return STRUCT_OFFSET(ACharacterController, ShootTime); } \
 	FORCEINLINE static uint32 __PPO__DoubleDamageDuration() { return STRUCT_OFFSET(ACharacterController, DoubleDamageDuration); } \
 	FORCEINLINE static uint32 __PPO__SpringArm() { return STRUCT_OFFSET(ACharacterController, SpringArm); } \
 	FORCEINLINE static uint32 __PPO__AnimationController() { return STRUCT_OFFSET(ACharacterController, AnimationController); } \

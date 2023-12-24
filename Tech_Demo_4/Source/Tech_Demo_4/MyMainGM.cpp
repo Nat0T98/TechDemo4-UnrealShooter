@@ -13,20 +13,15 @@ AMyMainGM::AMyMainGM()
 {
 	BlueTeam = nullptr;
 	RedTeam = nullptr;
-
 	PlayerHUD = nullptr;
 	CountdownTimer = nullptr;
-
 	GameMusic = nullptr;
-
 	Audio = CreateDefaultSubobject<UAudioComponent>(TEXT("Audio"));
 
 	Minutes = 3;
 	Seconds = 0;
-
 	MaxRounds = 5;
 	Round = 1;
-
 	PickupsInLevel = 0;
 
 	WinnerVisibility = ESlateVisibility::Hidden;
@@ -274,21 +269,21 @@ void AMyMainGM::NewRound()
 	{
 		if (Players[0]->Health > Players[1]->Health)
 		{
-			Players[0]->Score++;
+			Players[0]->Kills++;
 		}
 		else if (Players[0]->Health < Players[1]->Health)
 		{
-			Players[1]->Score++;
+			Players[1]->Kills++;
 		}
 	}
 
 	if (Round > MaxRounds)
 	{
-		if (Players[0]->Score > Players[1]->Score)
+		if (Players[0]->Kills > Players[1]->Kills)
 		{
 			WinnerName = Players[0]->Name;
 		}
-		else if (Players[0]->Score < Players[1]->Score)
+		else if (Players[0]->Kills < Players[1]->Kills)
 		{
 			WinnerName = Players[1]->Name;
 		}
@@ -313,7 +308,7 @@ void AMyMainGM::RestartLevel()
 
 	for (uint8 Index = 0; Index < Players.Num(); ++Index)
 	{
-		Players[Index]->Score = 0;
+		Players[Index]->Kills = 0;
 		Players[Index]->CustomTimeDilation = 1.0f;
 	}
 

@@ -27,110 +27,92 @@ protected:
 	virtual void BeginPlay() override;
 
 public:	
-	void GetDamaged(int Damage);
+	void TakeDamage(int Damage);
 	void Heal(int HealAmount);
 	void IncrementAmmo(int IncrementAmount);
 	void Respawn();
 	void ActivateDoubleDamage();
-	bool GetIsDead() const { return bIsDead; }
+	bool GetIsDead() const { return IsDead; }
 	bool GetIsAimedIn() const;
 	
 	UAnimMontage* GetAimMontage() const { return AimMontage; }
 	UAnimMontage* GetShootMontage() const { return ShootMontage; }
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Name")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerStats")
 	FString Name;
-
-	UPROPERTY(EditAnywhere, Category = "Health")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerStats")
+	int Kills;
+	UPROPERTY(EditAnywhere, Category = "PlayerStats")
 	float MaxHealth;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerStats")
 	float Health;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerStats")
 	float HealthPercentage;
-
-	UPROPERTY(EditAnywhere, Category = "Ammo")
+	UPROPERTY(EditAnywhere, Category = "PlayerStats")
 	int ClipSize;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ammo")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerStats")
 	int Ammo;
-	UPROPERTY(EditAnywhere, Category = "Ammo")
+	UPROPERTY(EditAnywhere, Category = "PlayerStats")
 	int MaxClips;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ammo")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerStats")
 	int Clips;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PlayerStats")
+	float RemainingAmmo;		
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Ammo")
-	float RemainingAmmo;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Score")
-	int Score;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Aiming")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "States")
 	ESlateVisibility CrosshairVisible;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Reloading")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "States")
 	ESlateVisibility ReloadVisible;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Character Widget")
 	UCharacterWidget* CharacterWidget;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Buffs")
-	bool bDoubleDamageActive;
+	bool IsDoubleDamageActive;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Buffs")
 	ESlateVisibility DoubleDamageVisible;
-
-	UPROPERTY(EditAnywhere, Category = "Damage Multiplier")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Buffs")	
+	int DoubleDamageTimeRemaining;
+	UPROPERTY(EditAnywhere, Category = "Buffs")
 	int DamageMultiplier;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Buffs")
-	
-	int DDTimeRemaining;
 
 	FTransform Origin;
 
 	UPROPERTY(EditAnywhere, Category = "Camera")
-	UCameraComponent* Camera;
-		
+	UCameraComponent* Camera;		
 
 private:
-	// Variable:
-	UPROPERTY()
-	UCharacterMovementComponent* CharMove;
 	
-	bool bIsAimedIn;
-	bool bIsDead;
-	bool bHasShot;
-	bool bIsReloading;
-	bool bIsShooting;
+	UPROPERTY()
+	UCharacterMovementComponent* PlayerMove;
+	bool IsDead;
+	bool IsShooting;
+	bool IsAiming;	
+	bool IsReloading;
+	bool JustShot;	
 
 	UPROPERTY(EditAnywhere, Category = "Timers")
-	float ShotDuration;
-	float CurrentShotInterval;
-
-	UPROPERTY(EditAnywhere, Category = "Timers")
+	float ShootTime;
+	float ShotDelay;
 	float ReloadDuration;
-	float CurrentReloadInterval;
+	float ReloadDelay;
 
 	UPROPERTY(EditAnywhere, Category = "Buffs")
 	float DoubleDamageDuration;
-	float CurrentDoubleDamageInterval;
-	
+	float CurrentDoubleDamageTime;	
 	
 	void MoveForward(float Value);
-	void MoveRight(float Value);
-	
+	void MoveRight(float Value);	
 	void LookUp(float Value);
-	void LookRight(float Value);
-
-	
+	void LookRight(float Value);	
 	virtual void Jump() override;
 	void Shoot();
 	void StopShoot();
 	void Reload();
-	void Aim();
-
-	// Helper Functions:
+	void Aim();	
 	void AimIn();
 	void AimOut();
-
-	// Components:
+	
 	UPROPERTY(EditAnywhere, Category = "Spring Arm")
 	USpringArmComponent* SpringArm;
 	UPROPERTY(EditAnywhere, Category = "Animation Controller")
