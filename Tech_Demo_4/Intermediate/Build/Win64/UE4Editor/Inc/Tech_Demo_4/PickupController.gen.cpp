@@ -22,7 +22,7 @@ void EmptyLinkFunctionForGeneratedCodePickupController() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	TECH_DEMO_4_API UClass* Z_Construct_UClass_APickupLocationController_NoRegister();
-	TECH_DEMO_4_API UClass* Z_Construct_UClass_ATech_Demo_4GameModeBase_NoRegister();
+	TECH_DEMO_4_API UClass* Z_Construct_UClass_AMyMainGM_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 // End Cross Module References
@@ -244,7 +244,7 @@ void EmptyLinkFunctionForGeneratedCodePickupController() {}
 		{ "ModuleRelativePath", "PickupController.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APickupController_Statics::NewProp_GameModeBase = { "GameModeBase", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickupController, GameModeBase), Z_Construct_UClass_ATech_Demo_4GameModeBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APickupController_Statics::NewProp_GameModeBase_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APickupController_Statics::NewProp_GameModeBase_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APickupController_Statics::NewProp_GameModeBase = { "GameModeBase", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickupController, GameModeBase), Z_Construct_UClass_AMyMainGM_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APickupController_Statics::NewProp_GameModeBase_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APickupController_Statics::NewProp_GameModeBase_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickupController_Statics::NewProp_PickupType_MetaData[] = {
 		{ "Category", "Pickup Type" },
@@ -301,7 +301,7 @@ void EmptyLinkFunctionForGeneratedCodePickupController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APickupController, 3828585103);
+	IMPLEMENT_CLASS(APickupController, 1723355845);
 	template<> TECH_DEMO_4_API UClass* StaticClass<APickupController>()
 	{
 		return APickupController::StaticClass();

@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "PickupLocationController.h"
-#include "Tech_Demo_4GameModeBase.h"
+#include "MyMainGM.h"
 #include "GameFramework/Actor.h"
 #include "PickupController.generated.h"
 
@@ -16,7 +16,7 @@ enum EPickups
 	Ammo
 };
 
-class ATech_Demo_4GameModeBase;
+class AMyMainGM;
 
 UCLASS()
 class TECH_DEMO_4_API APickupController : public AActor
@@ -42,7 +42,7 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Pickup Location")
 	APickupLocationController* PickupLocationController;
 	UPROPERTY(EditAnywhere, Category = "Game Mode")
-	ATech_Demo_4GameModeBase* GameModeBase;
+	AMyMainGM* GameModeBase;
 
 	UPROPERTY(EditAnywhere, Category = "Pickup Type")
 	TEnumAsByte<EPickups> PickupType;

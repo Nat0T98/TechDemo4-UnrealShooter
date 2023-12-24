@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Tech_Demo_4GameModeBase.h"
+#include "MyMainGM.h"
 #include "Blueprint/UserWidget.h"
 #include "CountdownWidget.generated.h"
 
@@ -14,5 +14,5 @@ class TECH_DEMO_4_API UCountdownWidget : public UUserWidget
 
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Gamemode Base")
-	ATech_Demo_4GameModeBase* GameModeBase;
+	AMyMainGM* GameModeBase;
 };

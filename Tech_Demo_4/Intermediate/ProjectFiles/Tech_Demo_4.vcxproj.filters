@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Tech_Demo_4.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A1E18499-719A-4A63-917C-4DE96AEAFF14}</UniqueIdentifier>
+      <UniqueIdentifier>{5D3F3273-F308-460D-B76A-707BC0ADDFD9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Tech_Demo_4.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\Tech_Demo_4.png" />
     <None Include="..\..\West_Carrier_CVN76.png" />
     <Filter Include="Config">
-      <UniqueIdentifier>{4CD77E61-FF1A-4D6E-88B7-A0A4924A117F}</UniqueIdentifier>
+      <UniqueIdentifier>{24F48102-D23B-4D78-8CC2-6DD2E172547E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Tech_Demo_4">
-      <UniqueIdentifier>{296594FD-B8EA-42B0-8C36-9748E7FBCA93}</UniqueIdentifier>
+      <UniqueIdentifier>{87F73EA5-4F67-4760-B4D6-C08E6350A477}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Tech_Demo_4\CharacterAnimationController.cpp">
       <Filter>Source\Tech_Demo_4</Filter>
@@ -77,6 +77,12 @@
       <Filter>Source\Tech_Demo_4</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Tech_Demo_4\MainMenu_GameModeBase.h">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tech_Demo_4\MyMainGM.cpp">
+      <Filter>Source\Tech_Demo_4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tech_Demo_4\MyMainGM.h">
       <Filter>Source\Tech_Demo_4</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Tech_Demo_4\PickupController.cpp">
