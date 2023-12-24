@@ -6528,3 +6528,175 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.12.24-00.07.17:810][708]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/Picture2]
 [2023.12.24-00.07.17:843][708]LogSavePackage: Moving '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Picture2_Auto259309FC64C98384C0D98CEA11CA8B84F.tmp' to '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Autosaves/Game/UI/Picture2_Auto2.uasset'
 [2023.12.24-00.07.17:844][708]LogFileHelpers: Auto-saving content packages took 0.142
+[2023.12.24-00.08.03:741][442]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.24-00.10.47:059][552]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.12.24-00.10.47:060][552]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.24-00.10.50:372][670]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.12.24-00.10.50:372][670]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2023.12.24-00.10.50:372][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.24-00.10.59:823][138]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/CountdownTimerHUD.CountdownTimerHUD
+[2023.12.24-00.12.57:152][407]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2023.12.24-00.12.57:159][407]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.24-00.12.57:380][407]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2023.12.24-00.12.57:380][407]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.24-00.13.29:530][295]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.24-00.13.34:111][485]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2023.12.24-00.13.35:466][485]LogUObjectHash: Compacting FUObjectHashTables data took  46.85ms
+[2023.12.24-00.13.36:135][485]LogUObjectHash: Compacting FUObjectHashTables data took  19.07ms
+[2023.12.24-00.13.36:221][485]LogSavePackage: Moving '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/PlayerOne_Material_Instance965A3B1D431B5768BF2D749B92C7D1B3.tmp' to '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Materials/PlayerOne_Material_Instance.uasset'
+[2023.12.24-00.13.36:411][485]AssetCheck: New page: Asset Save: PlayerOne_Material_Instance
+[2023.12.24-00.13.36:412][485]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Materials/PlayerOne_Material_Instance.PlayerOne_Material_Instance
+[2023.12.24-00.13.38:290][560]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2023.12.24-00.13.38:292][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.24-00.13.38:328][560]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2023.12.24-00.13.38:328][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.24-00.13.39:991][631]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.12.24-00.13.39:991][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.24-00.14.25:708][282]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Materials/PlayerTwo_Material_Instance.PlayerTwo_Material_Instance
+[2023.12.24-00.15.09:106][663]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.24-00.15.11:459][770]LogUObjectHash: Compacting FUObjectHashTables data took  18.66ms
+[2023.12.24-00.15.11:546][770]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2023.12.24-00.15.11:565][770]LogSavePackage: Moving '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/PlayerTwo_Material_Instance31A2D36745F93B02B25FA48B50C248C6.tmp' to '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Materials/PlayerTwo_Material_Instance.uasset'
+[2023.12.24-00.15.11:590][770]AssetCheck: New page: Asset Save: PlayerTwo_Material_Instance
+[2023.12.24-00.15.11:590][770]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Materials/PlayerTwo_Material_Instance.PlayerTwo_Material_Instance
+[2023.12.24-00.15.16:957][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.12.24-00.15.17:018][ 83]LogSavePackage: Moving '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/TechDemo4_Map32A44965451418BAA761CD878E4048BB.tmp' to '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Maps/TechDemo4_Map.umap'
+[2023.12.24-00.15.17:153][ 83]AssetCheck: New page: Asset Save: TechDemo4_Map
+[2023.12.24-00.15.17:153][ 83]LogContentValidation: Display: Validating World /Game/Maps/TechDemo4_Map.TechDemo4_Map
+[2023.12.24-00.15.17:822][122]LogTemp: Repeating last play command: Selected Viewport
+[2023.12.24-00.15.17:844][122]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.24-00.15.17:862][122]LogPlayLevel: [PlayLevel] Compiling CharacterHUD before play...
+[2023.12.24-00.15.18:005][122]LogUObjectHash: Compacting FUObjectHashTables data took   3.91ms
+[2023.12.24-00.15.18:009][122]LogPlayLevel: PlayLevel: Blueprint regeneration took 165 ms (1 blueprints)
+[2023.12.24-00.15.18:010][122]PIE: New page: PIE session: TechDemo4_Map (24 Dec 2023, 00:15:18)
+[2023.12.24-00.15.18:013][122]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TechDemo4_Map
+[2023.12.24-00.15.18:030][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015631s)
+[2023.12.24-00.15.18:036][122]LogAIModule: Creating AISystem for world TechDemo4_Map
+[2023.12.24-00.15.18:039][122]LogPlayLevel: PIE: World Init took: (0.009808s)
+[2023.12.24-00.15.18:040][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TechDemo4_Map.TechDemo4_Map to /Game/Maps/UEDPIE_0_TechDemo4_Map.TechDemo4_Map (0.027165s)
+[2023.12.24-00.15.18:060][122]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.12.24-00.15.18:062][122]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.12.24-00.15.18:063][122]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.24-00.15.18:063][122]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.24-00.15.18:064][122]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.24-00.15.18:064][122]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.24-00.15.18:064][122]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.24-00.15.18:064][122]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.24-00.15.18:064][122]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.24-00.15.18:064][122]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.24-00.15.18:067][122]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.24-00.15.18:067][122]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.24-00.15.18:067][122]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.24-00.15.18:067][122]LogAudioMixer: Display: Initializing audio mixer.
+[2023.12.24-00.15.18:074][122]LogAudioMixer: Display: 0: FrontLeft
+[2023.12.24-00.15.18:074][122]LogAudioMixer: Display: 1: FrontRight
+[2023.12.24-00.15.18:128][122]LogAudioMixer: Display: Using Audio Device Headphones (My Bedroom speaker Stereo)
+[2023.12.24-00.15.18:141][122]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.24-00.15.18:142][122]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.24-00.15.18:142][122]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.24-00.15.18:148][122]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.12.24-00.15.18:148][122]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.12.24-00.15.18:148][122]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.12.24-00.15.18:150][122]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.12.24-00.15.18:150][122]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.12.24-00.15.18:150][122]LogInit: FAudioDevice initialized.
+[2023.12.24-00.15.18:151][122]LogAudio: Display: Audio Device (ID: 14) registered with world 'TechDemo4_Map'.
+[2023.12.24-00.15.18:213][122]LogLoad: Game class is 'BP_ThirdPerson_GameMode_C'
+[2023.12.24-00.15.18:215][122]LogActor: Warning: BP_ThirdPerson_GameMode_C /Game/Maps/UEDPIE_0_TechDemo4_Map.TechDemo4_Map:PersistentLevel.BP_ThirdPerson_GameMode_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.12.24-00.15.18:228][122]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TechDemo4_Map.TechDemo4_Map up for play (max tick rate 60) at 2023.12.24-00.15.18
+[2023.12.24-00.15.18:241][122]LogWorld: Bringing up level for play took: 0.024166
+[2023.12.24-00.15.18:246][122]LogOnline: OSS: Creating online subsystem instance for: :Context_48
+[2023.12.24-00.15.18:296][122]PIE: Server logged in
+[2023.12.24-00.15.18:299][122]PIE: Play in editor total start time 0.463 seconds.
+[2023.12.24-00.16.02:549][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.24-00.16.02:549][768]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TechDemo4_Map
+[2023.12.24-00.16.02:549][768]LogWorld: UWorld::CleanupWorld for TechDemo4_Map, bSessionEnded=true, bCleanupResources=true
+[2023.12.24-00.16.02:551][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.24-00.16.02:566][768]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.24-00.16.02:572][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.24-00.16.02:596][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.24-00.16.02:597][768]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.24-00.16.02:604][768]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.24-00.16.02:622][768]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2023.12.24-00.16.02:660][769]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2023.12.24-00.16.06:834][ 14]LogEditorViewport: Clicking on Actor (LMB): BP_West_Carrier_CVN76_C (BP_West_Carrier_CVN76)
+[2023.12.24-00.16.42:618][120]LogEditorViewport: Clicking on Actor (LMB): BP_West_Carrier_CVN76_C (BP_West_Carrier_CVN76)
+[2023.12.24-00.16.43:413][167]LogEditorViewport: Clicking on Actor (LMB): BP_West_Carrier_CVN76_C (BP_West_Carrier_CVN76)
+[2023.12.24-00.16.46:268][337]Cmd: DELETE
+[2023.12.24-00.16.46:268][337]Cmd: ACTOR DELETE
+[2023.12.24-00.16.46:286][337]LogEditorActor: Deleted Actor: BP_West_Carrier_CVN76_C
+[2023.12.24-00.16.46:312][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.12.24-00.16.46:329][337]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2023.12.24-00.16.56:573][939]LogSlate: Took 0.007245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.12.24-00.17.18:782][270]LogTemp: Repeating last play command: Selected Viewport
+[2023.12.24-00.17.18:793][270]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.24-00.17.18:793][270]PIE: New page: PIE session: TechDemo4_Map (24 Dec 2023, 00:17:18)
+[2023.12.24-00.17.18:793][270]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TechDemo4_Map
+[2023.12.24-00.17.18:796][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002732s)
+[2023.12.24-00.17.18:797][270]LogAIModule: Creating AISystem for world TechDemo4_Map
+[2023.12.24-00.17.18:798][270]LogPlayLevel: PIE: World Init took: (0.001657s)
+[2023.12.24-00.17.18:798][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TechDemo4_Map.TechDemo4_Map to /Game/Maps/UEDPIE_0_TechDemo4_Map.TechDemo4_Map (0.004530s)
+[2023.12.24-00.17.18:818][270]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.12.24-00.17.18:831][270]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.12.24-00.17.18:831][270]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.24-00.17.18:831][270]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.24-00.17.18:831][270]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.24-00.17.18:831][270]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.24-00.17.18:831][270]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.24-00.17.18:831][270]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.24-00.17.18:831][270]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.24-00.17.18:831][270]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.24-00.17.18:832][270]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.24-00.17.18:832][270]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.24-00.17.18:832][270]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.24-00.17.18:832][270]LogAudioMixer: Display: Initializing audio mixer.
+[2023.12.24-00.17.18:834][270]LogAudioMixer: Display: 0: FrontLeft
+[2023.12.24-00.17.18:834][270]LogAudioMixer: Display: 1: FrontRight
+[2023.12.24-00.17.18:866][270]LogAudioMixer: Display: Using Audio Device Headphones (My Bedroom speaker Stereo)
+[2023.12.24-00.17.18:866][270]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.24-00.17.18:866][270]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.24-00.17.18:866][270]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.24-00.17.18:867][270]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.12.24-00.17.18:867][270]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.12.24-00.17.18:867][270]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.12.24-00.17.18:870][270]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.12.24-00.17.18:870][270]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.12.24-00.17.18:870][270]LogInit: FAudioDevice initialized.
+[2023.12.24-00.17.18:870][270]LogAudio: Display: Audio Device (ID: 15) registered with world 'TechDemo4_Map'.
+[2023.12.24-00.17.18:884][270]LogLoad: Game class is 'BP_ThirdPerson_GameMode_C'
+[2023.12.24-00.17.18:884][270]LogActor: Warning: BP_ThirdPerson_GameMode_C /Game/Maps/UEDPIE_0_TechDemo4_Map.TechDemo4_Map:PersistentLevel.BP_ThirdPerson_GameMode_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.12.24-00.17.18:886][270]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TechDemo4_Map.TechDemo4_Map up for play (max tick rate 60) at 2023.12.24-00.17.18
+[2023.12.24-00.17.18:886][270]LogWorld: Bringing up level for play took: 0.001116
+[2023.12.24-00.17.18:886][270]LogOnline: OSS: Creating online subsystem instance for: :Context_49
+[2023.12.24-00.17.18:893][270]PIE: Server logged in
+[2023.12.24-00.17.18:893][270]PIE: Play in editor total start time 0.103 seconds.
+[2023.12.24-00.18.56:773][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.24-00.18.56:773][137]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TechDemo4_Map
+[2023.12.24-00.18.56:774][137]LogWorld: UWorld::CleanupWorld for TechDemo4_Map, bSessionEnded=true, bCleanupResources=true
+[2023.12.24-00.18.56:774][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.24-00.18.56:787][137]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.24-00.18.56:805][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.24-00.18.56:825][137]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.24-00.18.56:826][137]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.24-00.18.56:827][137]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.24-00.18.56:861][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.24-00.18.56:864][137]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.12.24-00.18.56:917][138]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2023.12.24-00.18.59:160][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.12.24-00.18.59:175][268]LogSavePackage: Moving '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/TechDemo4_Map691B0F764AD9C45EDEE757A5991ADD1A.tmp' to '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Maps/TechDemo4_Map.umap'
+[2023.12.24-00.18.59:210][268]AssetCheck: New page: Asset Save: TechDemo4_Map
+[2023.12.24-00.18.59:210][268]LogContentValidation: Display: Validating World /Game/Maps/TechDemo4_Map.TechDemo4_Map
+[2023.12.24-00.19.04:988][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.12.24-00.19.05:016][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/CharacterHUD" FILE="../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/UI/CharacterHUD.uasset" SILENT=true
+[2023.12.24-00.19.05:032][419]LogSavePackage: Moving '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/CharacterHUD88121B85409989E3D4D8BDB29AC8101E.tmp' to '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/UI/CharacterHUD.uasset'
+[2023.12.24-00.19.05:034][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/TD4_Thumbnail" FILE="../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/UI/TD4_Thumbnail.uasset" SILENT=true
+[2023.12.24-00.19.05:041][419]LogSavePackage: Moving '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/TD4_Thumbnail0C4116F84FC7A94548A701A5827A439B.tmp' to '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/UI/TD4_Thumbnail.uasset'
+[2023.12.24-00.19.05:043][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Picture1" FILE="../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/UI/Picture1.uasset" SILENT=true
+[2023.12.24-00.19.05:199][419]LogSavePackage: Moving '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Picture15F20CBCD4D695418672EA5A1115D3EB0.tmp' to '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/UI/Picture1.uasset'
+[2023.12.24-00.19.05:200][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Picture2" FILE="../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/UI/Picture2.uasset" SILENT=true
+[2023.12.24-00.19.05:307][419]LogSavePackage: Moving '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Picture25D78992E444D05E515A7B1A483DAE21F.tmp' to '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/UI/Picture2.uasset'
+[2023.12.24-00.19.05:329][419]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.24-00.19.05:329][419]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/CharacterHUD.CharacterHUD
+[2023.12.24-00.19.05:330][419]LogContentValidation: Display: Validating Texture2D /Game/UI/Picture2.Picture2
+[2023.12.24-00.19.05:330][419]LogContentValidation: Display: Validating Texture2D /Game/UI/TD4_Thumbnail.TD4_Thumbnail
+[2023.12.24-00.19.05:330][419]LogContentValidation: Display: Validating Texture2D /Game/UI/Picture1.Picture1
