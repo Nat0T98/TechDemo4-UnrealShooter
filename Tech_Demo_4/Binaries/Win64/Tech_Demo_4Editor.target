@@ -515,7 +515,6 @@
 			"Path": "$(EngineDir)/Plugins/Lumin/MagicLeapLightEstimation/Binaries/Win64/UE4Editor-MagicLeapLightEstimation.dll",
 			"Type": "DynamicLibrary"
 		},
-		},
 		{
 			"Path": "$(EngineDir)/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll",
 			"Type": "DynamicLibrary"
