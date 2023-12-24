@@ -22,7 +22,7 @@ protected:
 
 	virtual void StartPlay() override;
 	void Countdown();
-	void RespawnPlayers();
+	void Respawn();
 	void SpawnPickup();
 	void NewRound();
 	void RestartLevel();
@@ -33,29 +33,29 @@ protected:
 	UPROPERTY()
 	TArray<APickupLocationController*> PickupLocations;
 
-	FTimerHandle TimerHandle;
-	FTimerHandle TimerHandle2;
+	FTimerHandle TimerMins;
+	FTimerHandle TimerSecs;
 
 public:
 	AMyMainGM();
 
-	UPROPERTY(EditAnywhere, Category = "Materials")
-	UMaterialInstanceConstant* BlueMaterial;
-	UPROPERTY(EditAnywhere, Category = "Materials")
-	UMaterialInstanceConstant* RedMaterial;
+	UPROPERTY(EditAnywhere, Category = "Team Colours")
+	UMaterialInstanceConstant* BlueTeam;
+	UPROPERTY(EditAnywhere, Category = "Team Colours")
+	UMaterialInstanceConstant* RedTeam;
 
-	UPROPERTY(EditAnywhere, Category = "Materials")
+	UPROPERTY(EditAnywhere, Category = "Team Colours")
 	TArray<UMaterialInstanceConstant*> Materials;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
-	TSubclassOf<class UUserWidget> CharacterHUDOverlayAsset;
+	TSubclassOf<class UUserWidget> PlayerHUD_Asset;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
-	UUserWidget* CharacterHUDOverlay;
+	UUserWidget* PlayerHUD;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
-	TSubclassOf<class UUserWidget> CountdownTimerHUDOverlayAsset;
+	TSubclassOf<class UUserWidget> CountdownTimer_Asset;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Widgets")
-	UUserWidget* CountdownTimerHUDOverlay;
+	UUserWidget* CountdownTimer;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Timer")
 	int Minutes;
@@ -73,16 +73,15 @@ public:
 	ESlateVisibility WinnerVisibility;
 
 	UPROPERTY(EditAnywhere, Category = "Music")
-	USoundBase* BattleMusic;
+	USoundBase* GameMusic;
 
-	UPROPERTY(EditAnywhere, Category = "Pickup Colors")
+	UPROPERTY(EditAnywhere, Category = "Pickups")
 	UMaterialInstance* DoubleDamageMaterial;
-	UPROPERTY(EditAnywhere, Category = "Pickup Colors")
+	UPROPERTY(EditAnywhere, Category = "Pickups")
 	UMaterialInstance* AmmoMaterial;
-	UPROPERTY(EditAnywhere, Category = "Pickup Colors")
-	UMaterialInstance* RecoveryMaterial;
-
-	UPROPERTY(EditAnywhere, Category = "Spawner Category")
+	UPROPERTY(EditAnywhere, Category = "Pickups")
+	UMaterialInstance* HealthGainMaterial;
+	UPROPERTY(EditAnywhere, Category = "Pickups")
 	TSubclassOf<APickupController> PickupObject;
 
 	int PickupsInLevel;

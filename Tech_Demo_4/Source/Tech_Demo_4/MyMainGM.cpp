@@ -11,13 +11,13 @@
 
 AMyMainGM::AMyMainGM()
 {
-	BlueMaterial = nullptr;
-	RedMaterial = nullptr;
+	BlueTeam = nullptr;
+	RedTeam = nullptr;
 
-	CharacterHUDOverlay = nullptr;
-	CountdownTimerHUDOverlay = nullptr;
+	PlayerHUD = nullptr;
+	CountdownTimer = nullptr;
 
-	BattleMusic = nullptr;
+	GameMusic = nullptr;
 
 	Audio = CreateDefaultSubobject<UAudioComponent>(TEXT("Audio"));
 
@@ -56,26 +56,26 @@ void AMyMainGM::StartPlay()
 
 	Audio->SetVolumeMultiplier(0.075f);
 
-	if (BattleMusic != nullptr)
+	if (GameMusic != nullptr)
 	{
-		Audio->SetSound(BattleMusic);
+		Audio->SetSound(GameMusic);
 	}
 
 	Audio->Play();
 
-	GetWorldTimerManager().SetTimer(TimerHandle, this, &AMyMainGM::Countdown, 1.0f, true, 0.0f);
-	GetWorldTimerManager().SetTimer(TimerHandle2, this, &AMyMainGM::SpawnPickup, 15.0f, true, 0.0f);
+	GetWorldTimerManager().SetTimer(TimerMins, this, &AMyMainGM::Countdown, 1.0f, true, 0.0f);
+	GetWorldTimerManager().SetTimer(TimerSecs, this, &AMyMainGM::SpawnPickup, 15.0f, true, 0.0f);
 
-	if (CountdownTimerHUDOverlayAsset)
+	if (CountdownTimer_Asset)
 	{
-		CountdownTimerHUDOverlay = CreateWidget<UUserWidget>(GetWorld(), CountdownTimerHUDOverlayAsset);
+		CountdownTimer = CreateWidget<UUserWidget>(GetWorld(), CountdownTimer_Asset);
 	}
 
-	if (CountdownTimerHUDOverlay != nullptr)
+	if (CountdownTimer != nullptr)
 	{
-		CountdownTimerHUDOverlay->AddToViewport();
-		CountdownTimerHUDOverlay->SetVisibility(ESlateVisibility::Visible);
-		Cast<UCountdownWidget>(CountdownTimerHUDOverlay)->GameModeBase = this;
+		CountdownTimer->AddToViewport();
+		CountdownTimer->SetVisibility(ESlateVisibility::Visible);
+		Cast<UCountdownWidget>(CountdownTimer)->GameModeBase = this;
 	}
 
 	for (TActorIterator<APickupLocationController> ActorIterator(GetWorld()); ActorIterator; ++ActorIterator)
@@ -98,18 +98,18 @@ void AMyMainGM::StartPlay()
 
 			if (CharacterController->GetController())
 			{
-				if (CharacterHUDOverlayAsset)
+				if (PlayerHUD_Asset)
 				{
-					CharacterHUDOverlay = CreateWidget<UUserWidget>(Cast<APlayerController>(CharacterController->GetController()), CharacterHUDOverlayAsset);
+					PlayerHUD = CreateWidget<UUserWidget>(Cast<APlayerController>(CharacterController->GetController()), PlayerHUD_Asset);
 				}
 
-				if (CharacterHUDOverlay != nullptr)
+				if (PlayerHUD != nullptr)
 				{
-					Cast<UCharacterWidget>(CharacterHUDOverlay)->CharacterPawn = CharacterController->GetController()->GetPawn();
-					Cast<UCharacterWidget>(CharacterHUDOverlay)->CharacterController = CharacterController;
-					CharacterController->CharacterWidget = Cast<UCharacterWidget>(CharacterHUDOverlay);
-					CharacterHUDOverlay->AddToPlayerScreen();
-					CharacterHUDOverlay->SetVisibility(ESlateVisibility::Visible);
+					Cast<UCharacterWidget>(PlayerHUD)->CharacterPawn = CharacterController->GetController()->GetPawn();
+					Cast<UCharacterWidget>(PlayerHUD)->CharacterController = CharacterController;
+					CharacterController->CharacterWidget = Cast<UCharacterWidget>(PlayerHUD);
+					PlayerHUD->AddToPlayerScreen();
+					PlayerHUD->SetVisibility(ESlateVisibility::Visible);
 				}
 			}
 		}
@@ -132,11 +132,11 @@ void AMyMainGM::StartPlay()
 	{
 		Players[Index]->FindComponentByClass<USkeletalMeshComponent>()->SetMaterial(1, Materials[Index]);
 
-		if (Materials[Index] == RedMaterial)
+		if (Materials[Index] == RedTeam)
 		{
 			Cast<ACharacterController>(Players[Index])->Name = "Red";
 		}
-		else if (Materials[Index] == BlueMaterial)
+		else if (Materials[Index] == BlueTeam)
 		{
 			Cast<ACharacterController>(Players[Index])->Name = "Blue";
 		}
@@ -171,9 +171,9 @@ void AMyMainGM::Countdown()
 	}
 }
 
-void AMyMainGM::RespawnPlayers()
+void AMyMainGM::Respawn()
 {
-	GetWorldTimerManager().ClearTimer(TimerHandle);
+	GetWorldTimerManager().ClearTimer(TimerMins);
 	Audio->Play();
 
 	for (uint8 Index = 0; Index < Players.Num(); ++Index)
@@ -197,8 +197,8 @@ void AMyMainGM::RespawnPlayers()
 
 	PickupsInLevel = 0;
 
-	GetWorldTimerManager().SetTimer(TimerHandle, this, &AMyMainGM::Countdown, 1.0f, true, 0.0f);
-	GetWorldTimerManager().SetTimer(TimerHandle2, this, &AMyMainGM::SpawnPickup, 15.0f, true, 0.0f);
+	GetWorldTimerManager().SetTimer(TimerMins, this, &AMyMainGM::Countdown, 1.0f, true, 0.0f);
+	GetWorldTimerManager().SetTimer(TimerSecs, this, &AMyMainGM::SpawnPickup, 15.0f, true, 0.0f);
 }
 
 void AMyMainGM::SpawnPickup()
@@ -239,7 +239,7 @@ void AMyMainGM::SpawnPickup()
 					PickupInstance->PickupType = EPickups::Recovery;
 					if (Cube)
 					{
-						Cube->SetMaterial(0, RecoveryMaterial);
+						Cube->SetMaterial(0, HealthGainMaterial);
 					}
 					break;
 				case 2:
@@ -259,8 +259,8 @@ void AMyMainGM::SpawnPickup()
 
 void AMyMainGM::NewRound()
 {
-	GetWorldTimerManager().ClearTimer(TimerHandle);
-	GetWorldTimerManager().ClearTimer(TimerHandle2);
+	GetWorldTimerManager().ClearTimer(TimerMins);
+	GetWorldTimerManager().ClearTimer(TimerSecs);
 	Audio->AdjustVolume(4.0f, 0.0f, EAudioFaderCurve::Linear);
 
 	for (uint8 Index = 0; Index < Players.Num(); ++Index)
@@ -299,11 +299,11 @@ void AMyMainGM::NewRound()
 
 		WinnerVisibility = ESlateVisibility::Visible;
 
-		GetWorldTimerManager().SetTimer(TimerHandle, this, &AMyMainGM::RestartLevel, 5.0f, false);
+		GetWorldTimerManager().SetTimer(TimerMins, this, &AMyMainGM::RestartLevel, 5.0f, false);
 		return;
 	}
 
-	GetWorldTimerManager().SetTimer(TimerHandle, this, &AMyMainGM::RespawnPlayers, 5.0f, false);
+	GetWorldTimerManager().SetTimer(TimerMins, this, &AMyMainGM::Respawn, 5.0f, false);
 }
 
 void AMyMainGM::RestartLevel()
@@ -317,7 +317,7 @@ void AMyMainGM::RestartLevel()
 		Players[Index]->CustomTimeDilation = 1.0f;
 	}
 
-	RespawnPlayers();
+	Respawn();
 }
 
 

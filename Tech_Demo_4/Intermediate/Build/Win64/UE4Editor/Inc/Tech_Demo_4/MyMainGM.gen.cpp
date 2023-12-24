@@ -139,34 +139,34 @@ void EmptyLinkFunctionForGeneratedCodeMyMainGM() {}
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_PickupLocations;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BlueMaterial_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BlueTeam_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BlueMaterial;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BlueTeam;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RedMaterial_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RedTeam_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_RedMaterial;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_RedTeam;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Materials_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Materials_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Materials;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CharacterHUDOverlayAsset_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlayerHUD_Asset_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_CharacterHUDOverlayAsset;
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_PlayerHUD_Asset;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CharacterHUDOverlay_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlayerHUD_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CharacterHUDOverlay;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PlayerHUD;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CountdownTimerHUDOverlayAsset_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CountdownTimer_Asset_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_CountdownTimerHUDOverlayAsset;
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_CountdownTimer_Asset;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CountdownTimerHUDOverlay_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CountdownTimer_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CountdownTimerHUDOverlay;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CountdownTimer;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Minutes_MetaData[];
 #endif
@@ -193,9 +193,9 @@ void EmptyLinkFunctionForGeneratedCodeMyMainGM() {}
 #endif
 		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_WinnerVisibility;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BattleMusic_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GameMusic_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BattleMusic;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_GameMusic;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DoubleDamageMaterial_MetaData[];
 #endif
@@ -205,9 +205,9 @@ void EmptyLinkFunctionForGeneratedCodeMyMainGM() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_AmmoMaterial;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RecoveryMaterial_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HealthGainMaterial_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_RecoveryMaterial;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HealthGainMaterial;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PickupObject_MetaData[];
 #endif
@@ -251,57 +251,57 @@ void EmptyLinkFunctionForGeneratedCodeMyMainGM() {}
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyMainGM_Statics::NewProp_PickupLocations = { "PickupLocations", nullptr, (EPropertyFlags)0x0020080000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyMainGM, PickupLocations), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AMyMainGM_Statics::NewProp_PickupLocations_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyMainGM_Statics::NewProp_PickupLocations_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMainGM_Statics::NewProp_BlueMaterial_MetaData[] = {
-		{ "Category", "Materials" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMainGM_Statics::NewProp_BlueTeam_MetaData[] = {
+		{ "Category", "Team Colours" },
 		{ "ModuleRelativePath", "MyMainGM.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyMainGM_Statics::NewProp_BlueMaterial = { "BlueMaterial", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyMainGM, BlueMaterial), Z_Construct_UClass_UMaterialInstanceConstant_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyMainGM_Statics::NewProp_BlueMaterial_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyMainGM_Statics::NewProp_BlueMaterial_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyMainGM_Statics::NewProp_BlueTeam = { "BlueTeam", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyMainGM, BlueTeam), Z_Construct_UClass_UMaterialInstanceConstant_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyMainGM_Statics::NewProp_BlueTeam_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyMainGM_Statics::NewProp_BlueTeam_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMainGM_Statics::NewProp_RedMaterial_MetaData[] = {
-		{ "Category", "Materials" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMainGM_Statics::NewProp_RedTeam_MetaData[] = {
+		{ "Category", "Team Colours" },
 		{ "ModuleRelativePath", "MyMainGM.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyMainGM_Statics::NewProp_RedMaterial = { "RedMaterial", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyMainGM, RedMaterial), Z_Construct_UClass_UMaterialInstanceConstant_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyMainGM_Statics::NewProp_RedMaterial_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyMainGM_Statics::NewProp_RedMaterial_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyMainGM_Statics::NewProp_RedTeam = { "RedTeam", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyMainGM, RedTeam), Z_Construct_UClass_UMaterialInstanceConstant_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyMainGM_Statics::NewProp_RedTeam_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyMainGM_Statics::NewProp_RedTeam_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyMainGM_Statics::NewProp_Materials_Inner = { "Materials", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_UMaterialInstanceConstant_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMainGM_Statics::NewProp_Materials_MetaData[] = {
-		{ "Category", "Materials" },
+		{ "Category", "Team Colours" },
 		{ "ModuleRelativePath", "MyMainGM.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyMainGM_Statics::NewProp_Materials = { "Materials", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyMainGM, Materials), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AMyMainGM_Statics::NewProp_Materials_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyMainGM_Statics::NewProp_Materials_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMainGM_Statics::NewProp_CharacterHUDOverlayAsset_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMainGM_Statics::NewProp_PlayerHUD_Asset_MetaData[] = {
 		{ "Category", "Widgets" },
 		{ "ModuleRelativePath", "MyMainGM.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMyMainGM_Statics::NewProp_CharacterHUDOverlayAsset = { "CharacterHUDOverlayAsset", nullptr, (EPropertyFlags)0x0014000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyMainGM, CharacterHUDOverlayAsset), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMyMainGM_Statics::NewProp_CharacterHUDOverlayAsset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyMainGM_Statics::NewProp_CharacterHUDOverlayAsset_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMyMainGM_Statics::NewProp_PlayerHUD_Asset = { "PlayerHUD_Asset", nullptr, (EPropertyFlags)0x0014000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyMainGM, PlayerHUD_Asset), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMyMainGM_Statics::NewProp_PlayerHUD_Asset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyMainGM_Statics::NewProp_PlayerHUD_Asset_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMainGM_Statics::NewProp_CharacterHUDOverlay_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMainGM_Statics::NewProp_PlayerHUD_MetaData[] = {
 		{ "Category", "Widgets" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "MyMainGM.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyMainGM_Statics::NewProp_CharacterHUDOverlay = { "CharacterHUDOverlay", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyMainGM, CharacterHUDOverlay), Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyMainGM_Statics::NewProp_CharacterHUDOverlay_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyMainGM_Statics::NewProp_CharacterHUDOverlay_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyMainGM_Statics::NewProp_PlayerHUD = { "PlayerHUD", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyMainGM, PlayerHUD), Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyMainGM_Statics::NewProp_PlayerHUD_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyMainGM_Statics::NewProp_PlayerHUD_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMainGM_Statics::NewProp_CountdownTimerHUDOverlayAsset_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMainGM_Statics::NewProp_CountdownTimer_Asset_MetaData[] = {
 		{ "Category", "Widgets" },
 		{ "ModuleRelativePath", "MyMainGM.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMyMainGM_Statics::NewProp_CountdownTimerHUDOverlayAsset = { "CountdownTimerHUDOverlayAsset", nullptr, (EPropertyFlags)0x0014000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyMainGM, CountdownTimerHUDOverlayAsset), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMyMainGM_Statics::NewProp_CountdownTimerHUDOverlayAsset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyMainGM_Statics::NewProp_CountdownTimerHUDOverlayAsset_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMyMainGM_Statics::NewProp_CountdownTimer_Asset = { "CountdownTimer_Asset", nullptr, (EPropertyFlags)0x0014000000000005, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyMainGM, CountdownTimer_Asset), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMyMainGM_Statics::NewProp_CountdownTimer_Asset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyMainGM_Statics::NewProp_CountdownTimer_Asset_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMainGM_Statics::NewProp_CountdownTimerHUDOverlay_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMainGM_Statics::NewProp_CountdownTimer_MetaData[] = {
 		{ "Category", "Widgets" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "MyMainGM.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyMainGM_Statics::NewProp_CountdownTimerHUDOverlay = { "CountdownTimerHUDOverlay", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyMainGM, CountdownTimerHUDOverlay), Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyMainGM_Statics::NewProp_CountdownTimerHUDOverlay_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyMainGM_Statics::NewProp_CountdownTimerHUDOverlay_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyMainGM_Statics::NewProp_CountdownTimer = { "CountdownTimer", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyMainGM, CountdownTimer), Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyMainGM_Statics::NewProp_CountdownTimer_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyMainGM_Statics::NewProp_CountdownTimer_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMainGM_Statics::NewProp_Minutes_MetaData[] = {
 		{ "Category", "Timer" },
@@ -346,36 +346,36 @@ void EmptyLinkFunctionForGeneratedCodeMyMainGM() {}
 #endif
 	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_AMyMainGM_Statics::NewProp_WinnerVisibility = { "WinnerVisibility", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyMainGM, WinnerVisibility), Z_Construct_UEnum_UMG_ESlateVisibility, METADATA_PARAMS(Z_Construct_UClass_AMyMainGM_Statics::NewProp_WinnerVisibility_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyMainGM_Statics::NewProp_WinnerVisibility_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMainGM_Statics::NewProp_BattleMusic_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMainGM_Statics::NewProp_GameMusic_MetaData[] = {
 		{ "Category", "Music" },
 		{ "ModuleRelativePath", "MyMainGM.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyMainGM_Statics::NewProp_BattleMusic = { "BattleMusic", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyMainGM, BattleMusic), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyMainGM_Statics::NewProp_BattleMusic_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyMainGM_Statics::NewProp_BattleMusic_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyMainGM_Statics::NewProp_GameMusic = { "GameMusic", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyMainGM, GameMusic), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyMainGM_Statics::NewProp_GameMusic_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyMainGM_Statics::NewProp_GameMusic_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMainGM_Statics::NewProp_DoubleDamageMaterial_MetaData[] = {
-		{ "Category", "Pickup Colors" },
+		{ "Category", "Pickups" },
 		{ "ModuleRelativePath", "MyMainGM.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyMainGM_Statics::NewProp_DoubleDamageMaterial = { "DoubleDamageMaterial", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyMainGM, DoubleDamageMaterial), Z_Construct_UClass_UMaterialInstance_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyMainGM_Statics::NewProp_DoubleDamageMaterial_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyMainGM_Statics::NewProp_DoubleDamageMaterial_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMainGM_Statics::NewProp_AmmoMaterial_MetaData[] = {
-		{ "Category", "Pickup Colors" },
+		{ "Category", "Pickups" },
 		{ "ModuleRelativePath", "MyMainGM.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyMainGM_Statics::NewProp_AmmoMaterial = { "AmmoMaterial", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyMainGM, AmmoMaterial), Z_Construct_UClass_UMaterialInstance_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyMainGM_Statics::NewProp_AmmoMaterial_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyMainGM_Statics::NewProp_AmmoMaterial_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMainGM_Statics::NewProp_RecoveryMaterial_MetaData[] = {
-		{ "Category", "Pickup Colors" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMainGM_Statics::NewProp_HealthGainMaterial_MetaData[] = {
+		{ "Category", "Pickups" },
 		{ "ModuleRelativePath", "MyMainGM.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyMainGM_Statics::NewProp_RecoveryMaterial = { "RecoveryMaterial", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyMainGM, RecoveryMaterial), Z_Construct_UClass_UMaterialInstance_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyMainGM_Statics::NewProp_RecoveryMaterial_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyMainGM_Statics::NewProp_RecoveryMaterial_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyMainGM_Statics::NewProp_HealthGainMaterial = { "HealthGainMaterial", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyMainGM, HealthGainMaterial), Z_Construct_UClass_UMaterialInstance_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyMainGM_Statics::NewProp_HealthGainMaterial_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyMainGM_Statics::NewProp_HealthGainMaterial_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyMainGM_Statics::NewProp_PickupObject_MetaData[] = {
-		{ "Category", "Spawner Category" },
+		{ "Category", "Pickups" },
 		{ "ModuleRelativePath", "MyMainGM.h" },
 	};
 #endif
@@ -393,14 +393,14 @@ void EmptyLinkFunctionForGeneratedCodeMyMainGM() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_Players,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_PickupLocations_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_PickupLocations,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_BlueMaterial,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_RedMaterial,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_BlueTeam,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_RedTeam,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_Materials_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_Materials,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_CharacterHUDOverlayAsset,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_CharacterHUDOverlay,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_CountdownTimerHUDOverlayAsset,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_CountdownTimerHUDOverlay,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_PlayerHUD_Asset,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_PlayerHUD,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_CountdownTimer_Asset,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_CountdownTimer,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_Minutes,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_Seconds,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_MaxRounds,
@@ -408,10 +408,10 @@ void EmptyLinkFunctionForGeneratedCodeMyMainGM() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_WinnerName,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_WinnerVisibility_Underlying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_WinnerVisibility,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_BattleMusic,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_GameMusic,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_DoubleDamageMaterial,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_AmmoMaterial,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_RecoveryMaterial,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_HealthGainMaterial,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_PickupObject,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyMainGM_Statics::NewProp_Audio,
 	};
@@ -442,7 +442,7 @@ void EmptyLinkFunctionForGeneratedCodeMyMainGM() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyMainGM, 4120329952);
+	IMPLEMENT_CLASS(AMyMainGM, 3549216492);
 	template<> TECH_DEMO_4_API UClass* StaticClass<AMyMainGM>()
 	{
 		return AMyMainGM::StaticClass();
