@@ -1,3 +1,1 @@
 C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Intermediate\Build\Win64\UE4Editor\Development\Tech_Demo_4\Definitions.Tech_Demo_4.h
-C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Source\Tech_Demo_4\ExplosionController.h
-C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Intermediate\Build\Win64\UE4Editor\Inc\Tech_Demo_4\ExplosionController.generated.h

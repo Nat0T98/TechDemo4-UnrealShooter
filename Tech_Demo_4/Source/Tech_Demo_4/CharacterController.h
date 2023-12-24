@@ -84,18 +84,14 @@ public:
 	int DamageMultiplier;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Buffs")
-	// ReSharper disable once CppUE4CodingStandardNamingViolationWarning
+	
 	int DDTimeRemaining;
 
 	FTransform Origin;
 
 	UPROPERTY(EditAnywhere, Category = "Camera")
 	UCameraComponent* Camera;
-
-	UPROPERTY(EditAnywhere, Category = "Grenade")
-	TSubclassOf<class AGrenadeController> GrenadeAsset;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Grenade")
-	int GrenadesRemaining;
+		
 
 private:
 	// Variable:
@@ -120,19 +116,18 @@ private:
 	float DoubleDamageDuration;
 	float CurrentDoubleDamageInterval;
 	
-	// Axis Functions:
+	
 	void MoveForward(float Value);
 	void MoveRight(float Value);
 	
 	void LookUp(float Value);
 	void LookRight(float Value);
 
-	// Action Functions:
+	
 	virtual void Jump() override;
 	void Shoot();
 	void StopShoot();
 	void Reload();
-	void ThrowGrenade();
 	void Aim();
 
 	// Helper Functions:
