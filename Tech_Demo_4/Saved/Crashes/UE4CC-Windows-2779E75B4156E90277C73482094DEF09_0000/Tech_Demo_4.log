@@ -1,0 +1,1504 @@
+﻿Log file open, 12/29/23 19:34:59
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Tech_Demo_4
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.367034
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogInit: Display: Loading text-based GConfig....
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin GameplayCameras
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin OodleNetwork
+LogPluginManager: Mounting plugin OodleData
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PixWinPlugin
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin TextureFormatOodle
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin NiagaraExtras
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin OpenImageDenoise
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.27-CL-18319896
+LogInit: Engine Version: 4.27.2-18319896+++UE4+Release-4.27
+LogInit: Compatible Engine Version: 4.27.0-17155196+++UE4+Release-4.27
+LogInit: Net CL: 17155196
+LogInit: OS: Windows 10 (Release 2009) (), CPU: 11th Gen Intel(R) Core(TM) i7-11600H @ 2.90GHz, GPU: NVIDIA GeForce RTX 3060 Laptop GPU
+LogInit: Compiled (64-bit): Nov 30 2021 07:12:08
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.27
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 14
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 47
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2023.12.29-19.34.59:912][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2023.12.29-19.34.59:912][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2023.12.29-19.34.59:912][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Engine.ini]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Engine.ini]
+[2023.12.29-19.34.59:913][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Engine.ini]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Engine.ini]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2023.12.29-19.34.59:913][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Engine.ini]
+[2023.12.29-19.34.59:913][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Engine.ini]
+[2023.12.29-19.34.59:931][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Scalability.ini]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Scalability.ini]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Scalability.ini]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Scalability.ini]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Scalability.ini]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Scalability.ini]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Scalability.ini]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Scalability.ini]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2023.12.29-19.34.59:931][  0]LogInit: Selected Device Profile: [Windows]
+[2023.12.29-19.34.59:931][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.12.29-19.34.59:931][  0]LogHAL: Display: Platform has ~ 8 GB [8417239040 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.12.29-19.34.59:931][  0]LogInit: Going up to parent DeviceProfile []
+[2023.12.29-19.34.59:931][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Scalability.ini]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Scalability.ini]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Scalability.ini]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.12.29-19.34.59:931][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Scalability.ini]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Scalability.ini]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Scalability.ini]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Scalability.ini]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Scalability.ini]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2023.12.29-19.34.59:932][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.12.29-19.34.59:933][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2023.12.29-19.34.59:933][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2023.12.29-19.34.59:933][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2023.12.29-19.34.59:933][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Engine.ini]
+[2023.12.29-19.34.59:933][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Config/Windows/Editor.ini]
+[2023.12.29-19.34.59:933][  0]LogInit: Computer: LAPTOP-8T9BADUD
+[2023.12.29-19.34.59:933][  0]LogInit: User: jowet
+[2023.12.29-19.34.59:933][  0]LogInit: CPU Page size=4096, Cores=6
+[2023.12.29-19.34.59:933][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.12.29-19.34.59:933][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2023.12.29-19.34.59:933][  0]LogMemory: Platform Memory Stats for Windows
+[2023.12.29-19.34.59:933][  0]LogMemory: Process Physical Memory: 142.35 MB used, 142.36 MB peak
+[2023.12.29-19.34.59:933][  0]LogMemory: Process Virtual Memory: 127.19 MB used, 127.19 MB peak
+[2023.12.29-19.34.59:933][  0]LogMemory: Physical Memory: 6493.45 MB used,  1533.85 MB free, 8027.30 MB total
+[2023.12.29-19.34.59:933][  0]LogMemory: Virtual Memory: 134207336.00 MB used,  10395.48 MB free, 134217728.00 MB total
+[2023.12.29-19.34.59:965][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.12.29-19.35.00:035][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2023.12.29-19.35.00:038][  0]LogInit: Using OS detected language (en-US).
+[2023.12.29-19.35.00:038][  0]LogInit: Using OS detected locale (en-GB).
+[2023.12.29-19.35.00:044][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2023.12.29-19.35.00:352][  0]LogInit: Setting process to per monitor DPI aware
+[2023.12.29-19.35.00:364][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2023.12.29-19.35.00:395][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.12.29-19.35.00:395][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.12.29-19.35.00:596][  0]LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+[2023.12.29-19.35.00:598][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2023.12.29-19.35.00:598][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2023.12.29-19.35.00:598][  0]LogD3D11RHI: D3D11 adapters:
+[2023.12.29-19.35.00:716][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060 Laptop GPU' (Feature Level 11_0)
+[2023.12.29-19.35.00:716][  0]LogD3D11RHI:       6009/0/4013 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2023.12.29-19.35.00:719][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.12.29-19.35.00:720][  0]LogD3D11RHI:       0/0/4013 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.12.29-19.35.00:720][  0]LogD3D11RHI: Chosen D3D11 Adapter:
+[2023.12.29-19.35.00:720][  0]LogD3D11RHI:     Description : NVIDIA GeForce RTX 3060 Laptop GPU
+[2023.12.29-19.35.00:720][  0]LogD3D11RHI:     VendorId    : 10de
+[2023.12.29-19.35.00:720][  0]LogD3D11RHI:     DeviceId    : 2560
+[2023.12.29-19.35.00:721][  0]LogD3D11RHI:     SubSysId    : 3f8217aa
+[2023.12.29-19.35.00:721][  0]LogD3D11RHI:     Revision    : 00a1
+[2023.12.29-19.35.00:721][  0]LogD3D11RHI:     DedicatedVideoMemory : 6300893184 bytes
+[2023.12.29-19.35.00:721][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2023.12.29-19.35.00:721][  0]LogD3D11RHI:     SharedSystemMemory : 4208619520 bytes
+[2023.12.29-19.35.00:721][  0]LogD3D11RHI:     AdapterLuid : 0 57976
+[2023.12.29-19.35.00:728][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.12.29-19.35.00:728][  0]LogD3D11RHI:     GPU DeviceId: 0x2560 (for the marketing name, search the web for "GPU Device Id")
+[2023.12.29-19.35.00:728][  0]LogWindows: EnumDisplayDevices:
+[2023.12.29-19.35.00:728][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060 Laptop GPU' (P:1 D:1)
+[2023.12.29-19.35.00:729][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060 Laptop GPU' (P:0 D:1)
+[2023.12.29-19.35.00:729][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060 Laptop GPU' (P:0 D:0)
+[2023.12.29-19.35.00:729][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060 Laptop GPU' (P:0 D:0)
+[2023.12.29-19.35.00:729][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2023.12.29-19.35.00:729][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060 Laptop GPU
+[2023.12.29-19.35.00:729][  0]LogD3D11RHI:   Driver Version: 528.92 (internal:31.0.15.2892, unified:528.92)
+[2023.12.29-19.35.00:729][  0]LogD3D11RHI:      Driver Date: 4-6-2023
+[2023.12.29-19.35.00:729][  0]LogRHI: Texture pool is 4206 MB (70% of 6009 MB)
+[2023.12.29-19.35.00:729][  0]LogD3D11RHI: Creating D3DDevice using adapter:
+[2023.12.29-19.35.00:729][  0]LogD3D11RHI:     Description : NVIDIA GeForce RTX 3060 Laptop GPU
+[2023.12.29-19.35.00:729][  0]LogD3D11RHI:     VendorId    : 10de
+[2023.12.29-19.35.00:729][  0]LogD3D11RHI:     DeviceId    : 2560
+[2023.12.29-19.35.00:729][  0]LogD3D11RHI:     SubSysId    : 3f8217aa
+[2023.12.29-19.35.00:729][  0]LogD3D11RHI:     Revision    : 00a1
+[2023.12.29-19.35.00:729][  0]LogD3D11RHI:     DedicatedVideoMemory : 6300893184 bytes
+[2023.12.29-19.35.00:729][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2023.12.29-19.35.00:729][  0]LogD3D11RHI:     SharedSystemMemory : 4208619520 bytes
+[2023.12.29-19.35.00:729][  0]LogD3D11RHI:     AdapterLuid : 0 57976
+[2023.12.29-19.35.00:798][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2023.12.29-19.35.00:798][  0]LogD3D11RHI: Async texture creation enabled
+[2023.12.29-19.35.00:799][  0]LogD3D11RHI: Array index from any shader is supported
+[2023.12.29-19.35.00:801][  0]LogD3D11RHI: HDR output is supported on display 1 (NvId: 0x80061087).
+[2023.12.29-19.35.00:827][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2023.12.29-19.35.00:853][  0]LogRHI: GeForceNow SDK initialized: 1
+[2023.12.29-19.35.01:243][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2023.12.29-19.35.01:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.12.29-19.35.01:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.12.29-19.35.01:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.12.29-19.35.01:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.12.29-19.35.01:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.12.29-19.35.01:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.12.29-19.35.01:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.12.29-19.35.01:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.12.29-19.35.01:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.12.29-19.35.01:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.12.29-19.35.01:287][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.12.29-19.35.01:287][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.12.29-19.35.01:296][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.12.29-19.35.01:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2023.12.29-19.35.01:305][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.12.29-19.35.01:309][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.12.29-19.35.01:319][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2023.12.29-19.35.01:324][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2023.12.29-19.35.01:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2023.12.29-19.35.01:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2023.12.29-19.35.01:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2023.12.29-19.35.01:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2023.12.29-19.35.01:363][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2023.12.29-19.35.01:365][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2023.12.29-19.35.01:369][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2023.12.29-19.35.01:379][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.12.29-19.35.01:379][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.12.29-19.35.01:387][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2023.12.29-19.35.01:391][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.12.29-19.35.01:395][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.12.29-19.35.01:399][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.12.29-19.35.01:399][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.12.29-19.35.01:405][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.12.29-19.35.01:439][  0]LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2023.12.29-19.35.01:477][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2023.12.29-19.35.01:477][  0]LogShaderCompilers: Guid format shader working directory is -49 characters bigger than the processId version (../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Intermediate/Shaders/WorkingDirectory/4212/).
+[2023.12.29-19.35.01:477][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jowet/AppData/Local/Temp/UnrealShaderWorkingDir/99A87002406DC30D707E21842ACC8EA3/'.
+[2023.12.29-19.35.01:478][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.12.29-19.35.01:478][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2023.12.29-19.35.01:478][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.12.29-19.35.02:193][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.12.29-19.35.02:318][  0]LogDerivedDataCache: Loaded boot cache 0.12s 80MB C:/Users/jowet/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2023.12.29-19.35.02:318][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jowet/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2023.12.29-19.35.02:319][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.12.29-19.35.02:319][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.12.29-19.35.02:319][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.12.29-19.35.02:319][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.12.29-19.35.02:334][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.12.29-19.35.02:335][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.12.29-19.35.02:335][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2023.12.29-19.35.02:344][  0]LogDerivedDataCache: Speed tests for C:/Users/jowet/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2023.12.29-19.35.02:345][  0]LogDerivedDataCache: Display: Performance to C:/Users/jowet/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.05ms. RandomReadSpeed=241.67MBs, RandomWriteSpeed=177.93MBs. Assigned SpeedClass 'Local'
+[2023.12.29-19.35.02:347][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jowet/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.12.29-19.35.02:347][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.12.29-19.35.02:347][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.12.29-19.35.02:393][  0]LogSlate: Using FreeType 2.10.0
+[2023.12.29-19.35.02:393][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.12.29-19.35.02:422][  0]LogAssetRegistry: FAssetRegistry took 0.0034 seconds to start up
+[2023.12.29-19.35.02:664][  0]LogInit: Selected Device Profile: [Windows]
+[2023.12.29-19.35.02:664][  0]LogInit: Active device profile: [0000022B520C6500][0000022B51BED3C0 49] Windows
+[2023.12.29-19.35.02:664][  0]LogInit: Profiles: [0000022B520C6500][0000022B51BED3C0 49] Windows, [0000022B52081E00][0000022B51BF5680 49] WindowsNoEditor, [0000022B520C5D00][0000022B51BF9940 49] WindowsServer, [0000022B52082500][0000022B51BFDC00 49] WindowsClient, [0000022B520C7F00][0000022B51C00340 49] IOS, [0000022B52081F00][0000022B51C04600 49] iPadAir, [0000022B520C5E00][0000022B51C088C0 49] iPadAir2, [0000022B5342B400][0000022B52ED4D80 49] IPadPro, [0000022B5342B500][0000022B51BF0DC0 49] iPadAir3, [0000022B520C6200][0000022B52ED1080 49] iPadAir4, [0000022B5342A100][0000022B52ECD340 49] iPadMini2, [0000022B520C6000][0000022B52ED9600 49] iPadMini3, [0000022B53428500][0000022B52EDD8C0 49] iPadMini4, [0000022B520C4400][0000022B52EE1B80 49] iPadMini5, [0000022B520A2900][0000022B52EF4540 49] iPhone6, [0000022B520A2A00][0000022B52EE4580 49] iPodTouch6, [0000022B53429000][0000022B52EFCAC0 49] iPhone7, [0000022B53428F00][0000022B52EECB00 49] iPodTouch7, [0000022B520A2000][0000022B51C0CD80 49] iPhone5S, [0000022B53428800][0000022B52EF1000 49] iPhone6Plus, [0000022B520A0200][0000022B52EF92C0 49] iPhone6S, [0000022B53429E00][0000022B52F01580 49] iPhone6SPlus, [0000022B520A2D00][0000022B52F05840 49] iPhone7Plus, [0000022B53428B00][0000022B52F09B00 49] iPhoneSE, [0000022B520A1800][0000022B52F0C240 49] iPhone8, [0000022B53429900][0000022B52F10500 49] iPhone8Plus, [0000022B520A1F00][0000022B52F147C0 49] iPhoneX, [0000022B5342B600][0000022B52F18A80 49] iPhoneXS, [0000022B520A0A00][0000022B52F1CD40 49] iPhoneXSMax, [0000022B53429500][0000022B52EE8FC0 49] iPhoneXR, [0000022B520A3700][0000022B52F21240 49] iPhone11, [0000022B53428100][0000022B52F29500 49] iPhone11Pro, [0000022B520A0F00][0000022B52F2D7C0 49] iPhone11ProMax, [0000022B5342B000][0000022B52F31A80 49] iPhoneSE2, [0000022B520A2B00][0000022B52F341C0 49] iPhone12Mini, [0000022B5342A400][0000022B52F38480 49] iPhone12, [0000022B520A0300][0000022B52F3C740 49] iPhone12Pro, [0000022B5342BD00][0000022B52F40A00 49] iPhone12ProMax, [0000022B520A3500][0000022B52F44CC0 49] iPadPro105, [0000022B5342A200][0000022B52F48F80 49] iPadPro129, [0000022B520A1400][0000022B52F25200 49] iPadPro97, [0000022B53428E00][0000022B52F4D480 49] iPadPro2_129, [0000022B520A0500][0000022B52F55740 49] iPad5, [0000022B53428600][0000022B52F59A00 49] iPad6, [0000022B520A2400][0000022B52F5C140 49] iPad7, [0000022B5342AB00][0000022B52F60400 49] iPad8, [0000022B52140200][0000022B52F646C0 49] iPadPro11, [0000022B52082F00][0000022B52F68980 49] iPadPro2_11, [0000022B52140900][0000022B52F6CC40 49] iPadPro3_129, [0000022B52081600][0000022B52F70F00 49] iPadPro4_129, [0000022B520A1B00][0000022B52F751C0 49] AppleTV, [0000022B52082900][0000022B52F51440 49] AppleTV4K, [0000022B520A1600][0000022B52F796C0 49] TVOS, [0000022B52080900][0000022B52F81980 49] Mac, [0000022B520A1C00][0000022B52F840C0 49] MacClient, [0000022B52080300][0000022B52F88380 49] MacNoEditor, [0000022B520A1200][0000022B52F8C640 49] MacServer, [0000022B52083E00][0000022B52F90900 49] Linux, [0000022B520A0800][0000022B52F94BC0 49] LinuxAArch64, [0000022B52082D00][0000022B52F98E80 49] LinuxNoEditor, [0000022B520A0400][0000022B52F9D140 49] LinuxAArch64NoEditor, [0000022B52082200][0000022B52FA1400 49] LinuxClient, [0000022B520A0C00][0000022B52F7D680 49] LinuxAArch64Client, [0000022B52083F00][0000022B52FA5900 49] LinuxServer, [0000022B520A0600][0000022B52FADBC0 49] LinuxAArch64Server, [0000022B52082800][0000022B52FB0300 49] Android, [0000022B520A3B00][0000022B52FB45C0 49] Android_Low, [0000022B52083700][0000022B52FB8880 49] Android_Mid, [0000022B520A3900][0000022B52FBCB40 49] Android_High, [0000022B52080C00][0000022B52FC0E00 49] Android_Default, [0000022B520A3A00][0000022B52FC50C0 49] Android_Adreno4xx, [0000022B52081400][0000022B52FC9380 49] Android_Adreno5xx_Low, [0000022B520A1500][0000022B52FCD640 49] Android_Adreno5xx, [0000022B52082B00][0000022B52FA98C0 49] Android_Adreno6xx, [0000022B520A2800][0000022B52FD1B40 49] Android_Adreno6xx_Vulkan, [0000022B52080600][0000022B52FD8280 49] Android_Mali_T6xx, [0000022B520A2E00][0000022B52FDC540 49] Android_Mali_T7xx, [0000022B52083C00][0000022B52FE0800 49] Android_Mali_T8xx, [0000022B520A1700][0000022B52FE4AC0 49] Android_Mali_G71, [0000022B52081D00][0000022B52FE8D80 49] Android_Mali_G72, [0000022B520A0700][0000022B52FED040 49] Android_Mali_G72_Vulkan, [0000022B52081100][0000022B52FF1300 49] Android_Mali_G76, [0000022B520A1100][0000022B52FF55C0 49] Android_Mali_G76_Vulkan, [0000022B52082600][0000022B52FF9880 49] Android_Mali_G77, [0000022B520A0100][0000022B52FD5B00 49] Android_Mali_G77_Vulkan, [0000022B52082100][0000022B52FFC200 49] Android_Mali_G78, [0000022B520A2700][0000022B530044C0 49] Android_Mali_G78_Vulkan, [0000022B52080D00][0000022B53008780 49] Android_Mali_G710, [0000022B520A2600][0000022B5300CA40 49] Android_Mali_G710_Vulkan, [0000022B520C5A00][0000022B53010D00 49] Android_Vulkan_SM5, [0000022B53428300][0000022B53014FC0 49] Android_PowerVR_G6xxx, [0000022B520C7D00][0000022B53019280 49] Android_PowerVR_GT7xxx, [0000022B5342A000][0000022B5301D540 49] Android_PowerVR_GE8xxx, [0000022B520C4100][0000022B54031800 49] Android_PowerVR_GM9xxx, [0000022B5342BB00][0000022B54035AC0 49] Android_PowerVR_GM9xxx_Vulkan, [0000022B520C5800][0000022B530001C0 49] Android_TegraK1, [0000022B53428700][0000022B54038440 49] Android_Unknown_Vulkan, [0000022B520C7A00][0000022B54040700 49] Lumin, [0000022B5342A800][0000022B540449C0 49] Lumin_Desktop, [0000022B520C5300][0000022B46BBEC80 49] HoloLens, 
+[2023.12.29-19.35.02:806][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.12.29-19.35.02:806][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.12.29-19.35.02:806][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.12.29-19.35.02:806][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.12.29-19.35.02:806][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.12.29-19.35.02:828][  0]LogNetVersion: Tech_Demo_4 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 4260629819)
+[2023.12.29-19.35.03:261][  0]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2023.12.29-19.35.03:337][  0]LogUObjectArray: 16878 objects as part of root set at end of initial load.
+[2023.12.29-19.35.03:337][  0]LogUObjectAllocator: 4218224 out of 0 bytes used by permanent object pool.
+[2023.12.29-19.35.03:337][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.12.29-19.35.03:683][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 12F6102A4EA66E6EE8D9A58FC3A73D25 | Instance: 73D89B604D4BA721E3377BA034E11079 (LAPTOP-8T9BADUD-4212).
+[2023.12.29-19.35.03:867][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.12.29-19.35.03:873][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.12.29-19.35.03:889][  0]LogPython: Using Python 3.7.7
+[2023.12.29-19.35.04:503][  0]SourceControl: Source control is disabled
+[2023.12.29-19.35.04:503][  0]SourceControl: Source control is disabled
+[2023.12.29-19.35.04:515][  0]SourceControl: Source control is disabled
+[2023.12.29-19.35.04:522][  0]SourceControl: Source control is disabled
+[2023.12.29-19.35.04:525][  0]SourceControl: Source control is disabled
+[2023.12.29-19.35.04:535][  0]LogUProjectInfo: Found projects:
+[2023.12.29-19.35.04:814][  0]LogOpenImageDenoise: OIDN starting up
+[2023.12.29-19.35.04:843][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.12.29-19.35.04:870][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.12.29-19.35.04:870][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.12.29-19.35.04:961][  0]LogCollectionManager: Loaded 0 collections in 0.001748 seconds
+[2023.12.29-19.35.05:043][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Collections/' took 0.00s
+[2023.12.29-19.35.05:043][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Developers/jowet/Collections/' took 0.00s
+[2023.12.29-19.35.05:043][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Collections/' took 0.00s
+[2023.12.29-19.35.05:043][  0]LogEngine: Initializing Engine...
+[2023.12.29-19.35.05:045][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2023.12.29-19.35.05:047][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2023.12.29-19.35.05:212][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.12.29-19.35.05:230][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.12.29-19.35.05:237][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2023.12.29-19.35.05:241][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2023.12.29-19.35.05:242][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2023.12.29-19.35.05:243][  0]LogAudio: Display: Audio Device Manager Initialized
+[2023.12.29-19.35.05:243][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2023.12.29-19.35.05:243][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.29-19.35.05:243][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.29-19.35.05:243][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.29-19.35.05:243][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.29-19.35.05:243][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.29-19.35.05:243][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.29-19.35.05:243][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.29-19.35.05:243][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.29-19.35.05:244][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.29-19.35.05:244][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.29-19.35.05:244][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.29-19.35.05:244][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2023.12.29-19.35.05:308][  0]LogAudioMixer: Display: 0: FrontLeft
+[2023.12.29-19.35.05:308][  0]LogAudioMixer: Display: 1: FrontRight
+[2023.12.29-19.35.06:051][  0]LogAudioMixer: Display: Using Audio Device Headphones (My Bedroom speaker Stereo)
+[2023.12.29-19.35.06:057][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.29-19.35.06:060][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.29-19.35.06:060][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.29-19.35.06:061][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.12.29-19.35.06:061][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.12.29-19.35.06:061][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.12.29-19.35.06:063][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.12.29-19.35.06:063][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.12.29-19.35.06:063][  0]LogInit: FAudioDevice initialized.
+[2023.12.29-19.35.06:063][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2023.12.29-19.35.06:064][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.12.29-19.35.06:137][  0]LogDerivedDataCache: Saved boot cache 0.07s 80MB C:/Users/jowet/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2023.12.29-19.35.06:137][  0]LogInit: Texture streaming: Enabled
+[2023.12.29-19.35.06:161][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.27.2-18319896+++UE4+Release-4.27
+[2023.12.29-19.35.06:167][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.12.29-19.35.06:167][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={D997CA78-4F8D-CE1A-D0B0-B9A00C760045}
+[2023.12.29-19.35.06:167][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2023.12.29-19.35.06:169][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2023.12.29-19.35.06:223][  0]LogInit: Transaction tracking system initialized
+[2023.12.29-19.35.06:254][  0]BlueprintLog: New page: Editor Load
+[2023.12.29-19.35.06:363][  0]LocalizationService: Localization service is disabled
+[2023.12.29-19.35.06:402][  0]TimingProfiler: Initialize
+[2023.12.29-19.35.06:404][  0]TimingProfiler: OnSessionChanged
+[2023.12.29-19.35.06:404][  0]LoadingProfiler: Initialize
+[2023.12.29-19.35.06:404][  0]LoadingProfiler: OnSessionChanged
+[2023.12.29-19.35.06:404][  0]NetworkingProfiler: Initialize
+[2023.12.29-19.35.06:404][  0]NetworkingProfiler: OnSessionChanged
+[2023.12.29-19.35.06:404][  0]MemoryProfiler: Initialize
+[2023.12.29-19.35.06:404][  0]MemoryProfiler: OnSessionChanged
+[2023.12.29-19.35.06:593][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2023.12.29-19.35.06:593][  0]LogCook: Display: Mobile HDR setting 1
+[2023.12.29-19.35.06:834][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/' took 0.01s
+[2023.12.29-19.35.06:834][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2023.12.29-19.35.06:842][  0]SourceControl: Source control is disabled
+[2023.12.29-19.35.06:843][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.326
+[2023.12.29-19.35.06:844][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Maps/TechDemo4_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.12.29-19.35.06:844][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Maps/TechDemo4_Map.umap'
+[2023.12.29-19.35.06:844][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.12.29-19.35.06:845][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.314ms to complete.
+[2023.12.29-19.35.06:845][  0]LogFileHelpers: Loading map 'TechDemo4_Map' took 0.002
+[2023.12.29-19.35.06:850][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.333
+[2023.12.29-19.35.06:976][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-19.35.06:982][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-19.35.06:988][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-19.35.06:993][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-19.35.07:016][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0091 seconds. Added 3724 classes and 870 folders.
+[2023.12.29-19.35.07:022][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2023.12.29-19.35.07:027][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.12.29-19.35.07:027][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:027][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.12.29-19.35.07:027][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/FP_FirstPerson.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:027][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/FP_FirstPerson.upack)
+[2023.12.29-19.35.07:027][  0]LogPakFile: OnPakFileMounted2Time == 0.000487
+[2023.12.29-19.35.07:030][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2023.12.29-19.35.07:030][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:030][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2023.12.29-19.35.07:030][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:030][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack)
+[2023.12.29-19.35.07:030][  0]LogPakFile: OnPakFileMounted2Time == 0.000048
+[2023.12.29-19.35.07:031][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2023.12.29-19.35.07:031][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:031][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2023.12.29-19.35.07:031][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/MobileStarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:031][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/MobileStarterContent.upack)
+[2023.12.29-19.35.07:031][  0]LogPakFile: OnPakFileMounted2Time == 0.000056
+[2023.12.29-19.35.07:032][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.12.29-19.35.07:032][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:032][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.12.29-19.35.07:032][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/StarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:032][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/StarterContent.upack)
+[2023.12.29-19.35.07:032][  0]LogPakFile: OnPakFileMounted2Time == 0.000028
+[2023.12.29-19.35.07:033][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2023.12.29-19.35.07:033][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:033][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2023.12.29-19.35.07:033][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:033][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScroller.upack)
+[2023.12.29-19.35.07:033][  0]LogPakFile: OnPakFileMounted2Time == 0.000026
+[2023.12.29-19.35.07:034][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2023.12.29-19.35.07:034][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:034][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2023.12.29-19.35.07:034][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:035][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack)
+[2023.12.29-19.35.07:035][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2023.12.29-19.35.07:035][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2023.12.29-19.35.07:036][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:036][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2023.12.29-19.35.07:036][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Flying.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:036][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Flying.upack)
+[2023.12.29-19.35.07:036][  0]LogPakFile: OnPakFileMounted2Time == 0.000056
+[2023.12.29-19.35.07:037][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2023.12.29-19.35.07:037][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:037][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2023.12.29-19.35.07:037][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_FlyingBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:037][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_FlyingBP.upack)
+[2023.12.29-19.35.07:037][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.12.29-19.35.07:038][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.12.29-19.35.07:038][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:038][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.12.29-19.35.07:038][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_HandheldARBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:038][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_HandheldARBP.upack)
+[2023.12.29-19.35.07:038][  0]LogPakFile: OnPakFileMounted2Time == 0.000026
+[2023.12.29-19.35.07:040][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2023.12.29-19.35.07:040][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:040][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2023.12.29-19.35.07:040][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Puzzle.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:040][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Puzzle.upack)
+[2023.12.29-19.35.07:040][  0]LogPakFile: OnPakFileMounted2Time == 0.000026
+[2023.12.29-19.35.07:041][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2023.12.29-19.35.07:041][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:041][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2023.12.29-19.35.07:041][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_PuzzleBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:041][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_PuzzleBP.upack)
+[2023.12.29-19.35.07:041][  0]LogPakFile: OnPakFileMounted2Time == 0.000025
+[2023.12.29-19.35.07:042][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.12.29-19.35.07:042][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:042][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.12.29-19.35.07:042][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Rolling.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:042][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Rolling.upack)
+[2023.12.29-19.35.07:042][  0]LogPakFile: OnPakFileMounted2Time == 0.000024
+[2023.12.29-19.35.07:043][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.12.29-19.35.07:043][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:043][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.12.29-19.35.07:043][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_RollingBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:043][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_RollingBP.upack)
+[2023.12.29-19.35.07:043][  0]LogPakFile: OnPakFileMounted2Time == 0.000026
+[2023.12.29-19.35.07:044][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.12.29-19.35.07:044][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:044][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.12.29-19.35.07:044][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_SideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:044][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_SideScroller.upack)
+[2023.12.29-19.35.07:044][  0]LogPakFile: OnPakFileMounted2Time == 0.000025
+[2023.12.29-19.35.07:045][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2023.12.29-19.35.07:045][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:045][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2023.12.29-19.35.07:045][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:045][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack)
+[2023.12.29-19.35.07:045][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.12.29-19.35.07:046][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.12.29-19.35.07:046][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:046][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.12.29-19.35.07:047][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPerson.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:047][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPerson.upack)
+[2023.12.29-19.35.07:047][  0]LogPakFile: OnPakFileMounted2Time == 0.000044
+[2023.12.29-19.35.07:048][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2023.12.29-19.35.07:048][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:048][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2023.12.29-19.35.07:048][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:048][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack)
+[2023.12.29-19.35.07:048][  0]LogPakFile: OnPakFileMounted2Time == 0.000028
+[2023.12.29-19.35.07:049][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.12.29-19.35.07:049][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:049][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.12.29-19.35.07:049][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TopDown.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:049][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TopDown.upack)
+[2023.12.29-19.35.07:049][  0]LogPakFile: OnPakFileMounted2Time == 0.000034
+[2023.12.29-19.35.07:050][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.12.29-19.35.07:050][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:050][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.12.29-19.35.07:050][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TopDownBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:050][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TopDownBP.upack)
+[2023.12.29-19.35.07:050][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.12.29-19.35.07:051][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.12.29-19.35.07:051][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:051][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.12.29-19.35.07:051][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TwinStick.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:051][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TwinStick.upack)
+[2023.12.29-19.35.07:051][  0]LogPakFile: OnPakFileMounted2Time == 0.000053
+[2023.12.29-19.35.07:053][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2023.12.29-19.35.07:053][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:053][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2023.12.29-19.35.07:053][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TwinStickBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:053][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TwinStickBP.upack)
+[2023.12.29-19.35.07:053][  0]LogPakFile: OnPakFileMounted2Time == 0.000028
+[2023.12.29-19.35.07:053][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2023.12.29-19.35.07:053][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:053][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2023.12.29-19.35.07:053][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Vehicle.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:053][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Vehicle.upack)
+[2023.12.29-19.35.07:053][  0]LogPakFile: OnPakFileMounted2Time == 0.000025
+[2023.12.29-19.35.07:054][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2023.12.29-19.35.07:054][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:054][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2023.12.29-19.35.07:054][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdv.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:054][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdv.upack)
+[2023.12.29-19.35.07:054][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2023.12.29-19.35.07:055][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2023.12.29-19.35.07:055][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:055][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2023.12.29-19.35.07:055][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:055][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack)
+[2023.12.29-19.35.07:056][  0]LogPakFile: OnPakFileMounted2Time == 0.000026
+[2023.12.29-19.35.07:057][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2023.12.29-19.35.07:057][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:057][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2023.12.29-19.35.07:057][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:057][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleBP.upack)
+[2023.12.29-19.35.07:057][  0]LogPakFile: OnPakFileMounted2Time == 0.000024
+[2023.12.29-19.35.07:058][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2023.12.29-19.35.07:058][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2023.12.29-19.35.07:058][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2023.12.29-19.35.07:058][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack' (chunk index -1, root 'root:/') mounted
+[2023.12.29-19.35.07:058][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack)
+[2023.12.29-19.35.07:058][  0]LogPakFile: OnPakFileMounted2Time == 0.000024
+[2023.12.29-19.35.07:133][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2023.12.29-19.35.07:207][  0]LogSlate: Took 0.000302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.12.29-19.35.07:209][  0]LogSlate: Took 0.000427 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.12.29-19.35.07:211][  0]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.12.29-19.35.07:276][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2023.12.29-19.35.07:337][  0]LogSlate: Took 0.001118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.12.29-19.35.07:395][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2023.12.29-19.35.07:396][  0]LogLoad: (Engine Initialization) Total time: 8.88 seconds
+[2023.12.29-19.35.07:396][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.12.29-19.35.07:460][  0]LogAssetRegistry: Asset discovery search completed in 5.0398 seconds
+[2023.12.29-19.35.07:469][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2023.12.29-19.35.07:471][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.12.29-19.35.08:418][ 55]LogSlate: Took 0.000322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.12.29-19.35.13:818][335]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2023.12.29-19.35.13:818][335]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2023.12.29-19.35.13:818][335]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Developers/jowet/Collections/' because it could not be accessed. Aborting watch request...
+[2023.12.29-19.36.39:782][736]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.12.29-19.36.40:795][736]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Level1.Level1
+[2023.12.29-19.36.40:795][736]Cmd: MAP LOAD FILE="../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.12.29-19.36.40:796][736]LightingResults: New page: Lighting Build
+[2023.12.29-19.36.40:798][736]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'StatsViewer' in 0.0003 seconds. Added 6 classes and 0 folders.
+[2023.12.29-19.36.40:798][736]LoadErrors: New page: Loading map: Level1.umap
+[2023.12.29-19.36.40:800][736]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.12.29-19.36.40:802][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-19.36.40:803][736]MapCheck: New page: Map Check
+[2023.12.29-19.36.40:803][736]LightingResults: New page: Lighting Build
+[2023.12.29-19.36.40:808][736]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.29-19.36.40:819][736]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.12.29-19.36.40:822][736]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level1'.
+[2023.12.29-19.36.40:862][736]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.12.29-19.36.40:862][736]LogAIModule: Creating AISystem for world Level1
+[2023.12.29-19.36.40:871][736]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.12.29-19.36.40:885][736]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.12.29-19.36.40:886][736]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.172ms to complete.
+[2023.12.29-19.36.40:886][736]LogFileHelpers: Loading map 'Level1' took 0.090
+[2023.12.29-19.37.00:215][618]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2023.12.29-19.37.00:236][618]Candidate modules for hot reload:
+[2023.12.29-19.37.00:236][618]  Tech_Demo_4
+[2023.12.29-19.37.00:237][618]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tech_Demo_4,1545 Tech_Demo_4Editor Win64 Development -Project="C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Tech_Demo_4.uproject" "C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Tech_Demo_4.uproject"  -IgnoreJunk]
+[2023.12.29-19.37.00:244][618]Warning: Starting HotReload took  0.0s.
+[2023.12.29-19.37.23:776][  5]CompilerResultsLog: New page: Compilation - 29 Dec 2023, 19:37:23
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter).
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog: Invalidating makefile for Tech_Demo_4Editor (MainMenuWidget.cpp.obj.response modified)
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog: Building Tech_Demo_4Editor...
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog: Using Visual Studio 2022 14.37.32826 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog: Building 8 actions with 12 processes...
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog:   [1/8] CharacterAnimationController.cpp
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog:   [2/8] MainMenuWidget.cpp
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog:   [3/8] CharacterWidget.cpp
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog:   C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Source\Tech_Demo_4\CharacterController.h(30): warning C4263: 'void ACharacterController::TakeDamage(int)': member function does not override any base class virtual member function
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog:   C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Source\Tech_Demo_4\CharacterController.h(137): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(247): note: see declaration of 'APawn::TakeDamage'
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(31): note: see declaration of 'APawn'
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog:   [4/8] MyMainGM.cpp
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog:   C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Source\Tech_Demo_4\CharacterController.h(30): warning C4263: 'void ACharacterController::TakeDamage(int)': member function does not override any base class virtual member function
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog:   C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Source\Tech_Demo_4\CharacterController.h(137): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(247): note: see declaration of 'APawn::TakeDamage'
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(31): note: see declaration of 'APawn'
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog:   [5/8] CharacterController.cpp
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog:   C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Source\Tech_Demo_4\CharacterController.h(30): warning C4263: 'void ACharacterController::TakeDamage(int)': member function does not override any base class virtual member function
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog:   C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Source\Tech_Demo_4\CharacterController.h(137): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(247): note: see declaration of 'APawn::TakeDamage'
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(31): note: see declaration of 'APawn'
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog:   [6/8] UE4Editor-Tech_Demo_4-1545.lib
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog:      Creating library C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Intermediate\Build\Win64\UE4Editor\Development\Tech_Demo_4\UE4Editor-Tech_Demo_4-1545.lib and object C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Intermediate\Build\Win64\UE4Editor\Development\Tech_Demo_4\UE4Editor-Tech_Demo_4-1545.exp
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog:   [7/8] UE4Editor-Tech_Demo_4-1545.dll
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog:      Creating library C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Intermediate\Build\Win64\UE4Editor\Development\Tech_Demo_4\UE4Editor-Tech_Demo_4-1545.suppressed.lib and object C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Intermediate\Build\Win64\UE4Editor\Development\Tech_Demo_4\UE4Editor-Tech_Demo_4-1545.suppressed.exp
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog:   [8/8] Tech_Demo_4Editor.target
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog: Total time in Parallel executor: 19.92 seconds
+[2023.12.29-19.37.23:777][  5]CompilerResultsLog: Total execution time: 23.41 seconds
+[2023.12.29-19.37.23:778][  5]LogMainFrame: MainFrame: Module compiling took 23.561 seconds
+[2023.12.29-19.37.23:832][  5]LogClass: EPickups HotReload.
+[2023.12.29-19.37.23:837][  5]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Tech_Demo_4' in 0.0004 seconds. Added 10 classes and 2 folders.
+[2023.12.29-19.37.23:843][  5]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2023.12.29-19.37.23:907][  5]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0090 seconds. Added 3724 classes and 870 folders.
+[2023.12.29-19.37.23:911][  5]Display: HotReload took 23.7s.
+[2023.12.29-19.37.30:855][395]LogTexture: Display: Building textures: Knife_A_Masks (OODLE_AutoDXT, 2048X1024)
+[2023.12.29-19.37.30:856][395]LogTexture: Display: Building textures: Knife_A_Norm (OODLE_BC5, 2048X1024)
+[2023.12.29-19.37.30:856][395]LogTexture: Display: Building textures: Knife_A_Diff (OODLE_AutoDXT, 2048X1024)
+[2023.12.29-19.37.30:856][395]LogTexture: Display: Building textures: Grenade_Launcher_A_Norm (OODLE_BC5, 2048X2048)
+[2023.12.29-19.37.30:856][395]LogTexture: Display: Building textures: Pistols_A_Norm (OODLE_BC5, 2048X2048)
+[2023.12.29-19.37.30:856][395]LogTexture: Display: Building textures: Pistols_A_Masks (OODLE_AutoDXT, 2048X2048)
+[2023.12.29-19.37.30:856][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2023.12.29-19.37.30:856][395]LogTexture: Display: Building textures: Sniper_Rifle_A_Norm (OODLE_BC5, 2048X2048)
+[2023.12.29-19.37.30:856][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.30:856][395]LogTexture: Display: Building textures: Grenade_Launcher_A_Masks (OODLE_AutoDXT, 2048X2048)
+[2023.12.29-19.37.30:856][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2023.12.29-19.37.30:856][395]LogTexture: Display: Building textures: Pistols_A_Diff (OODLE_AutoDXT, 2048X2048)
+[2023.12.29-19.37.30:856][395]LogTexture: Display: Building textures: Assault_Rifle_A_Diff (OODLE_AutoDXT, 2048X2048)
+[2023.12.29-19.37.31:022][395]LogTexture: Display: Building textures: Grenade_Launcher_A_Diff (OODLE_AutoDXT, 2048X2048)
+[2023.12.29-19.37.31:023][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.31:023][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.31:023][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2023.12.29-19.37.31:023][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2023.12.29-19.37.31:023][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.31:485][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.31:485][395]LogTexture: Display: Building textures: Sniper_Rifle_A_Masks (OODLE_AutoDXT, 2048X2048)
+[2023.12.29-19.37.31:485][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.31:485][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.31:485][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2023.12.29-19.37.31:485][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2023.12.29-19.37.31:485][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.32:426][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2023.12.29-19.37.32:426][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.32:426][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 512 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.32:426][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.32:426][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.32:426][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.32:426][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.32:426][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2023.12.29-19.37.32:426][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.32:426][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.32:426][395]LogTexture: Display: Building textures: Shotgun_A_Masks (OODLE_AutoDXT, 2048X2048)
+[2023.12.29-19.37.32:426][395]LogTexture: Display: Building textures: Rocket_launcher_A_Norm (OODLE_BC5, 2048X2048)
+[2023.12.29-19.37.32:427][395]LogTexture: Display: Building textures: Assault_Rifle_A_Norm (OODLE_BC5, 2048X2048)
+[2023.12.29-19.37.32:757][395]LogTexture: Display: Building textures: Shotgun_A_Norm (OODLE_BC5, 2048X2048)
+[2023.12.29-19.37.32:757][395]LogTexture: Display: Building textures: Pickup_Norm (OODLE_BC5, 2048X2048)
+[2023.12.29-19.37.32:757][395]LogTexture: Display: Building textures: Sniper_Rifle_A_Diff (OODLE_AutoDXT, 2048X2048)
+[2023.12.29-19.37.32:757][395]LogTexture: Display: Building textures: Pickup_Masks (OODLE_AutoDXT, 2048X2048)
+[2023.12.29-19.37.32:757][395]LogTexture: Display: Building textures: Rocket_launcher_A_Diff (OODLE_AutoDXT, 2048X2048)
+[2023.12.29-19.37.32:757][395]LogTexture: Display: Building textures: Rocket_launcher_A_Masks (OODLE_AutoDXT, 2048X2048)
+[2023.12.29-19.37.32:757][395]LogTexture: Display: Building textures: Pickup_Diff (OODLE_AutoDXT, 2048X2048)
+[2023.12.29-19.37.32:757][395]LogTexture: Display: Building textures: Shotgun_A_Diff (OODLE_AutoDXT, 2048X2048)
+[2023.12.29-19.37.32:757][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2023.12.29-19.37.33:070][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.33:070][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2023.12.29-19.37.33:070][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2023.12.29-19.37.33:070][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.33:070][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2023.12.29-19.37.34:577][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.34:578][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2023.12.29-19.37.34:578][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2023.12.29-19.37.34:578][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.34:578][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.34:578][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2023.12.29-19.37.34:578][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2023.12.29-19.37.34:578][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.34:578][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.34:578][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.34:578][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.34:578][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.34:578][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.34:578][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.34:578][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.34:578][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.34:578][395]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 256X256)
+[2023.12.29-19.37.34:578][395]LogTexture: Display: Building textures: HQ_Lightmap1_2 (OODLE_AutoDXT, 64X64)
+[2023.12.29-19.37.34:578][395]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 256X256)
+[2023.12.29-19.37.34:578][395]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (OODLE_DXT1, 64X64)
+[2023.12.29-19.37.34:578][395]LogTexture: Display: Building textures: SkyOcclusion0_1 (OODLE_AutoDXT, 256X128)
+[2023.12.29-19.37.34:578][395]LogTexture: Display: Building textures: SkyOcclusion1_2 (OODLE_AutoDXT, 64X32)
+[2023.12.29-19.37.34:578][395]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 64X32)
+[2023.12.29-19.37.34:578][395]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 256X128)
+[2023.12.29-19.37.34:578][395]LogTexture: Display: Building textures: Assault_Rifle_A_masks (OODLE_AutoDXT, 2048X2048)
+[2023.12.29-19.37.34:578][395]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.34:578][395]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2023.12.29-19.37.34:578][395]LogMaterial: Display: Missing cached shadermap for M_WeaponMaster_01 in PCD3D_SM5, Default, SM5 (DDC key hash: 40D3057E34826BC651FA40AE2B2622F5BAC76F44), compiling. 
+[2023.12.29-19.37.34:710][395]LogShaderCompilers: Display: Submitted 41 shader compile jobs with 'Low' priority
+[2023.12.29-19.37.34:713][395]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 41
+[2023.12.29-19.37.34:713][395]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 35
+[2023.12.29-19.37.34:713][395]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 29
+[2023.12.29-19.37.34:713][395]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 23
+[2023.12.29-19.37.34:713][395]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 17
+[2023.12.29-19.37.34:713][395]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 11
+[2023.12.29-19.37.34:713][395]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2023.12.29-19.37.34:713][395]LogShaderCompilers: Display: Started 41 'Local' shader compile jobs with 'Low' priority
+[2023.12.29-19.37.34:713][395]LogSkeletalMesh: Display: [AssetLog] C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Content\MilitaryWeapSilver\Weapons\Rocket_Launcher_A.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.29-19.37.34:714][395]LogSkeletalMesh: Building Skeletal Mesh Rocket_Launcher_A...
+[2023.12.29-19.37.34:724][395]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MilitaryWeapSilver/Weapons/Rocket_Launcher_A.Rocket_Launcher_A
+[2023.12.29-19.37.34:733][395]LogStaticMesh: Building static mesh PistolA_Ammo...
+[2023.12.29-19.37.34:784][395]LogStaticMesh: Built static mesh [0.05s] /Game/MilitaryWeapSilver/Weapons/PistolA_Ammo.PistolA_Ammo
+[2023.12.29-19.37.34:814][395]LogSkeletalMesh: Building Skeletal Mesh Pistols_A...
+[2023.12.29-19.37.34:820][395]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MilitaryWeapSilver/Weapons/Pistols_A.Pistols_A
+[2023.12.29-19.37.34:826][395]LogStaticMesh: Building static mesh GrenadeLauncherA_Ammo...
+[2023.12.29-19.37.34:856][395]LogStaticMesh: Built static mesh [0.03s] /Game/MilitaryWeapSilver/Weapons/GrenadeLauncherA_Ammo.GrenadeLauncherA_Ammo
+[2023.12.29-19.37.34:877][395]LogSkeletalMesh: Building Skeletal Mesh Knife_A...
+[2023.12.29-19.37.34:880][395]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/MilitaryWeapSilver/Weapons/Knife_A.Knife_A
+[2023.12.29-19.37.34:883][395]LogSkeletalMesh: Building Skeletal Mesh Grenade_Launcher_A...
+[2023.12.29-19.37.34:891][395]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MilitaryWeapSilver/Weapons/Grenade_Launcher_A.Grenade_Launcher_A
+[2023.12.29-19.37.34:897][395]LogSkeletalMesh: Building Skeletal Mesh Assault_Rifle_A...
+[2023.12.29-19.37.34:910][395]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A
+[2023.12.29-19.37.34:923][395]LogStaticMesh: Building static mesh SniperRifle_Pickup...
+[2023.12.29-19.37.34:958][395]LogStaticMesh: Built static mesh [0.04s] /Game/MilitaryWeapSilver/Pickups/SniperRifle_Pickup.SniperRifle_Pickup
+[2023.12.29-19.37.34:978][395]LogStaticMesh: Building static mesh Shotgun_Pickup...
+[2023.12.29-19.37.35:010][395]LogStaticMesh: Built static mesh [0.03s] /Game/MilitaryWeapSilver/Pickups/Shotgun_Pickup.Shotgun_Pickup
+[2023.12.29-19.37.35:044][395]LogStaticMesh: Building static mesh RocketLauncher_Pickup...
+[2023.12.29-19.37.35:098][395]LogStaticMesh: Built static mesh [0.05s] /Game/MilitaryWeapSilver/Pickups/RocketLauncher_Pickup.RocketLauncher_Pickup
+[2023.12.29-19.37.35:133][395]LogStaticMesh: Building static mesh Pistol_Pickup...
+[2023.12.29-19.37.35:169][395]LogStaticMesh: Built static mesh [0.04s] /Game/MilitaryWeapSilver/Pickups/Pistol_Pickup.Pistol_Pickup
+[2023.12.29-19.37.35:208][395]LogStaticMesh: Building static mesh GrenadeLauncher_Pickup...
+[2023.12.29-19.37.35:268][395]LogStaticMesh: Built static mesh [0.06s] /Game/MilitaryWeapSilver/Pickups/GrenadeLauncher_Pickup.GrenadeLauncher_Pickup
+[2023.12.29-19.37.35:292][395]LogStaticMesh: Building static mesh SniperRifleA_Ammo...
+[2023.12.29-19.37.35:328][395]LogStaticMesh: Built static mesh [0.04s] /Game/MilitaryWeapSilver/Weapons/SniperRifleA_Ammo.SniperRifleA_Ammo
+[2023.12.29-19.37.35:363][395]LogSkeletalMesh: Display: [AssetLog] C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Content\MilitaryWeapSilver\Weapons\Sniper_Rifle_A.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.29-19.37.35:364][395]LogSkeletalMesh: Building Skeletal Mesh Sniper_Rifle_A...
+[2023.12.29-19.37.35:378][395]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/MilitaryWeapSilver/Weapons/Sniper_Rifle_A.Sniper_Rifle_A
+[2023.12.29-19.37.35:389][395]LogStaticMesh: Building static mesh ShotgunA_Ammo...
+[2023.12.29-19.37.35:435][395]LogStaticMesh: Built static mesh [0.05s] /Game/MilitaryWeapSilver/Weapons/ShotgunA_Ammo.ShotgunA_Ammo
+[2023.12.29-19.37.35:466][395]LogSkeletalMesh: Building Skeletal Mesh Shotgun_A...
+[2023.12.29-19.37.35:475][395]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MilitaryWeapSilver/Weapons/Shotgun_A.Shotgun_A
+[2023.12.29-19.37.35:491][395]LogStaticMesh: Building static mesh RocketLauncherA_Ammo...
+[2023.12.29-19.37.35:546][395]LogStaticMesh: Built static mesh [0.06s] /Game/MilitaryWeapSilver/Weapons/RocketLauncherA_Ammo.RocketLauncherA_Ammo
+[2023.12.29-19.37.35:591][395]LogStaticMesh: Building static mesh AssaultRifle_Pickup...
+[2023.12.29-19.37.35:649][395]LogStaticMesh: Built static mesh [0.06s] /Game/MilitaryWeapSilver/Pickups/AssaultRifle_Pickup.AssaultRifle_Pickup
+[2023.12.29-19.37.35:686][395]LogStaticMesh: Building static mesh AssaultRifleA_Ammo...
+[2023.12.29-19.37.35:725][395]LogStaticMesh: Built static mesh [0.04s] /Game/MilitaryWeapSilver/Weapons/AssaultRifleA_Ammo.AssaultRifleA_Ammo
+[2023.12.29-19.37.35:801][395]LogActorComponent: RegisterComponentWithWorld: (/Game/MilitaryWeapSilver/Showcase.Showcase:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2023.12.29-19.37.35:813][395]LogObjectTools: Deleting 1 worlds: /Game/MilitaryWeapSilver/Showcase.Showcase
+[2023.12.29-19.37.35:814][395]LogObjectTools: Currently 1 active worlds: /Game/Maps/Level1.Level1
+[2023.12.29-19.37.35:843][395]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2023.12.29-19.37.37:500][395]LogSlate: Window 'Delete Assets' being destroyed
+[2023.12.29-19.37.37:543][395]LogWorld: UWorld::CleanupWorld for Showcase, bSessionEnded=true, bCleanupResources=true
+[2023.12.29-19.37.37:545][395]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-19.37.37:686][395]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2023.12.29-19.37.37:713][395]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.12.29-19.37.37:722][395]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.12.29-19.37.48:942][980]LogTemp: Repeating last play command: Selected Viewport
+[2023.12.29-19.37.48:955][980]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.29-19.37.48:955][980]PIE: New page: PIE session: Level1 (29 Dec 2023, 19:37:48)
+[2023.12.29-19.37.48:960][980]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2023.12.29-19.37.48:962][980]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.12.29-19.37.48:962][980]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2023.12.29-19.37.48:968][980]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005001s)
+[2023.12.29-19.37.48:969][980]LogAIModule: Creating AISystem for world Level1
+[2023.12.29-19.37.48:969][980]LogPlayLevel: PIE: World Init took: (0.001727s)
+[2023.12.29-19.37.48:970][980]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.007049s)
+[2023.12.29-19.37.48:974][980]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.12.29-19.37.48:978][980]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.12.29-19.37.48:978][980]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.29-19.37.48:978][980]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.29-19.37.48:978][980]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.29-19.37.48:978][980]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.29-19.37.48:978][980]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.29-19.37.48:978][980]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.29-19.37.48:978][980]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.29-19.37.48:978][980]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.29-19.37.48:979][980]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.29-19.37.48:979][980]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.29-19.37.48:979][980]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.29-19.37.48:979][980]LogAudioMixer: Display: Initializing audio mixer.
+[2023.12.29-19.37.48:982][980]LogAudioMixer: Display: 0: FrontLeft
+[2023.12.29-19.37.48:982][980]LogAudioMixer: Display: 1: FrontRight
+[2023.12.29-19.37.49:020][980]LogAudioMixer: Display: Using Audio Device Headphones (My Bedroom speaker Stereo)
+[2023.12.29-19.37.49:020][980]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.29-19.37.49:020][980]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.29-19.37.49:020][980]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.29-19.37.49:021][980]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.12.29-19.37.49:021][980]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.12.29-19.37.49:021][980]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.12.29-19.37.49:022][980]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.12.29-19.37.49:023][980]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.12.29-19.37.49:023][980]LogInit: FAudioDevice initialized.
+[2023.12.29-19.37.49:023][980]LogAudio: Display: Audio Device (ID: 2) registered with world 'Level1'.
+[2023.12.29-19.37.49:321][980]LogLoad: Game class is 'MyMainGM_BP_C'
+[2023.12.29-19.37.49:322][980]LogActor: Warning: MyMainGM_BP_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.MyMainGM_BP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.12.29-19.37.49:328][980]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2023.12.29-19.37.49
+[2023.12.29-19.37.49:329][980]LogWorld: Bringing up level for play took: 0.002251
+[2023.12.29-19.37.49:330][980]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2023.12.29-19.37.49:358][980]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2023.12.29-19.37.49:379][980]PIE: Server logged in
+[2023.12.29-19.37.49:382][980]PIE: Play in editor total start time 0.433 seconds.
+[2023.12.29-19.37.49:400][980]LogSlate: New Slate User Created.  User Index 1, Is Virtual User: 0
+[2023.12.29-19.37.49:400][980]LogSlate: Slate User Registered.  User Index 1, Is Virtual User: 0
+[2023.12.29-19.38.00:213][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-19.38.00:214][625]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2023.12.29-19.38.00:215][625]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2023.12.29-19.38.00:216][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-19.38.00:226][625]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.29-19.38.00:228][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-19.38.00:232][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-19.38.00:234][625]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.29-19.38.00:235][625]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.29-19.38.00:273][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2023.12.29-19.38.00:298][626]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2023.12.29-19.38.32:080][678]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 C:\Users\jowet\Downloads\male-death-sound-128357.mp3)
+[2023.12.29-19.38.32:083][678]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 C:\Users\jowet\Downloads\assaultrifle2-47258.mp3)
+[2023.12.29-19.38.32:084][678]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 C:\Users\jowet\Downloads\single-gunshot-42-80288.mp3)
+[2023.12.29-19.38.32:084][678]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 C:\Users\jowet\Downloads\battle-rifle-42734.mp3)
+[2023.12.29-19.38.32:095][678]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 C:\Users\jowet\Downloads\m4a1-or-m16-reload-sound-84436.mp3)
+[2023.12.29-19.38.32:115][678]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 C:\Users\jowet\Downloads\war-is-coming-103662.mp3)
+[2023.12.29-19.38.32:132][678]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 C:\Users\jowet\Downloads\powerful-victory-trailer-103656.mp3)
+[2023.12.29-19.38.32:151][678]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 C:\Users\jowet\Downloads\chasing-a-dream-haunting-action-trailer-145915.mp3)
+[2023.12.29-19.38.32:160][678]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 C:\Users\jowet\Downloads\male-extreme-scream-123078.mp3)
+[2023.12.29-19.38.32:168][678]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 C:\Users\jowet\Downloads\fight-deep-voice-172194.mp3)
+[2023.12.29-19.39.46:926][881]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.12.29-19.39.49:447][881]LogSlate: Window 'Delete Assets' being destroyed
+[2023.12.29-19.39.49:506][881]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.12.29-19.39.49:521][881]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.12.29-19.39.49:525][881]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.12.29-19.40.11:099][154]LogContentBrowser: Deferred new asset file creation: NewFileMediaSource
+[2023.12.29-19.40.11:105][154]LogContentBrowser: Creating deferred item: NewFileMediaSource
+[2023.12.29-19.40.13:038][270]LogContentBrowser: Attempting asset rename: NewFileMediaSource -> NewFileMediaSource
+[2023.12.29-19.40.13:039][270]LogContentBrowser: End creating deferred item NewFileMediaSource
+[2023.12.29-19.40.13:942][324]LogAssetEditorSubsystem: Opening Asset editor for FileMediaSource /Game/Music/NewFileMediaSource.NewFileMediaSource
+[2023.12.29-19.40.38:247][ 27]LogSavePackage: Moving '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/NewFileMediaSource602CAE80499DC15F1AA698BECC509F64.tmp' to '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Music/NewFileMediaSource.uasset'
+[2023.12.29-19.40.38:261][ 27]AssetCheck: New page: Asset Save: NewFileMediaSource
+[2023.12.29-19.40.38:261][ 27]LogContentValidation: Display: Validating FileMediaSource /Game/Music/NewFileMediaSource.NewFileMediaSource
+[2023.12.29-19.40.57:012][146]LogContentBrowser: Deferred new asset file creation: NewFileMediaSource1
+[2023.12.29-19.40.57:020][146]LogContentBrowser: Creating deferred item: NewFileMediaSource1
+[2023.12.29-19.41.02:923][501]LogContentBrowser: Attempting asset rename: NewFileMediaSource1 -> Music2
+[2023.12.29-19.41.02:923][501]LogContentBrowser: End creating deferred item NewFileMediaSource1
+[2023.12.29-19.41.11:719][ 27]LogContentBrowser: Attempting asset rename: NewFileMediaSource -> Music1
+[2023.12.29-19.41.11:763][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Music/Music1" FILE="../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Music/Music1.uasset" SILENT=true
+[2023.12.29-19.41.11:765][ 27]LogSavePackage: Moving '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Music17DFB06614EB55A39439EB1912108466E.tmp' to '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Music/Music1.uasset'
+[2023.12.29-19.41.11:811][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.12.29-19.41.11:823][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.12.29-19.41.11:827][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.12.29-19.41.11:854][ 27]AssetCheck: New page: Asset Save: Music1
+[2023.12.29-19.41.11:854][ 27]LogContentValidation: Display: Validating FileMediaSource /Game/Music/Music1.Music1
+[2023.12.29-19.41.27:807][335]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 ../../../../../../Users/jowet/Downloads/chasing-a-dream-haunting-action-trailer-145915.mp3)
+[2023.12.29-19.41.27:808][335]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 ../../../../../../Users/jowet/Downloads/male-extreme-scream-123078.mp3)
+[2023.12.29-19.41.27:809][335]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 ../../../../../../Users/jowet/Downloads/fight-deep-voice-172194.mp3)
+[2023.12.29-19.41.27:810][335]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 ../../../../../../Users/jowet/Downloads/male-death-sound-128357.mp3)
+[2023.12.29-19.41.27:811][335]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 ../../../../../../Users/jowet/Downloads/assaultrifle2-47258.mp3)
+[2023.12.29-19.41.27:811][335]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 ../../../../../../Users/jowet/Downloads/single-gunshot-42-80288.mp3)
+[2023.12.29-19.41.27:812][335]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 ../../../../../../Users/jowet/Downloads/battle-rifle-42734.mp3)
+[2023.12.29-19.41.27:813][335]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 ../../../../../../Users/jowet/Downloads/m4a1-or-m16-reload-sound-84436.mp3)
+[2023.12.29-19.41.40:518][ 86]LogContentBrowser: Attempting asset rename: chasing-a-dream-haunting-action-trailer-145915 -> Muisc3
+[2023.12.29-19.41.40:546][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Music/Muisc3" FILE="../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Music/Muisc3.uasset" SILENT=true
+[2023.12.29-19.41.40:547][ 86]LogSavePackage: Moving '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Muisc33D071C514863E894200863A56F5D880E.tmp' to '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Music/Muisc3.uasset'
+[2023.12.29-19.41.40:593][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.12.29-19.41.40:606][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.12.29-19.41.40:612][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.12.29-19.41.40:635][ 86]AssetCheck: New page: Asset Save: Muisc3
+[2023.12.29-19.41.40:635][ 86]LogContentValidation: Display: Validating FileMediaSource /Game/Music/Muisc3.Muisc3
+[2023.12.29-19.41.53:174][837]LogContentBrowser: Attempting asset rename: single-gunshot-42-80288 -> Gunshot
+[2023.12.29-19.41.53:210][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Music/Gunshot" FILE="../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Music/Gunshot.uasset" SILENT=true
+[2023.12.29-19.41.53:211][837]LogSavePackage: Moving '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Gunshot4294F69A4E2187A3DEEA8496F76F1440.tmp' to '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Music/Gunshot.uasset'
+[2023.12.29-19.41.53:252][837]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.12.29-19.41.53:263][837]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.12.29-19.41.53:268][837]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.12.29-19.41.53:291][837]AssetCheck: New page: Asset Save: Gunshot
+[2023.12.29-19.41.53:291][837]LogContentValidation: Display: Validating FileMediaSource /Game/Music/Gunshot.Gunshot
+[2023.12.29-19.42.03:339][439]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player_BP.Player_BP
+[2023.12.29-19.42.03:696][439]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2023.12.29-19.43.09:002][287]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave RifleA_Fire_ST01...
+[2023.12.29-19.43.09:004][287]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_ST01.RifleA_Fire_ST01 will be modified from 80 to 80.
+[2023.12.29-19.43.09:038][287]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 317212 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_ST01.RifleA_Fire_ST01.
+[2023.12.29-19.43.10:806][393]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave RifleA_Fire_ST02...
+[2023.12.29-19.43.10:812][393]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_ST02.RifleA_Fire_ST02 will be modified from 80 to 80.
+[2023.12.29-19.43.10:838][393]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 294788 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_ST02.RifleA_Fire_ST02.
+[2023.12.29-19.43.12:082][466]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave RifleA_Fire_ST03...
+[2023.12.29-19.43.12:082][466]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_ST03.RifleA_Fire_ST03 will be modified from 80 to 80.
+[2023.12.29-19.43.12:102][466]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 234732 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_ST03.RifleA_Fire_ST03.
+[2023.12.29-19.43.13:394][542]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave RifleA_Fire_ST04...
+[2023.12.29-19.43.13:395][542]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_ST04.RifleA_Fire_ST04 will be modified from 80 to 80.
+[2023.12.29-19.43.13:423][542]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 317432 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_ST04.RifleA_Fire_ST04.
+[2023.12.29-19.43.14:543][609]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave RifleA_Fire_ST05...
+[2023.12.29-19.43.14:550][609]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_ST05.RifleA_Fire_ST05 will be modified from 80 to 80.
+[2023.12.29-19.43.14:576][609]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 262608 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_ST05.RifleA_Fire_ST05.
+[2023.12.29-19.43.17:146][762]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave RifleA_Fire_End_ST03...
+[2023.12.29-19.43.17:146][762]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_End_ST03.RifleA_Fire_End_ST03 will be modified from 80 to 80.
+[2023.12.29-19.43.17:165][762]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 315692 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_End_ST03.RifleA_Fire_End_ST03.
+[2023.12.29-19.43.18:984][869]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave RifleA_Fire_End_ST02...
+[2023.12.29-19.43.18:992][869]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_End_ST02.RifleA_Fire_End_ST02 will be modified from 80 to 80.
+[2023.12.29-19.43.19:012][869]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 285536 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_End_ST02.RifleA_Fire_End_ST02.
+[2023.12.29-19.43.20:251][941]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave RifleA_Fire_End_ST01...
+[2023.12.29-19.43.20:258][941]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_End_ST01.RifleA_Fire_End_ST01 will be modified from 80 to 80.
+[2023.12.29-19.43.20:284][941]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 282328 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_End_ST01.RifleA_Fire_End_ST01.
+[2023.12.29-19.43.22:254][ 58]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave RifleA_Fire06...
+[2023.12.29-19.43.22:254][ 58]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire06.RifleA_Fire06 will be modified from 80 to 80.
+[2023.12.29-19.43.22:272][ 58]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 180750 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire06.RifleA_Fire06.
+[2023.12.29-19.43.23:752][145]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave RifleA_Fire05...
+[2023.12.29-19.43.23:752][145]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire05.RifleA_Fire05 will be modified from 80 to 80.
+[2023.12.29-19.43.23:765][145]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 131304 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire05.RifleA_Fire05.
+[2023.12.29-19.43.25:133][224]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave RifleA_Fire04...
+[2023.12.29-19.43.25:140][224]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire04.RifleA_Fire04 will be modified from 80 to 80.
+[2023.12.29-19.43.25:155][224]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 158716 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire04.RifleA_Fire04.
+[2023.12.29-19.43.26:456][300]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave RifleA_Fire03...
+[2023.12.29-19.43.26:456][300]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire03.RifleA_Fire03 will be modified from 80 to 80.
+[2023.12.29-19.43.26:469][300]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 117366 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire03.RifleA_Fire03.
+[2023.12.29-19.43.27:641][369]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave RifleA_Fire02...
+[2023.12.29-19.43.27:641][369]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire02.RifleA_Fire02 will be modified from 80 to 80.
+[2023.12.29-19.43.27:655][369]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 147394 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire02.RifleA_Fire02.
+[2023.12.29-19.43.28:550][421]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave RifleA_Fire01...
+[2023.12.29-19.43.28:551][421]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire01.RifleA_Fire01 will be modified from 80 to 80.
+[2023.12.29-19.43.28:566][421]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 158606 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire01.RifleA_Fire01.
+[2023.12.29-19.43.30:638][541]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Rifle_Raise...
+[2023.12.29-19.43.30:645][541]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/Rifle_Raise.Rifle_Raise will be modified from 80 to 80.
+[2023.12.29-19.43.30:655][541]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 105400 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/Rifle_Raise.Rifle_Raise.
+[2023.12.29-19.43.31:862][613]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Rifle_Lower...
+[2023.12.29-19.43.31:863][613]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/Rifle_Lower.Rifle_Lower will be modified from 80 to 80.
+[2023.12.29-19.43.31:874][613]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 105936 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/Rifle_Lower.Rifle_Lower.
+[2023.12.29-19.43.34:362][760]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave RifleA_Fire_Loop_ST03...
+[2023.12.29-19.43.34:362][760]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_Loop_ST03.RifleA_Fire_Loop_ST03 will be modified from 80 to 80.
+[2023.12.29-19.43.34:379][760]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 166416 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_Loop_ST03.RifleA_Fire_Loop_ST03.
+[2023.12.29-19.43.42:361][227]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave RifleA_FireEnd03...
+[2023.12.29-19.43.42:369][227]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_FireEnd03.RifleA_FireEnd03 will be modified from 80 to 80.
+[2023.12.29-19.43.42:384][227]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 157846 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_FireEnd03.RifleA_FireEnd03.
+[2023.12.29-19.43.43:991][321]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave RifleA_FireEnd02...
+[2023.12.29-19.43.43:992][321]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_FireEnd02.RifleA_FireEnd02 will be modified from 80 to 80.
+[2023.12.29-19.43.44:006][321]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 142768 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_FireEnd02.RifleA_FireEnd02.
+[2023.12.29-19.43.45:173][390]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave RifleA_FireEnd01...
+[2023.12.29-19.43.45:174][390]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_FireEnd01.RifleA_FireEnd01 will be modified from 80 to 80.
+[2023.12.29-19.43.45:188][390]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 141164 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_FireEnd01.RifleA_FireEnd01.
+[2023.12.29-19.43.46:295][455]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave RifleA_Fire_ST06...
+[2023.12.29-19.43.46:298][455]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_ST06.RifleA_Fire_ST06 will be modified from 80 to 80.
+[2023.12.29-19.43.46:329][455]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 361500 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_ST06.RifleA_Fire_ST06.
+[2023.12.29-19.43.54:697][944]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Rifle_ImpactBody01...
+[2023.12.29-19.43.54:698][944]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/Rifle_ImpactBody01.Rifle_ImpactBody01 will be modified from 80 to 80.
+[2023.12.29-19.43.54:702][944]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 27732 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/Rifle_ImpactBody01.Rifle_ImpactBody01.
+[2023.12.29-19.45.06:928][194]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncher_AmmoPickup...
+[2023.12.29-19.45.06:934][194]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_AmmoPickup.GrenadeLauncher_AmmoPickup will be modified from 80 to 80.
+[2023.12.29-19.45.06:940][194]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 32250 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_AmmoPickup.GrenadeLauncher_AmmoPickup.
+[2023.12.29-19.45.06:940][194]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_AmmoPickup_Cue.GrenadeLauncher_AmmoPickup_Cue:SoundCueGraph_24.SoundCueGraphNode_23' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.06:940][194]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_AmmoPickup_Cue.GrenadeLauncher_AmmoPickup_Cue:SoundCueGraph_24.SoundCueGraphNode_Root_24' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:671][136]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.12.29-19.45.22:677][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncherA_Fire01...
+[2023.12.29-19.45.22:677][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncherA_Fire01.GrenadeLauncherA_Fire01 will be modified from 80 to 80.
+[2023.12.29-19.45.22:692][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 212054 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncherA_Fire01.GrenadeLauncherA_Fire01.
+[2023.12.29-19.45.22:692][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncherA_Fire_Cue.GrenadeLauncherA_Fire_Cue:SoundCueGraph_30.EdGraphNode_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:692][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncherA_Fire_Cue.GrenadeLauncherA_Fire_Cue:SoundCueGraph_30.EdGraphNode_Comment_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:692][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncherA_Fire_Cue.GrenadeLauncherA_Fire_Cue:SoundCueGraph_30.SoundCueGraphNode_163' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:692][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncherA_Fire_Cue.GrenadeLauncherA_Fire_Cue:SoundCueGraph_30.SoundCueGraphNode_164' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:692][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncherA_Fire_Cue.GrenadeLauncherA_Fire_Cue:SoundCueGraph_30.SoundCueGraphNode_165' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:692][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncherA_Fire_Cue.GrenadeLauncherA_Fire_Cue:SoundCueGraph_30.SoundCueGraphNode_166' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:692][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncherA_Fire_Cue.GrenadeLauncherA_Fire_Cue:SoundCueGraph_30.SoundCueGraphNode_29' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:692][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncherA_Fire_Cue.GrenadeLauncherA_Fire_Cue:SoundCueGraph_30.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:692][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncherA_Fire_Cue.GrenadeLauncherA_Fire_Cue:SoundCueGraph_30.SoundCueGraphNode_318' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:692][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncherA_Fire_Cue.GrenadeLauncherA_Fire_Cue:SoundCueGraph_30.SoundCueGraphNode_319' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:692][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncherA_Fire_Cue.GrenadeLauncherA_Fire_Cue:SoundCueGraph_30.SoundCueGraphNode_320' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:692][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncherA_Fire_Cue.GrenadeLauncherA_Fire_Cue:SoundCueGraph_30.SoundCueGraphNode_321' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:692][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncherA_Fire_Cue.GrenadeLauncherA_Fire_Cue:SoundCueGraph_30.SoundCueGraphNode_322' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:692][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncherA_Fire_Cue.GrenadeLauncherA_Fire_Cue:SoundCueGraph_30.SoundCueGraphNode_90' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:692][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncherA_Fire_Cue.GrenadeLauncherA_Fire_Cue:SoundCueGraph_30.SoundCueGraphNode_Root_30' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:692][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncherA_Fire_ST02...
+[2023.12.29-19.45.22:693][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncherA_Fire_ST02.GrenadeLauncherA_Fire_ST02 will be modified from 80 to 80.
+[2023.12.29-19.45.22:713][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 253144 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncherA_Fire_ST02.GrenadeLauncherA_Fire_ST02.
+[2023.12.29-19.45.22:713][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncherA_Fire_ST03...
+[2023.12.29-19.45.22:714][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncherA_Fire_ST03.GrenadeLauncherA_Fire_ST03 will be modified from 80 to 80.
+[2023.12.29-19.45.22:741][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 290460 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncherA_Fire_ST03.GrenadeLauncherA_Fire_ST03.
+[2023.12.29-19.45.22:742][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncherA_Fire_ST04...
+[2023.12.29-19.45.22:742][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncherA_Fire_ST04.GrenadeLauncherA_Fire_ST04 will be modified from 80 to 80.
+[2023.12.29-19.45.22:764][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 368696 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncherA_Fire_ST04.GrenadeLauncherA_Fire_ST04.
+[2023.12.29-19.45.22:765][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncherA_Fire02...
+[2023.12.29-19.45.22:765][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncherA_Fire02.GrenadeLauncherA_Fire02 will be modified from 80 to 80.
+[2023.12.29-19.45.22:778][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 126572 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncherA_Fire02.GrenadeLauncherA_Fire02.
+[2023.12.29-19.45.22:779][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncherA_Fire04...
+[2023.12.29-19.45.22:780][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncherA_Fire04.GrenadeLauncherA_Fire04 will be modified from 80 to 80.
+[2023.12.29-19.45.22:793][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 184348 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncherA_Fire04.GrenadeLauncherA_Fire04.
+[2023.12.29-19.45.22:794][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncherA_Fire_ST01...
+[2023.12.29-19.45.22:794][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncherA_Fire_ST01.GrenadeLauncherA_Fire_ST01 will be modified from 80 to 80.
+[2023.12.29-19.45.22:819][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 424108 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncherA_Fire_ST01.GrenadeLauncherA_Fire_ST01.
+[2023.12.29-19.45.22:819][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncherA_Fire03...
+[2023.12.29-19.45.22:820][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncherA_Fire03.GrenadeLauncherA_Fire03 will be modified from 80 to 80.
+[2023.12.29-19.45.22:836][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 145230 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncherA_Fire03.GrenadeLauncherA_Fire03.
+[2023.12.29-19.45.22:841][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncher_Bounce04...
+[2023.12.29-19.45.22:841][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Bounce04.GrenadeLauncher_Bounce04 will be modified from 80 to 80.
+[2023.12.29-19.45.22:848][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 28472 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Bounce04.GrenadeLauncher_Bounce04.
+[2023.12.29-19.45.22:848][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncher_Bounce05...
+[2023.12.29-19.45.22:849][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Bounce05.GrenadeLauncher_Bounce05 will be modified from 80 to 80.
+[2023.12.29-19.45.22:855][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 25982 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Bounce05.GrenadeLauncher_Bounce05.
+[2023.12.29-19.45.22:855][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncher_Bounce02...
+[2023.12.29-19.45.22:855][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Bounce02.GrenadeLauncher_Bounce02 will be modified from 80 to 80.
+[2023.12.29-19.45.22:861][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 24714 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Bounce02.GrenadeLauncher_Bounce02.
+[2023.12.29-19.45.22:861][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncher_Bounce03...
+[2023.12.29-19.45.22:862][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Bounce03.GrenadeLauncher_Bounce03 will be modified from 80 to 80.
+[2023.12.29-19.45.22:868][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 24646 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Bounce03.GrenadeLauncher_Bounce03.
+[2023.12.29-19.45.22:868][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncher_Bounce01...
+[2023.12.29-19.45.22:868][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Bounce01.GrenadeLauncher_Bounce01 will be modified from 80 to 80.
+[2023.12.29-19.45.22:878][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 28754 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Bounce01.GrenadeLauncher_Bounce01.
+[2023.12.29-19.45.22:878][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Bounce_Cue.GrenadeLauncher_Bounce_Cue:SoundCueGraph_23.SoundCueGraphNode_145' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:878][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Bounce_Cue.GrenadeLauncher_Bounce_Cue:SoundCueGraph_23.SoundCueGraphNode_146' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:878][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Bounce_Cue.GrenadeLauncher_Bounce_Cue:SoundCueGraph_23.SoundCueGraphNode_147' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:878][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Bounce_Cue.GrenadeLauncher_Bounce_Cue:SoundCueGraph_23.SoundCueGraphNode_148' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:878][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Bounce_Cue.GrenadeLauncher_Bounce_Cue:SoundCueGraph_23.SoundCueGraphNode_149' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:878][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Bounce_Cue.GrenadeLauncher_Bounce_Cue:SoundCueGraph_23.SoundCueGraphNode_152' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:878][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Bounce_Cue.GrenadeLauncher_Bounce_Cue:SoundCueGraph_23.SoundCueGraphNode_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:878][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Bounce_Cue.GrenadeLauncher_Bounce_Cue:SoundCueGraph_23.SoundCueGraphNode_Root_23' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:882][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncher_Explosion04...
+[2023.12.29-19.45.22:883][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Explosion04.GrenadeLauncher_Explosion04 will be modified from 80 to 80.
+[2023.12.29-19.45.22:907][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 220858 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Explosion04.GrenadeLauncher_Explosion04.
+[2023.12.29-19.45.22:908][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncher_Explosion03...
+[2023.12.29-19.45.22:909][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Explosion03.GrenadeLauncher_Explosion03 will be modified from 80 to 80.
+[2023.12.29-19.45.22:927][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 206754 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Explosion03.GrenadeLauncher_Explosion03.
+[2023.12.29-19.45.22:927][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncher_Explosion05...
+[2023.12.29-19.45.22:928][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Explosion05.GrenadeLauncher_Explosion05 will be modified from 80 to 80.
+[2023.12.29-19.45.22:943][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 239822 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Explosion05.GrenadeLauncher_Explosion05.
+[2023.12.29-19.45.22:943][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncher_Explosion02...
+[2023.12.29-19.45.22:944][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Explosion02.GrenadeLauncher_Explosion02 will be modified from 80 to 80.
+[2023.12.29-19.45.22:959][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 193598 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Explosion02.GrenadeLauncher_Explosion02.
+[2023.12.29-19.45.22:959][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncher_Explosion01...
+[2023.12.29-19.45.22:960][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Explosion01.GrenadeLauncher_Explosion01 will be modified from 80 to 80.
+[2023.12.29-19.45.22:975][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 207370 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Explosion01.GrenadeLauncher_Explosion01.
+[2023.12.29-19.45.22:976][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Explosion_Cue.GrenadeLauncher_Explosion_Cue:SoundCueGraph_25.SoundCueGraphNode_154' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:976][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Explosion_Cue.GrenadeLauncher_Explosion_Cue:SoundCueGraph_25.SoundCueGraphNode_155' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:976][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Explosion_Cue.GrenadeLauncher_Explosion_Cue:SoundCueGraph_25.SoundCueGraphNode_156' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:976][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Explosion_Cue.GrenadeLauncher_Explosion_Cue:SoundCueGraph_25.SoundCueGraphNode_157' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:976][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Explosion_Cue.GrenadeLauncher_Explosion_Cue:SoundCueGraph_25.SoundCueGraphNode_158' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:976][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Explosion_Cue.GrenadeLauncher_Explosion_Cue:SoundCueGraph_25.SoundCueGraphNode_159' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:976][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Explosion_Cue.GrenadeLauncher_Explosion_Cue:SoundCueGraph_25.SoundCueGraphNode_24' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:976][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Explosion_Cue.GrenadeLauncher_Explosion_Cue:SoundCueGraph_25.SoundCueGraphNode_Root_25' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:978][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncher_Lower...
+[2023.12.29-19.45.22:979][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Lower.GrenadeLauncher_Lower will be modified from 80 to 80.
+[2023.12.29-19.45.22:986][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 64202 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Lower.GrenadeLauncher_Lower.
+[2023.12.29-19.45.22:986][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Lower_Cue.GrenadeLauncher_Lower_Cue:SoundCueGraph_26.SoundCueGraphNode_25' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:986][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Lower_Cue.GrenadeLauncher_Lower_Cue:SoundCueGraph_26.SoundCueGraphNode_Root_26' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:988][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Raise_Cue.GrenadeLauncher_Raise_Cue:SoundCueGraph_27.SoundCueGraphNode_26' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:988][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Raise_Cue.GrenadeLauncher_Raise_Cue:SoundCueGraph_27.SoundCueGraphNode_Root_27' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.22:988][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncher_Raise...
+[2023.12.29-19.45.22:988][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Raise.GrenadeLauncher_Raise will be modified from 80 to 80.
+[2023.12.29-19.45.22:994][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 47402 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Raise.GrenadeLauncher_Raise.
+[2023.12.29-19.45.22:997][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncher_Reload03...
+[2023.12.29-19.45.22:997][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Reload03.GrenadeLauncher_Reload03 will be modified from 80 to 80.
+[2023.12.29-19.45.23:003][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 50672 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Reload03.GrenadeLauncher_Reload03.
+[2023.12.29-19.45.23:004][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncher_Reload02...
+[2023.12.29-19.45.23:004][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Reload02.GrenadeLauncher_Reload02 will be modified from 80 to 80.
+[2023.12.29-19.45.23:012][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 47232 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Reload02.GrenadeLauncher_Reload02.
+[2023.12.29-19.45.23:013][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncher_Reload01...
+[2023.12.29-19.45.23:013][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Reload01.GrenadeLauncher_Reload01 will be modified from 80 to 80.
+[2023.12.29-19.45.23:022][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 56996 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Reload01.GrenadeLauncher_Reload01.
+[2023.12.29-19.45.23:022][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Reload_Cue.GrenadeLauncher_Reload_Cue:SoundCueGraph_28.SoundCueGraphNode_160' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.23:022][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Reload_Cue.GrenadeLauncher_Reload_Cue:SoundCueGraph_28.SoundCueGraphNode_161' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.23:022][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Reload_Cue.GrenadeLauncher_Reload_Cue:SoundCueGraph_28.SoundCueGraphNode_162' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.23:022][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Reload_Cue.GrenadeLauncher_Reload_Cue:SoundCueGraph_28.SoundCueGraphNode_27' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.23:022][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Reload_Cue.GrenadeLauncher_Reload_Cue:SoundCueGraph_28.SoundCueGraphNode_Root_28' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.23:025][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Warning_Cue.GrenadeLauncher_Warning_Cue:SoundCueGraph_29.SoundCueGraphNode_28' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.23:025][136]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Warning_Cue.GrenadeLauncher_Warning_Cue:SoundCueGraph_29.SoundCueGraphNode_Root_29' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2023.12.29-19.45.23:025][136]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave GrenadeLauncher_Warning...
+[2023.12.29-19.45.23:025][136]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Warning.GrenadeLauncher_Warning will be modified from 80 to 80.
+[2023.12.29-19.45.23:036][136]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 116958 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_Warning.GrenadeLauncher_Warning.
+[2023.12.29-19.45.23:058][136]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2023.12.29-19.45.26:790][136]LogSlate: Window 'Delete Assets' being destroyed
+[2023.12.29-19.45.26:859][136]LogUObjectGlobals: Force Deleting 33 Package(s):
+	Asset Name: /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_AmmoPickup.GrenadeLauncher_AmmoPickup
+	Asset Name: /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_AmmoPickup_Cue.GrenadeLauncher_AmmoPickup_Cue
+	Asset Name: /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncherA_Fire_Cue.GrenadeLauncherA_Fire_Cue
+	Asset Name: /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Bounce_Cue.GrenadeLauncher_Bounce_Cue
+	Asset Name: /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Explosion_Cue.GrenadeLauncher_Explosion_Cue
+	Asset Name: /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Lower_Cue.GrenadeLauncher_Lower_Cue
+	Asset Name: /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Raise_Cue.GrenadeLauncher_Raise_Cue
+	Asset Name: /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Reload_Cue.GrenadeLauncher_Reload_Cue
+	Asset Name: /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_Warning_Cue.GrenadeLauncher_Warning_Cue
+	Asset Name: /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncherA_Fire01.GrenadeLauncherA_Fire01
+[2023.12.29-19.45.34:392][136]LogSlate: Window 'Message' being destroyed
+[2023.12.29-19.45.34:395][136]Message dialog closed, result: Ok, title: Message, text: SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_AmmoPickup.GrenadeLauncher_AmmoPickup is in use.
+
+---
+Running the editor with '-NoLoadStartupPackages' may help if the object is loaded at startup.
+---
+
+
+External referencers of SoundWave /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_AmmoPickup.GrenadeLauncher_AmmoPickup:
+   SoundNodeWavePlayer /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Cues/GrenadeLauncher_AmmoPickup_Cue.GrenadeLauncher_AmmoPickup_Cue:SoundNodeWavePlayer_20 (1)
+      0) ObjectProperty /Script/Engine.SoundNodeWavePlayer:SoundWave
+
+
+[2023.12.29-19.45.34:395][136]LogObjectTools: Warning: ForceDeleteObject failed to delete GrenadeLauncher_AmmoPickup, this package is now potentially corrupt
+[2023.12.29-19.45.34:555][136]LogObjectTools: Warning: Detected inconsistencies between reference gathering algorithms. Switching 'Editor.UseLegacyGetReferencersForDeletion' on for the remainder of this editor session.
+[2023.12.29-19.45.38:883][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.12.29-19.45.38:902][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.12.29-19.45.38:918][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.12.29-19.45.38:936][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.12.29-19.45.38:953][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.12.29-19.45.38:969][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.12.29-19.45.38:985][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.12.29-19.45.39:002][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.12.29-19.45.39:018][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.12.29-19.45.39:036][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.12.29-19.45.39:053][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.12.29-19.45.39:070][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.12.29-19.45.39:092][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.12.29-19.45.39:108][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.12.29-19.45.39:125][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.12.29-19.45.39:142][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.12.29-19.45.39:159][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.12.29-19.45.39:176][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.12.29-19.45.39:195][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.12.29-19.45.39:212][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.12.29-19.45.39:227][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.12.29-19.45.39:243][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.12.29-19.45.39:259][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.12.29-19.45.39:276][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.12.29-19.45.39:293][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.12.29-19.45.39:310][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.12.29-19.45.39:325][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.12.29-19.45.39:342][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.12.29-19.45.39:357][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.12.29-19.45.39:375][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.12.29-19.45.39:390][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.12.29-19.45.39:408][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.12.29-19.45.39:424][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.12.29-19.45.39:440][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.12.29-19.45.39:448][136]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2023.12.29-19.45.39:516][136]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.068 s
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: === Handled ensure: ===
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: 
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: Ensure condition failed: false [File:D:/Build/++UE4/Sync/Engine/Source/Editor/UnrealEd/Private/ObjectTools.cpp] [Line: 3205]
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: 
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: 					Failed to unload all packages during ForceDeleteObjects - 
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: 					these packages are likely corrupt. Consider restarting the 
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: 					editor, noting which assets remain and then deleting them 
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: 					from the file system manually: 
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: /Game/MilitaryWeapSilver/Sound/GrenadeLauncher/Wavs/GrenadeLauncher_AmmoPickup
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: Stack: 
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe89d6daa8 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe896355f9 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe88d7b269 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe89060dde UE4Editor-UnrealEd.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe89057e97 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe9ebda6fe UE4Editor-Slate.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe9ebf280e UE4Editor-Slate.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe9ea4421e UE4Editor-Slate.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe9eabe104 UE4Editor-Slate.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe9eaa7097 UE4Editor-Slate.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe9ea99b62 UE4Editor-Slate.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffecedfc025 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffecede92b7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffecedfe465 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffecede4410 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007fff07dde858 USER32.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007fff07dde299 USER32.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffecedffb79 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe9eac865a UE4Editor-Slate.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe9ea66b09 UE4Editor-Slate.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe890f3e9e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe89628de2 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe7426c618 UE4Editor-AssetTools.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe49272d69 UE4Editor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe49272f6e UE4Editor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe492623a7 UE4Editor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe74a41af3 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe74a3af42 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe74abb6d2 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe74a3ea17 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe9ebda6fe UE4Editor-Slate.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe9ebf280e UE4Editor-Slate.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe9ea4421e UE4Editor-Slate.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe9eabe104 UE4Editor-Slate.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe9eaa7097 UE4Editor-Slate.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffe9ea99b62 UE4Editor-Slate.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffecedfc025 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffecede92b7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffecedfe465 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffecede4410 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007fff07dde858 USER32.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007fff07dde299 USER32.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ffecedffcd4 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ff682947621 UE4Editor.exe!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ff682960fcc UE4Editor.exe!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ff6829610ba UE4Editor.exe!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ff6829640dd UE4Editor.exe!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ff682975984 UE4Editor.exe!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007ff68297853a UE4Editor.exe!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007fff08287344 KERNEL32.DLL!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: [Callstack] 0x00007fff097426b1 ntdll.dll!UnknownFunction []
+[2023.12.29-19.45.39:516][136]LogOutputDevice: Error: 
