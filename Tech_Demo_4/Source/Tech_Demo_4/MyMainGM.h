@@ -74,6 +74,7 @@ public:
 
 	UPROPERTY(EditAnywhere, Category = "Music")
 	USoundBase* GameMusic;
+	
 
 	UPROPERTY(EditAnywhere, Category = "Pickups")
 	UMaterialInstance* DoubleDamageMaterial;

@@ -60,7 +60,8 @@ void ACharacterController::BeginPlay()
 	Super::BeginPlay();
 
 	Origin = GetActorTransform();
-	
+	UGameplayStatics::PlaySoundAtLocation(this, RoundStartSFX, GetActorLocation(), 1.0f);
+
 	if (USkeletalMeshComponent* MeshComponent = FindComponentByClass<USkeletalMeshComponent>())
     {
 		SkeletalMesh = MeshComponent;
@@ -273,6 +274,7 @@ void ACharacterController::Reload()
 		ShotDelay = 0;
 		IsReloading = true;
 		PlayAnimMontage(ReloadMontage);
+		UGameplayStatics::PlaySoundAtLocation(this, ReloadSFX, GetActorLocation(), 1.0f);
 	}
 }
 
@@ -373,8 +375,10 @@ void ACharacterController::Respawn()
 	RemainingAmmo = 1.0f;
 	JustShot = false;
 	IsShooting = false;
+	IsDoubleDamageActive = false;
 
 	SetActorTransform(Origin);
+	UGameplayStatics::PlaySoundAtLocation(this, RoundStartSFX, GetActorLocation(), 1.0f);
 	AimOut();
 	Camera->SetRelativeLocation(FVector(0, 20, 0));
 	SpringArm->SetRelativeLocation(FVector(0, 25, 90));

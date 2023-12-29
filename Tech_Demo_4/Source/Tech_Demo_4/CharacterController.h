@@ -134,4 +134,8 @@ private:
 	USoundBase* ShotSFX;
 	UPROPERTY(EditAnywhere, Category = "SFX")
 	USoundBase* DeathSFX;
+	UPROPERTY(EditAnywhere, Category = "SFX")
+	USoundBase* ReloadSFX;
+	UPROPERTY(EditAnywhere, Category = "SFX")
+	USoundBase* RoundStartSFX;
 };

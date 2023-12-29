@@ -49,7 +49,7 @@ void AMyMainGM::StartPlay()
 {
 	Super::StartPlay();
 
-	Audio->SetVolumeMultiplier(0.75f);
+	Audio->SetVolumeMultiplier(0.5f);
 
 	if (GameMusic != nullptr)
 	{
@@ -170,6 +170,7 @@ void AMyMainGM::Respawn()
 {
 	GetWorldTimerManager().ClearTimer(TimerMins);
 	Audio->Play();
+	
 
 	for (uint8 Index = 0; Index < Players.Num(); ++Index)
 	{
@@ -257,6 +258,7 @@ void AMyMainGM::NewRound()
 	GetWorldTimerManager().ClearTimer(TimerMins);
 	GetWorldTimerManager().ClearTimer(TimerSecs);
 	Audio->AdjustVolume(4.0f, 0.0f, EAudioFaderCurve::Linear);
+	
 
 	for (uint8 Index = 0; Index < Players.Num(); ++Index)
 	{
