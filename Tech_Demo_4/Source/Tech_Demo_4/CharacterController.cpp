@@ -251,7 +251,7 @@ void ACharacterController::Shoot()
 			Cast<ACharacterController>(Hit.Actor)->TakeDamage(Damage);
 		}
 
-		UGameplayStatics::PlaySoundAtLocation(this, ShotSFX, GetActorLocation(), 0.25f);
+		UGameplayStatics::PlaySoundAtLocation(this, ShotSFX, GetActorLocation(), 2.0f);
 		Ammo--;
 		RemainingAmmo = (Ammo * 1.0) / (ClipSize * 1.0);
 		IsShooting = true;
@@ -349,7 +349,7 @@ void ACharacterController::TakeDamage(const int Damage)
 		if (Health <= 0)
 		{
 			IsDead = true;
-			UGameplayStatics::PlaySoundAtLocation(this, DeathSFX, GetActorLocation(), 1.5f);
+			UGameplayStatics::PlaySoundAtLocation(this, DeathSFX, GetActorLocation(), 1.0f);
 			AimOut();
 
 			if (AnimationController != nullptr)

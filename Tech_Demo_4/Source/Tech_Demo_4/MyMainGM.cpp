@@ -49,7 +49,7 @@ void AMyMainGM::StartPlay()
 {
 	Super::StartPlay();
 
-	Audio->SetVolumeMultiplier(0.075f);
+	Audio->SetVolumeMultiplier(0.75f);
 
 	if (GameMusic != nullptr)
 	{
