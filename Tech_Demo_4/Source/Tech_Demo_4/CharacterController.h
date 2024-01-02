@@ -29,7 +29,7 @@ protected:
 public:	
 	void TakeDamage(int Damage);
 	void Heal(int HealAmount);
-	void IncrementAmmo(int IncrementAmount);
+	void AmmoCounter(int IncrementAmount);
 	void Respawn();
 	void ActivateDoubleDamage();
 	bool GetIsDead() const { return IsDead; }

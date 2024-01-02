@@ -22,9 +22,9 @@ public:
 	ACharacterController* CharacterController;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Transient, meta = (BindWidgetAnim))
-	UWidgetAnimation* FadeEffect;
+	UWidgetAnimation* SplatterEffect;
 
-	UFUNCTION(BlueprintCallable, Category = "Fade")
-	void Fade();
+	UFUNCTION(BlueprintCallable, Category = "Splatter")
+	void Splatter();
 
 };

@@ -7,13 +7,13 @@
 void UCharacterWidget::NativeConstruct()
 {
 	Super::NativeConstruct();
-	Fade();
+	Splatter();
 }
 
-void UCharacterWidget::Fade()
+void UCharacterWidget::Splatter()
 {
-	if (FadeEffect != nullptr)
+	if (SplatterEffect != nullptr)
 	{
-		PlayAnimation(FadeEffect, 0.0f, 1, EUMGSequencePlayMode::Forward, 1.0f);
+		PlayAnimation(SplatterEffect, 0.0f, 1, EUMGSequencePlayMode::Forward, 1.0f);
 	}
 }

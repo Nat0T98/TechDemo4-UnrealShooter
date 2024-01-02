@@ -16,12 +16,12 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Tech_Demo_4_Source_Tech_Demo_4_CharacterWidget_h_13_SPARSE_DATA
 #define Tech_Demo_4_Source_Tech_Demo_4_CharacterWidget_h_13_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execFade);
+	DECLARE_FUNCTION(execSplatter);
 
 
 #define Tech_Demo_4_Source_Tech_Demo_4_CharacterWidget_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execFade);
+	DECLARE_FUNCTION(execSplatter);
 
 
 #define Tech_Demo_4_Source_Tech_Demo_4_CharacterWidget_h_13_INCLASS_NO_PURE_DECLS \

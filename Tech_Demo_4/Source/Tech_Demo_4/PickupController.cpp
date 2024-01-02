@@ -40,7 +40,7 @@ void APickupController::OnBeginOverlapComponentEvent(UPrimitiveComponent* Overla
 			CharacterController->Heal(50);
 			break;
 		case EPickups::Ammo:
-			CharacterController->IncrementAmmo(20);
+			CharacterController->AmmoCounter(20);
 			break;
 		default:
 			break;

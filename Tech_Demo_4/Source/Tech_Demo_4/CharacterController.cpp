@@ -302,7 +302,7 @@ void ACharacterController::AimIn()
 
 	if (PlayerMove != nullptr)
 	{
-		PlayerMove->MaxWalkSpeed = 300.0f;
+		PlayerMove->MaxWalkSpeed = 400.0f;
 	}
 	SpringArm->TargetArmLength = 75.0f;
 
@@ -323,7 +323,7 @@ void ACharacterController::AimOut()
 
 	if (PlayerMove != nullptr)
 	{
-		PlayerMove->MaxWalkSpeed = 600.0f;
+		PlayerMove->MaxWalkSpeed = 750.0f;
 	}
 	SpringArm->TargetArmLength = 150.0f;
 
@@ -343,7 +343,7 @@ void ACharacterController::TakeDamage(const int Damage)
 	{
 		if (CharacterWidget != nullptr)
 		{
-			CharacterWidget->Fade();
+			CharacterWidget->Splatter();
 		}
 		Health -= Damage;
 		HealthPercentage = Health / MaxHealth;
@@ -397,15 +397,15 @@ void ACharacterController::Heal(const int HealAmount)
 	HealthPercentage = Health / MaxHealth;
 }
 
-void ACharacterController::IncrementAmmo(int IncrementAmount)
+void ACharacterController::AmmoCounter(int AmmoCount)
 {
 	if (Ammo < ClipSize)
 	{
 		const int Remainder = ClipSize - Ammo;
 
-		if (IncrementAmount >= Remainder)
+		if (AmmoCount >= Remainder)
 		{
-			IncrementAmount -= Remainder;
+			AmmoCount -= Remainder;
 			Ammo += Remainder;
 
 			RemainingAmmo = (Ammo * 1.0) / (ClipSize * 1.0);
@@ -414,7 +414,7 @@ void ACharacterController::IncrementAmmo(int IncrementAmount)
 
 	if (Clips < MaxClips)
 	{
-		Clips += (IncrementAmount / ClipSize);
+		Clips += (AmmoCount / ClipSize);
 
 		if (Clips > MaxClips)
 		{

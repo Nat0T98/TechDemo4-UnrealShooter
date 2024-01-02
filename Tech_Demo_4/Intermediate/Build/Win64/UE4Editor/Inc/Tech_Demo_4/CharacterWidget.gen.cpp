@@ -21,22 +21,22 @@ void EmptyLinkFunctionForGeneratedCodeCharacterWidget() {}
 	TECH_DEMO_4_API UClass* Z_Construct_UClass_ACharacterController_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UWidgetAnimation_NoRegister();
 // End Cross Module References
-	DEFINE_FUNCTION(UCharacterWidget::execFade)
+	DEFINE_FUNCTION(UCharacterWidget::execSplatter)
 	{
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->Fade();
+		P_THIS->Splatter();
 		P_NATIVE_END;
 	}
 	void UCharacterWidget::StaticRegisterNativesUCharacterWidget()
 	{
 		UClass* Class = UCharacterWidget::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "Fade", &UCharacterWidget::execFade },
+			{ "Splatter", &UCharacterWidget::execSplatter },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
-	struct Z_Construct_UFunction_UCharacterWidget_Fade_Statics
+	struct Z_Construct_UFunction_UCharacterWidget_Splatter_Statics
 	{
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -44,18 +44,18 @@ void EmptyLinkFunctionForGeneratedCodeCharacterWidget() {}
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UCharacterWidget_Fade_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Fade" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UCharacterWidget_Splatter_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Splatter" },
 		{ "ModuleRelativePath", "CharacterWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UCharacterWidget_Fade_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCharacterWidget, nullptr, "Fade", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCharacterWidget_Fade_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCharacterWidget_Fade_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_UCharacterWidget_Fade()
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UCharacterWidget_Splatter_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UCharacterWidget, nullptr, "Splatter", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UCharacterWidget_Splatter_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UCharacterWidget_Splatter_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UCharacterWidget_Splatter()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UCharacterWidget_Fade_Statics::FuncParams);
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UCharacterWidget_Splatter_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -79,9 +79,9 @@ void EmptyLinkFunctionForGeneratedCodeCharacterWidget() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CharacterController;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FadeEffect_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SplatterEffect_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FadeEffect;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SplatterEffect;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -91,7 +91,7 @@ void EmptyLinkFunctionForGeneratedCodeCharacterWidget() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Tech_Demo_4,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UCharacterWidget_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UCharacterWidget_Fade, "Fade" }, // 1143811952
+		{ &Z_Construct_UFunction_UCharacterWidget_Splatter, "Splatter" }, // 44709599
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCharacterWidget_Statics::Class_MetaDataParams[] = {
@@ -114,17 +114,17 @@ void EmptyLinkFunctionForGeneratedCodeCharacterWidget() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCharacterWidget_Statics::NewProp_CharacterController = { "CharacterController", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCharacterWidget, CharacterController), Z_Construct_UClass_ACharacterController_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCharacterWidget_Statics::NewProp_CharacterController_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCharacterWidget_Statics::NewProp_CharacterController_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCharacterWidget_Statics::NewProp_FadeEffect_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCharacterWidget_Statics::NewProp_SplatterEffect_MetaData[] = {
 		{ "BindWidgetAnim", "" },
 		{ "Category", "CharacterWidget" },
 		{ "ModuleRelativePath", "CharacterWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCharacterWidget_Statics::NewProp_FadeEffect = { "FadeEffect", nullptr, (EPropertyFlags)0x0010000000002005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCharacterWidget, FadeEffect), Z_Construct_UClass_UWidgetAnimation_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCharacterWidget_Statics::NewProp_FadeEffect_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCharacterWidget_Statics::NewProp_FadeEffect_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UCharacterWidget_Statics::NewProp_SplatterEffect = { "SplatterEffect", nullptr, (EPropertyFlags)0x0010000000002005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UCharacterWidget, SplatterEffect), Z_Construct_UClass_UWidgetAnimation_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UCharacterWidget_Statics::NewProp_SplatterEffect_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UCharacterWidget_Statics::NewProp_SplatterEffect_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UCharacterWidget_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCharacterWidget_Statics::NewProp_CharacterPawn,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCharacterWidget_Statics::NewProp_CharacterController,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCharacterWidget_Statics::NewProp_FadeEffect,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UCharacterWidget_Statics::NewProp_SplatterEffect,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UCharacterWidget_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UCharacterWidget>::IsAbstract,
@@ -153,7 +153,7 @@ void EmptyLinkFunctionForGeneratedCodeCharacterWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCharacterWidget, 3881179882);
+	IMPLEMENT_CLASS(UCharacterWidget, 454422867);
 	template<> TECH_DEMO_4_API UClass* StaticClass<UCharacterWidget>()
 	{
 		return UCharacterWidget::StaticClass();
