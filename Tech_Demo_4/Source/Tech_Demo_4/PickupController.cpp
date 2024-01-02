@@ -36,7 +36,7 @@ void APickupController::OnBeginOverlapComponentEvent(UPrimitiveComponent* Overla
 		case EPickups::DoubleDamage:
 			CharacterController->ActivateDoubleDamage();
 			break;
-		case EPickups::Recovery:
+		case EPickups::Health:
 			CharacterController->Heal(50);
 			break;
 		case EPickups::Ammo:

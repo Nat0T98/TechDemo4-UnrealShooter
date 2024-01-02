@@ -1377,3 +1377,483 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2024.01.02-19.52.17:878][469]LogSavePackage: Moving '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/CharacterHUD_BP7E3D0F4449D8149C2566EEA6E4CDAB74.tmp' to '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/UI/CharacterHUD_BP.uasset'
 [2024.01.02-19.52.17:900][469]AssetCheck: New page: Asset Save: CharacterHUD_BP
 [2024.01.02-19.52.17:900][469]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/CharacterHUD_BP.CharacterHUD_BP
+[2024.01.02-20.06.59:946][185]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_West_Carrier_CVN76)
+[2024.01.02-20.07.20:724][396]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_West_Carrier_CVN76)
+[2024.01.02-20.07.21:456][439]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_West_Carrier_CVN76)
+[2024.01.02-20.07.22:098][477]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_West_Carrier_CVN76)
+[2024.01.02-20.08.30:397][574]LogTemp: Repeating last play command: Selected Viewport
+[2024.01.02-20.08.30:403][574]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.02-20.08.30:403][574]PIE: New page: PIE session: Level1 (2 Jan 2024, 20:08:30)
+[2024.01.02-20.08.30:444][574]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2024.01.02-20.08.30:451][574]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007151s)
+[2024.01.02-20.08.30:452][574]LogAIModule: Creating AISystem for world Level1
+[2024.01.02-20.08.30:453][574]LogPlayLevel: PIE: World Init took: (0.001723s)
+[2024.01.02-20.08.30:453][574]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.009040s)
+[2024.01.02-20.08.30:476][574]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2024.01.02-20.08.30:479][574]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.01.02-20.08.30:480][574]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.02-20.08.30:480][574]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.02-20.08.30:480][574]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.02-20.08.30:480][574]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.02-20.08.30:480][574]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.02-20.08.30:480][574]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.02-20.08.30:480][574]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.02-20.08.30:480][574]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.02-20.08.30:480][574]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.02-20.08.30:480][574]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.02-20.08.30:480][574]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.02-20.08.30:480][574]LogAudioMixer: Display: Initializing audio mixer.
+[2024.01.02-20.08.30:483][574]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.02-20.08.30:483][574]LogAudioMixer: Display: 1: FrontRight
+[2024.01.02-20.08.30:517][574]LogAudioMixer: Display: Using Audio Device Headphones (My Bedroom speaker Stereo)
+[2024.01.02-20.08.30:517][574]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.02-20.08.30:517][574]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.02-20.08.30:517][574]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.02-20.08.30:518][574]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.01.02-20.08.30:518][574]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.01.02-20.08.30:518][574]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.01.02-20.08.30:519][574]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.01.02-20.08.30:519][574]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.01.02-20.08.30:519][574]LogInit: FAudioDevice initialized.
+[2024.01.02-20.08.30:519][574]LogAudio: Display: Audio Device (ID: 7) registered with world 'Level1'.
+[2024.01.02-20.08.30:532][574]LogLoad: Game class is 'MyMainGM_BP_C'
+[2024.01.02-20.08.30:532][574]LogActor: Warning: MyMainGM_BP_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.MyMainGM_BP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.01.02-20.08.30:536][574]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2024.01.02-20.08.30
+[2024.01.02-20.08.30:537][574]LogWorld: Bringing up level for play took: 0.003913
+[2024.01.02-20.08.30:537][574]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2024.01.02-20.08.30:544][574]PIE: Server logged in
+[2024.01.02-20.08.30:545][574]PIE: Play in editor total start time 0.142 seconds.
+[2024.01.02-20.10.05:755][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.02-20.10.05:755][279]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2024.01.02-20.10.05:755][279]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.01.02-20.10.05:756][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.02-20.10.05:769][279]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.02-20.10.05:775][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.02-20.10.05:793][279]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.02-20.10.05:794][279]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.02-20.10.05:797][279]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.02-20.10.05:818][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.02-20.10.05:824][279]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2024.01.02-20.10.05:857][280]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2024.01.02-20.14.03:862][446]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Source/Tech_Demo_4/CharacterAnimationController.h'
+[2024.01.02-20.14.03:979][446]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Source/Tech_Demo_4/CharacterAnimationController.cpp'
+[2024.01.02-20.15.02:443][956]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Animations/Animation_Montages/Aim_Montage.Aim_Montage
+[2024.01.02-20.15.02:580][956]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SkeletonEditor' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2024.01.02-20.15.02:656][956]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2024.01.02-20.15.02:885][956]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2024.01.02-20.15.03:114][956]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.02-20.15.03:137][956]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'PinnedCommandList' in 0.0037 seconds. Added 1 classes and 0 folders.
+[2024.01.02-20.15.26:490][193]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.01.02-20.15.26:497][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.02-20.15.26:925][193]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.01.02-20.15.26:925][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.02-20.15.36:300][691]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Blueprints/PlayerAnims_BP.PlayerAnims_BP
+[2024.01.02-20.15.36:337][691]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.02-20.15.38:072][692]LogSlate: Took 0.009614 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.01.02-20.16.17:873][ 65]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2024.01.02-20.16.23:920][422]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Animations/Character_Animations/Death.Death
+[2024.01.02-20.16.23:927][422]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.02-20.16.24:242][422]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2024.01.02-20.17.37:408][772]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.01.02-20.17.37:410][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.02-20.17.37:559][772]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2024.01.02-20.17.37:559][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.02-20.17.37:680][772]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.01.02-20.17.37:680][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.02-20.18.34:184][145]BlueprintLog: New page: Compile PlayerAnims_BP
+[2024.01.02-20.18.34:635][145]LogUObjectHash: Compacting FUObjectHashTables data took   7.93ms
+[2024.01.02-20.19.27:991][323]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.01.02-20.19.27:991][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.02-20.19.28:005][323]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.01.02-20.19.28:005][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.02-20.21.01:052][872]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/Blueprints/PlayerAnimBlend-BP.PlayerAnimBlend-BP
+[2024.01.02-20.21.01:057][872]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.02-20.21.01:284][872]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2024.01.02-20.23.20:420][188]LogSavePackage: Moving '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/DeathE199E98F4F3D8021AAC8B0889E4A3CA8.tmp' to '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Animations/Character_Animations/Death.uasset'
+[2024.01.02-20.23.20:529][188]AssetCheck: New page: Asset Save: Death
+[2024.01.02-20.23.20:529][188]LogContentValidation: Display: Validating AnimSequence /Game/Animations/Character_Animations/Death.Death
+[2024.01.02-20.23.23:546][368]LogTemp: Repeating last play command: Selected Viewport
+[2024.01.02-20.23.23:557][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.02-20.23.23:564][368]PIE: New page: PIE session: Level1 (2 Jan 2024, 20:23:23)
+[2024.01.02-20.23.23:615][368]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2024.01.02-20.23.23:630][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015129s)
+[2024.01.02-20.23.23:634][368]LogAIModule: Creating AISystem for world Level1
+[2024.01.02-20.23.23:637][368]LogPlayLevel: PIE: World Init took: (0.007393s)
+[2024.01.02-20.23.23:637][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.022759s)
+[2024.01.02-20.23.23:751][368]LogUObjectHash: Compacting FUObjectHashTables data took   5.02ms
+[2024.01.02-20.23.23:767][368]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.01.02-20.23.23:768][368]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.02-20.23.23:768][368]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.02-20.23.23:768][368]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.02-20.23.23:768][368]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.02-20.23.23:768][368]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.02-20.23.23:768][368]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.02-20.23.23:768][368]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.02-20.23.23:769][368]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.02-20.23.23:770][368]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.02-20.23.23:770][368]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.02-20.23.23:770][368]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.02-20.23.23:770][368]LogAudioMixer: Display: Initializing audio mixer.
+[2024.01.02-20.23.23:777][368]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.02-20.23.23:777][368]LogAudioMixer: Display: 1: FrontRight
+[2024.01.02-20.23.23:828][368]LogAudioMixer: Display: Using Audio Device Headphones (My Bedroom speaker Stereo)
+[2024.01.02-20.23.23:830][368]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.02-20.23.23:830][368]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.02-20.23.23:830][368]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.02-20.23.23:831][368]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.01.02-20.23.23:831][368]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.01.02-20.23.23:831][368]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.01.02-20.23.23:832][368]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.01.02-20.23.23:832][368]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.01.02-20.23.23:832][368]LogInit: FAudioDevice initialized.
+[2024.01.02-20.23.23:832][368]LogAudio: Display: Audio Device (ID: 8) registered with world 'Level1'.
+[2024.01.02-20.23.23:855][368]LogLoad: Game class is 'MyMainGM_BP_C'
+[2024.01.02-20.23.23:856][368]LogActor: Warning: MyMainGM_BP_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.MyMainGM_BP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.01.02-20.23.23:862][368]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2024.01.02-20.23.23
+[2024.01.02-20.23.23:863][368]LogWorld: Bringing up level for play took: 0.006755
+[2024.01.02-20.23.23:868][368]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2024.01.02-20.23.23:897][368]PIE: Server logged in
+[2024.01.02-20.23.23:899][368]PIE: Play in editor total start time 0.344 seconds.
+[2024.01.02-20.23.52:506][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.02-20.23.52:506][ 79]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2024.01.02-20.23.52:507][ 79]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.01.02-20.23.52:509][ 79]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.02-20.23.52:517][ 79]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.02-20.23.52:522][ 79]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.02-20.23.52:544][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.02-20.23.52:545][ 79]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.02-20.23.52:546][ 79]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.02-20.23.52:588][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2024.01.02-20.23.52:623][ 80]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.01.02-20.23.59:780][493]LogSavePackage: Moving '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/DeathDE5EA04344040A3F6EB0E38984AAEF8A.tmp' to '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Animations/Character_Animations/Death.uasset'
+[2024.01.02-20.23.59:797][493]AssetCheck: New page: Asset Save: Death
+[2024.01.02-20.23.59:798][493]LogContentValidation: Display: Validating AnimSequence /Game/Animations/Character_Animations/Death.Death
+[2024.01.02-20.24.31:455][122]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2024.01.02-20.24.31:461][122]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Level1' took 0.032
+[2024.01.02-20.24.31:463][122]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/PlayerAnims_BP] ([2] browsable assets)...
+[2024.01.02-20.24.31:484][122]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/PlayerAnims_BP.PlayerAnims_BP]
+[2024.01.02-20.24.31:485][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PlayerAnims_BP]
+[2024.01.02-20.24.31:573][122]LogSavePackage: Moving '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/PlayerAnims_BP_Auto104F5ECF4458FCBC4ECB0A7B192E1FCFD.tmp' to '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Autosaves/Game/Blueprints/PlayerAnims_BP_Auto1.uasset'
+[2024.01.02-20.24.31:575][122]LogFileHelpers: Auto-saving content packages took 0.113
+[2024.01.02-20.25.25:018][282]Candidate modules for hot reload:
+[2024.01.02-20.25.25:018][282]  Tech_Demo_4
+[2024.01.02-20.25.25:020][282]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tech_Demo_4,9531 Tech_Demo_4Editor Win64 Development -Project="C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Tech_Demo_4.uproject" "C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Tech_Demo_4.uproject"  -IgnoreJunk]
+[2024.01.02-20.25.25:024][282]Warning: Starting HotReload took  0.0s.
+[2024.01.02-20.25.46:720][500]CompilerResultsLog: New page: Compilation - 2 Jan 2024, 20:25:46
+[2024.01.02-20.25.46:721][500]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter).
+[2024.01.02-20.25.46:721][500]CompilerResultsLog: Invalidating makefile for Tech_Demo_4Editor (CharacterAnimationController.cpp.obj.response modified)
+[2024.01.02-20.25.46:721][500]CompilerResultsLog: Building Tech_Demo_4Editor...
+[2024.01.02-20.25.46:721][500]CompilerResultsLog: Using Visual Studio 2022 14.37.32826 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.01.02-20.25.46:721][500]CompilerResultsLog: Building 11 actions with 12 processes...
+[2024.01.02-20.25.46:721][500]CompilerResultsLog:   [1/11] MyMainGM.cpp
+[2024.01.02-20.25.46:721][500]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2024.01.02-20.25.46:721][500]CompilerResultsLog:   c1xx: note: the system returned code 1455: The paging file is too small for this operation to complete.
+[2024.01.02-20.25.46:721][500]CompilerResultsLog: 
+[2024.01.02-20.25.46:721][500]CompilerResultsLog: 
+[2024.01.02-20.25.46:721][500]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2024.01.02-20.25.46:721][500]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2024.01.02-20.25.46:721][500]CompilerResultsLog:   [2/11] Tech_Demo_4.init.gen.cpp
+[2024.01.02-20.25.46:721][500]CompilerResultsLog:   [3/11] CharacterAnimationController.cpp
+[2024.01.02-20.25.46:721][500]CompilerResultsLog:   [4/11] MyMainGM.gen.cpp
+[2024.01.02-20.25.46:721][500]CompilerResultsLog:   C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Source\Tech_Demo_4\CharacterController.h(30): warning C4263: 'void ACharacterController::TakeDamage(int)': member function does not override any base class virtual member function
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Source\Tech_Demo_4\CharacterController.h(141): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(247): note: see declaration of 'APawn::TakeDamage'
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(31): note: see declaration of 'APawn'
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   [5/11] PickupController.gen.cpp
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Source\Tech_Demo_4\CharacterController.h(30): warning C4263: 'void ACharacterController::TakeDamage(int)': member function does not override any base class virtual member function
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Source\Tech_Demo_4\CharacterController.h(141): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(247): note: see declaration of 'APawn::TakeDamage'
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(31): note: see declaration of 'APawn'
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   [6/11] PickupController.cpp
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Source\Tech_Demo_4\CharacterController.h(30): warning C4263: 'void ACharacterController::TakeDamage(int)': member function does not override any base class virtual member function
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Source\Tech_Demo_4\CharacterController.h(141): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(247): note: see declaration of 'APawn::TakeDamage'
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(31): note: see declaration of 'APawn'
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   [7/11] CountdownWidget.cpp
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Source\Tech_Demo_4\CharacterController.h(30): warning C4263: 'void ACharacterController::TakeDamage(int)': member function does not override any base class virtual member function
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Source\Tech_Demo_4\CharacterController.h(141): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(247): note: see declaration of 'APawn::TakeDamage'
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(31): note: see declaration of 'APawn'
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   [8/11] CountdownWidget.gen.cpp
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Source\Tech_Demo_4\CharacterController.h(30): warning C4263: 'void ACharacterController::TakeDamage(int)': member function does not override any base class virtual member function
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Source\Tech_Demo_4\CharacterController.h(141): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(247): note: see declaration of 'APawn::TakeDamage'
+[2024.01.02-20.25.46:722][500]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(31): note: see declaration of 'APawn'
+[2024.01.02-20.25.46:722][500]LogMainFrame: MainFrame: Module compiling took 21.711 seconds
+[2024.01.02-20.25.46:724][500]Warning: HotReload failed, recompile failed
+[2024.01.02-20.25.51:664][793]LogSlate: Window 'Message Log' being destroyed
+[2024.01.02-20.25.51:670][793]LogSlate: Window 'Message Log' being destroyed
+[2024.01.02-20.25.53:151][880]Candidate modules for hot reload:
+[2024.01.02-20.25.53:151][880]  Tech_Demo_4
+[2024.01.02-20.25.53:151][880]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tech_Demo_4,1495 Tech_Demo_4Editor Win64 Development -Project="C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Tech_Demo_4.uproject" "C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Tech_Demo_4.uproject"  -IgnoreJunk]
+[2024.01.02-20.25.53:156][880]Warning: Starting HotReload took  0.0s.
+[2024.01.02-20.26.06:973][690]CompilerResultsLog: New page: Compilation - 2 Jan 2024, 20:26:06
+[2024.01.02-20.26.06:974][690]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter).
+[2024.01.02-20.26.06:974][690]CompilerResultsLog: Building Tech_Demo_4Editor...
+[2024.01.02-20.26.06:974][690]CompilerResultsLog: Using Visual Studio 2022 14.37.32826 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.01.02-20.26.06:974][690]CompilerResultsLog: Building 4 actions with 12 processes...
+[2024.01.02-20.26.06:974][690]CompilerResultsLog:   [1/4] MyMainGM.cpp
+[2024.01.02-20.26.06:974][690]CompilerResultsLog:   C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Source\Tech_Demo_4\CharacterController.h(30): warning C4263: 'void ACharacterController::TakeDamage(int)': member function does not override any base class virtual member function
+[2024.01.02-20.26.06:974][690]CompilerResultsLog:   C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Source\Tech_Demo_4\CharacterController.h(141): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2024.01.02-20.26.06:974][690]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(247): note: see declaration of 'APawn::TakeDamage'
+[2024.01.02-20.26.06:974][690]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(31): note: see declaration of 'APawn'
+[2024.01.02-20.26.06:974][690]CompilerResultsLog:   [2/4] UE4Editor-Tech_Demo_4-1495.lib
+[2024.01.02-20.26.06:974][690]CompilerResultsLog:      Creating library C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Intermediate\Build\Win64\UE4Editor\Development\Tech_Demo_4\UE4Editor-Tech_Demo_4-1495.lib and object C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Intermediate\Build\Win64\UE4Editor\Development\Tech_Demo_4\UE4Editor-Tech_Demo_4-1495.exp
+[2024.01.02-20.26.06:974][690]CompilerResultsLog:   [3/4] UE4Editor-Tech_Demo_4-1495.dll
+[2024.01.02-20.26.06:975][690]CompilerResultsLog:      Creating library C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Intermediate\Build\Win64\UE4Editor\Development\Tech_Demo_4\UE4Editor-Tech_Demo_4-1495.suppressed.lib and object C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Intermediate\Build\Win64\UE4Editor\Development\Tech_Demo_4\UE4Editor-Tech_Demo_4-1495.suppressed.exp
+[2024.01.02-20.26.06:975][690]CompilerResultsLog:   [4/4] Tech_Demo_4Editor.target
+[2024.01.02-20.26.06:975][690]CompilerResultsLog: Total time in Parallel executor: 12.55 seconds
+[2024.01.02-20.26.06:975][690]CompilerResultsLog: Total execution time: 13.69 seconds
+[2024.01.02-20.26.06:975][690]LogMainFrame: MainFrame: Module compiling took 13.828 seconds
+[2024.01.02-20.26.07:269][690]LogHotReload: Re-instancing PickupController after hot-reload.
+[2024.01.02-20.26.07:353][690]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Tech_Demo_4' in 0.0039 seconds. Added 10 classes and 2 folders.
+[2024.01.02-20.26.07:400][690]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2024.01.02-20.26.07:568][690]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0389 seconds. Added 3725 classes and 872 folders.
+[2024.01.02-20.26.07:598][690]Display: HotReload took 14.5s.
+[2024.01.02-20.26.09:892][804]LogTemp: Repeating last play command: Selected Viewport
+[2024.01.02-20.26.09:904][804]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.02-20.26.09:904][804]PIE: New page: PIE session: Level1 (2 Jan 2024, 20:26:09)
+[2024.01.02-20.26.09:904][804]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2024.01.02-20.26.09:916][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011090s)
+[2024.01.02-20.26.09:918][804]LogAIModule: Creating AISystem for world Level1
+[2024.01.02-20.26.09:918][804]LogPlayLevel: PIE: World Init took: (0.002139s)
+[2024.01.02-20.26.09:918][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.013407s)
+[2024.01.02-20.26.10:012][804]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2024.01.02-20.26.10:021][804]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.01.02-20.26.10:021][804]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.02-20.26.10:021][804]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.02-20.26.10:021][804]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.02-20.26.10:021][804]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.02-20.26.10:021][804]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.02-20.26.10:021][804]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.02-20.26.10:021][804]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.02-20.26.10:021][804]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.02-20.26.10:022][804]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.02-20.26.10:022][804]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.02-20.26.10:022][804]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.02-20.26.10:022][804]LogAudioMixer: Display: Initializing audio mixer.
+[2024.01.02-20.26.10:027][804]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.02-20.26.10:027][804]LogAudioMixer: Display: 1: FrontRight
+[2024.01.02-20.26.10:078][804]LogAudioMixer: Display: Using Audio Device Headphones (My Bedroom speaker Stereo)
+[2024.01.02-20.26.10:080][804]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.02-20.26.10:080][804]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.02-20.26.10:080][804]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.02-20.26.10:081][804]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.01.02-20.26.10:081][804]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.01.02-20.26.10:081][804]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.01.02-20.26.10:084][804]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.01.02-20.26.10:084][804]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.01.02-20.26.10:084][804]LogInit: FAudioDevice initialized.
+[2024.01.02-20.26.10:084][804]LogAudio: Display: Audio Device (ID: 9) registered with world 'Level1'.
+[2024.01.02-20.26.10:117][804]LogLoad: Game class is 'MyMainGM_BP_C'
+[2024.01.02-20.26.10:117][804]LogActor: Warning: MyMainGM_BP_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.MyMainGM_BP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.01.02-20.26.10:126][804]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2024.01.02-20.26.10
+[2024.01.02-20.26.10:126][804]LogWorld: Bringing up level for play took: 0.008537
+[2024.01.02-20.26.10:127][804]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2024.01.02-20.26.10:138][804]PIE: Server logged in
+[2024.01.02-20.26.10:140][804]PIE: Play in editor total start time 0.24 seconds.
+[2024.01.02-20.26.46:275][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.02-20.26.46:275][959]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2024.01.02-20.26.46:276][959]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.01.02-20.26.46:277][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.02-20.26.46:291][959]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.02-20.26.46:299][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.02-20.26.46:328][959]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.02-20.26.46:329][959]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.02-20.26.46:331][959]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.02-20.26.46:353][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.02-20.26.46:360][959]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2024.01.02-20.26.46:407][960]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.01.02-20.28.05:293][341]Candidate modules for hot reload:
+[2024.01.02-20.28.05:293][341]  Tech_Demo_4
+[2024.01.02-20.28.05:293][341]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Tech_Demo_4,6019 Tech_Demo_4Editor Win64 Development -Project="C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Tech_Demo_4.uproject" "C:/Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Tech_Demo_4.uproject"  -IgnoreJunk]
+[2024.01.02-20.28.05:296][341]Warning: Starting HotReload took  0.0s.
+[2024.01.02-20.28.30:841][860]CompilerResultsLog: New page: Compilation - 2 Jan 2024, 20:28:30
+[2024.01.02-20.28.30:841][860]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter).
+[2024.01.02-20.28.30:841][860]CompilerResultsLog: Building Tech_Demo_4Editor...
+[2024.01.02-20.28.30:841][860]CompilerResultsLog: Using Visual Studio 2022 14.37.32826 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.01.02-20.28.30:841][860]CompilerResultsLog: Building 4 actions with 12 processes...
+[2024.01.02-20.28.30:841][860]CompilerResultsLog:   [1/4] MyMainGM.cpp
+[2024.01.02-20.28.30:841][860]CompilerResultsLog:   C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Source\Tech_Demo_4\CharacterController.h(30): warning C4263: 'void ACharacterController::TakeDamage(int)': member function does not override any base class virtual member function
+[2024.01.02-20.28.30:841][860]CompilerResultsLog:   C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Source\Tech_Demo_4\CharacterController.h(141): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+[2024.01.02-20.28.30:841][860]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(247): note: see declaration of 'APawn::TakeDamage'
+[2024.01.02-20.28.30:841][860]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h(31): note: see declaration of 'APawn'
+[2024.01.02-20.28.30:841][860]CompilerResultsLog:   [2/4] UE4Editor-Tech_Demo_4-6019.lib
+[2024.01.02-20.28.30:841][860]CompilerResultsLog:      Creating library C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Intermediate\Build\Win64\UE4Editor\Development\Tech_Demo_4\UE4Editor-Tech_Demo_4-6019.lib and object C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Intermediate\Build\Win64\UE4Editor\Development\Tech_Demo_4\UE4Editor-Tech_Demo_4-6019.exp
+[2024.01.02-20.28.30:841][860]CompilerResultsLog:   [3/4] UE4Editor-Tech_Demo_4-6019.dll
+[2024.01.02-20.28.30:841][860]CompilerResultsLog:      Creating library C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Intermediate\Build\Win64\UE4Editor\Development\Tech_Demo_4\UE4Editor-Tech_Demo_4-6019.suppressed.lib and object C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Intermediate\Build\Win64\UE4Editor\Development\Tech_Demo_4\UE4Editor-Tech_Demo_4-6019.suppressed.exp
+[2024.01.02-20.28.30:842][860]CompilerResultsLog:   [4/4] Tech_Demo_4Editor.target
+[2024.01.02-20.28.30:842][860]CompilerResultsLog: Total time in Parallel executor: 24.39 seconds
+[2024.01.02-20.28.30:842][860]CompilerResultsLog: Total execution time: 25.45 seconds
+[2024.01.02-20.28.30:842][860]LogMainFrame: MainFrame: Module compiling took 25.554 seconds
+[2024.01.02-20.28.31:022][860]LogClass: EPickups HotReload.
+[2024.01.02-20.28.31:038][860]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Tech_Demo_4' in 0.0008 seconds. Added 10 classes and 2 folders.
+[2024.01.02-20.28.31:059][860]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2024.01.02-20.28.31:169][860]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0130 seconds. Added 3725 classes and 872 folders.
+[2024.01.02-20.28.31:175][860]Display: HotReload took 25.9s.
+[2024.01.02-20.29.08:225][ 49]LogEditorViewport: Clicking on Actor (LMB): PickupLoc_BP_C (BP_PickupLocation4)
+[2024.01.02-20.30.10:602][748]LogEditorViewport: Clicking on Actor (LMB): PickupLoc_BP_C (BP_PickupLocation)
+[2024.01.02-20.30.41:712][608]LogEditorViewport: Clicking on Actor (LMB): PickupLoc_BP_C (BP_PickupLocation8)
+[2024.01.02-20.30.55:204][412]LogEditorViewport: Clicking on Actor (LMB): PickupLoc_BP_C (BP_PickupLocation3)
+[2024.01.02-20.31.30:668][533]LogEditorViewport: Clicking on Actor (LMB): BP_SteepLadder_08_C (BP_SteepLadder_08)
+[2024.01.02-20.31.31:879][600]Cmd: EDIT COPY
+[2024.01.02-20.31.33:703][708]Cmd: EDIT PASTE
+[2024.01.02-20.32.24:824][740]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2024.01.02-20.32.24:866][740]LogSavePackage: Moving '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Level13235D8B74EB07A46F9D5C5ACCA828C01.tmp' to '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Maps/Level1.umap'
+[2024.01.02-20.32.25:029][740]LogSavePackage: Moving '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Level1_BuiltDataE7B6F0B142C24B3CDB719FAAFD1BD146.tmp' to '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Maps/Level1_BuiltData.uasset'
+[2024.01.02-20.32.25:048][740]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.02-20.32.25:048][740]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Level1_BuiltData.Level1_BuiltData
+[2024.01.02-20.32.25:048][740]LogContentValidation: Display: Validating World /Game/Maps/Level1.Level1
+[2024.01.02-20.32.25:949][793]LogTemp: Repeating last play command: Selected Viewport
+[2024.01.02-20.32.25:960][793]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.02-20.32.25:960][793]PIE: New page: PIE session: Level1 (2 Jan 2024, 20:32:25)
+[2024.01.02-20.32.25:962][793]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level1
+[2024.01.02-20.32.25:979][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016899s)
+[2024.01.02-20.32.25:997][793]LogAIModule: Creating AISystem for world Level1
+[2024.01.02-20.32.26:002][793]LogPlayLevel: PIE: World Init took: (0.022510s)
+[2024.01.02-20.32.26:002][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.039781s)
+[2024.01.02-20.32.26:060][793]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2024.01.02-20.32.26:064][793]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.01.02-20.32.26:065][793]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.02-20.32.26:065][793]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.02-20.32.26:065][793]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.02-20.32.26:065][793]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.02-20.32.26:065][793]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.02-20.32.26:065][793]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.02-20.32.26:065][793]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.02-20.32.26:065][793]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.02-20.32.26:067][793]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.02-20.32.26:067][793]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.02-20.32.26:067][793]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.02-20.32.26:067][793]LogAudioMixer: Display: Initializing audio mixer.
+[2024.01.02-20.32.26:071][793]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.02-20.32.26:071][793]LogAudioMixer: Display: 1: FrontRight
+[2024.01.02-20.32.26:115][793]LogAudioMixer: Display: Using Audio Device Headphones (My Bedroom speaker Stereo)
+[2024.01.02-20.32.26:117][793]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.02-20.32.26:117][793]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.02-20.32.26:117][793]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.02-20.32.26:117][793]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.01.02-20.32.26:117][793]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.01.02-20.32.26:117][793]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.01.02-20.32.26:119][793]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.01.02-20.32.26:119][793]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.01.02-20.32.26:119][793]LogInit: FAudioDevice initialized.
+[2024.01.02-20.32.26:119][793]LogAudio: Display: Audio Device (ID: 10) registered with world 'Level1'.
+[2024.01.02-20.32.26:136][793]LogLoad: Game class is 'MyMainGM_BP_C'
+[2024.01.02-20.32.26:136][793]LogActor: Warning: MyMainGM_BP_C /Game/Maps/UEDPIE_0_Level1.Level1:PersistentLevel.MyMainGM_BP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.01.02-20.32.26:146][793]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2024.01.02-20.32.26
+[2024.01.02-20.32.26:147][793]LogWorld: Bringing up level for play took: 0.008967
+[2024.01.02-20.32.26:150][793]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2024.01.02-20.32.26:172][793]PIE: Server logged in
+[2024.01.02-20.32.26:173][793]PIE: Play in editor total start time 0.218 seconds.
+[2024.01.02-20.33.20:913][ 72]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.02-20.33.20:913][ 72]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level1
+[2024.01.02-20.33.20:915][ 72]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2024.01.02-20.33.20:917][ 72]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.02-20.33.20:931][ 72]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.02-20.33.20:946][ 72]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.02-20.33.20:968][ 72]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.02-20.33.20:969][ 72]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.02-20.33.20:971][ 72]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.02-20.33.21:009][ 72]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.02-20.33.21:013][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2024.01.02-20.33.21:071][ 73]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.01.02-20.33.25:045][305]MapCheck: New page: Map Check
+[2024.01.02-20.33.25:059][305]LightingResults: New page: Lighting Build - 2 Jan 2024, 20:33:25
+[2024.01.02-20.33.25:117][305]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2024.01.02-20.33.25:219][305]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2024.01.02-20.33.25:232][305]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2024.01.02-20.33.25:761][305]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2024.01.02-20.33.25:761][305]LogSwarmInterface: [TryOpenConnection] Local Process ID is 41764
+[2024.01.02-20.33.29:148][305]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2024.01.02-20.33.29:150][305]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2024.01.02-20.33.29:150][305]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2024.01.02-20.33.29:150][305]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2024.01.02-20.33.29:150][305]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2024.01.02-20.33.29:150][305]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2024.01.02-20.33.29:290][305]LogEditorBuildUtils: Build time 0:04
+[2024.01.02-20.33.29:300][305]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.02-20.33.29:300][305]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2024.01.02-20.33.29:300][305]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2024.01.02-20.33.29:300][305]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 409.60 MB (0.40 GB) budget. Usage: 0.00%
+[2024.01.02-20.33.29:300][305]LogShaderCompilers: Display: ================================================
+[2024.01.02-20.33.29:357][306]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2024.01.02-20.33.31:854][313]LightingResults: Warning: SM_ContainerDoor_01b Object has overlapping UVs.
+[2024.01.02-20.33.31:855][313]LightingResults: SM_ContainerDoor_01b Lightmap UV are overlapping by 27.9%. Please adjust content - Enable Error Coloring to visualize.
+[2024.01.02-20.33.32:191][314]LightingResults: Warning: SM_ContainerDoor_01b Object has overlapping UVs.
+[2024.01.02-20.33.32:192][314]LightingResults: SM_ContainerDoor_01b Lightmap UV are overlapping by 27.9%. Please adjust content - Enable Error Coloring to visualize.
+[2024.01.02-20.33.32:192][314]LightingResults: Warning: SM_ContainerDoor_01b Object has overlapping UVs.
+[2024.01.02-20.33.32:193][314]LightingResults: SM_ContainerDoor_01b Lightmap UV are overlapping by 27.9%. Please adjust content - Enable Error Coloring to visualize.
+[2024.01.02-20.33.32:868][316]LightingResults: Warning: SM_ContainerDoor_01b Object has overlapping UVs.
+[2024.01.02-20.33.32:868][316]LightingResults: SM_ContainerDoor_01b Lightmap UV are overlapping by 27.9%. Please adjust content - Enable Error Coloring to visualize.
+[2024.01.02-20.33.33:198][317]LightingResults: Warning: SM_ContainerDoor_01b Object has overlapping UVs.
+[2024.01.02-20.33.33:198][317]LightingResults: SM_ContainerDoor_01b Lightmap UV are overlapping by 27.9%. Please adjust content - Enable Error Coloring to visualize.
+[2024.01.02-20.33.33:532][318]LightingResults: Warning: SM_ContainerDoor_01b Object has overlapping UVs.
+[2024.01.02-20.33.33:532][318]LightingResults: SM_ContainerDoor_01b Lightmap UV are overlapping by 27.9%. Please adjust content - Enable Error Coloring to visualize.
+[2024.01.02-20.33.33:533][318]LightingResults: Warning: SM_ContainerDoor_01b Object has overlapping UVs.
+[2024.01.02-20.33.33:533][318]LightingResults: SM_ContainerDoor_01b Lightmap UV are overlapping by 27.9%. Please adjust content - Enable Error Coloring to visualize.
+[2024.01.02-20.33.33:870][319]LightingResults: Warning: SM_ContainerDoor_01b Object has overlapping UVs.
+[2024.01.02-20.33.33:870][319]LightingResults: SM_ContainerDoor_01b Lightmap UV are overlapping by 27.9%. Please adjust content - Enable Error Coloring to visualize.
+[2024.01.02-20.33.33:870][319]LightingResults: Warning: SM_ContainerDoor_01b Object has overlapping UVs.
+[2024.01.02-20.33.33:870][319]LightingResults: SM_ContainerDoor_01b Lightmap UV are overlapping by 27.9%. Please adjust content - Enable Error Coloring to visualize.
+[2024.01.02-20.33.34:198][320]Job is a success!
+[2024.01.02-20.33.34:662][321]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.012s
+[2024.01.02-20.33.34:662][321]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2024.01.02-20.33.34:662][321]LogVolumetricLightmapImport:      BrickData (all levels) 0.4Mb
+[2024.01.02-20.33.34:662][321]LogVolumetricLightmapImport:      Bricks at depth
+[2024.01.02-20.33.34:662][321]LogVolumetricLightmapImport:          0: 1.1% covering 100.0% of volume
+[2024.01.02-20.33.34:662][321]LogVolumetricLightmapImport:          1: 9.8% covering 14.1% of volume
+[2024.01.02-20.33.34:662][321]LogVolumetricLightmapImport:          2: 89.1% covering 2.0% of volume
+[2024.01.02-20.33.34:662][321]LogVolumetricLightmapImport:      Bricks in each level
+[2024.01.02-20.33.34:662][321]LogVolumetricLightmapImport:          Level1 			 92 bricks 	 100.0% (Persistent Level)
+[2024.01.02-20.33.35:023][321]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 1024X1024)
+[2024.01.02-20.33.35:023][321]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 1024X1024)
+[2024.01.02-20.33.35:024][321]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 1024X1024)
+[2024.01.02-20.33.35:024][321]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2024.01.02-20.33.35:024][321]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2024.01.02-20.33.35:024][321]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2024.01.02-20.33.35:024][321]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 1024X1024)
+[2024.01.02-20.33.35:024][321]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2024.01.02-20.33.35:024][321]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (OODLE_DXT1, 1024X1024)
+[2024.01.02-20.33.35:024][321]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (OODLE_DXT1, 128X128)
+[2024.01.02-20.33.35:024][321]LogTexture: Display: Building textures: HQ_Lightmap0_4 (OODLE_AutoDXT, 128X128)
+[2024.01.02-20.33.35:024][321]LogTexture: Display: Building textures: HQ_Lightmap0_3 (OODLE_AutoDXT, 1024X1024)
+[2024.01.02-20.33.35:024][321]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2024.01.02-20.33.35:024][321]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2024.01.02-20.33.35:229][321]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X512)
+[2024.01.02-20.33.35:229][321]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2024.01.02-20.33.35:229][321]Lightmass on LAPTOP-8T9BADUD: 5.21 sec total, 433 ms importing, 58 ms setup, 483 ms photons, 4.16 sec processing, 0 ms extra exporting [199/199 mappings]. Threads: 45.7 sec total, 25.3 sec processing.
+[2024.01.02-20.33.35:247][321]LogStaticLightingSystem: Level1_BuiltData storing lightmap data for 199 meshes in 8 LightmapResourceClusters (24.9 Meshes per cluster).
+[2024.01.02-20.33.35:282][321]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2024.01.02-20.33.35:312][321]LogStaticLightingSystem: Illumination: 9.91 sec (269 ms encoding lightmaps, 153 ms encoding shadowmaps)
+[2024.01.02-20.33.35:312][321]LogStaticLightingSystem: Lightmap texture memory:  6.0 MB (6.0 MB streaming, 0.0 MB non-streaming), 8 textures
+[2024.01.02-20.33.35:312][321]LogStaticLightingSystem: Shadowmap texture memory: 2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2024.01.02-20.33.36:176][321]DumpUnbuiltLightIteractions
+[2024.01.02-20.33.36:176][321]Lights with unbuilt interactions: 0
+[2024.01.02-20.33.36:178][321]
+[2024.01.02-20.33.36:178][321]Primitives with unbuilt interactions: 0
+[2024.01.02-20.33.36:229][322]Cmd: MAP CHECK NOTIFYRESULTS
+[2024.01.02-20.33.36:229][322]MapCheck: New page: Level1 - 2 Jan 2024, 20:33:36
+[2024.01.02-20.33.36:230][322]MapCheck: Warning: SK_West_Carrier_CVN76_2 /Game/Assets/VigilanteContent/Vehicles/West_Carrier_CVN76/SK_West_Carrier_CVN76.SK_West_Carrier_CVN76 : Large actor casts a shadow and will cause an extreme performance hit unless shadow casting is disabled 
+[2024.01.02-20.33.36:231][322]MapCheck: Warning: BP_MoutFab_02f_2 Static mesh actor has NULL StaticMesh property 
+[2024.01.02-20.33.36:231][322]MapCheck: Warning: BP_MoutFab_05c_2 Static mesh actor has NULL StaticMesh property 
+[2024.01.02-20.33.36:231][322]MapCheck: Warning: BP_MoutFab_07c_2 Static mesh actor has NULL StaticMesh property 
+[2024.01.02-20.33.36:231][322]MapCheck: Warning: BP_Railing_01_2 Static mesh actor has NULL StaticMesh property 
+[2024.01.02-20.33.36:231][322]MapCheck: Warning: BP_SteepLadder_02_2 Static mesh actor has NULL StaticMesh property 
+[2024.01.02-20.33.36:231][322]MapCheck: Warning: BP_SteepLadder_08_2 Static mesh actor has NULL StaticMesh property 
+[2024.01.02-20.33.36:232][322]MapCheck: Warning: BP_MoutFab_04g_2 Static mesh actor has NULL StaticMesh property 
+[2024.01.02-20.33.36:232][322]MapCheck: Warning: SM_RadioTower_02_53 Static mesh actor has NULL StaticMesh property 
+[2024.01.02-20.33.36:232][322]MapCheck: Warning: BP_SteepLadder_9 Static mesh actor has NULL StaticMesh property 
+[2024.01.02-20.33.36:232][322]MapCheck: Map check complete: 0 Error(s), 10 Warning(s), took 2.957ms to complete.
+[2024.01.02-20.33.41:268][338]LogSlate: Window 'Message Log' being destroyed
+[2024.01.02-20.33.41:272][338]LogSlate: Window 'Message Log' being destroyed
+[2024.01.02-20.33.42:869][426]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.01.02-20.33.42:900][426]LogSavePackage: Moving '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Level1BB01606E4CCEE03C76BBE588269251E7.tmp' to '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Maps/Level1.umap'
+[2024.01.02-20.33.43:039][426]LogSavePackage: Moving '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/Level1_BuiltData64A0A0E2461DC6AE8B2DD481102B232F.tmp' to '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Maps/Level1_BuiltData.uasset'
+[2024.01.02-20.33.43:057][426]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.02-20.33.43:057][426]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Level1_BuiltData.Level1_BuiltData
+[2024.01.02-20.33.43:057][426]LogContentValidation: Display: Validating World /Game/Maps/Level1.Level1
+[2024.01.02-20.33.47:217][670]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.01.02-20.33.47:270][670]LogSavePackage: Moving '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Saved/PlayerAnims_BP8C64CF9242519105C5F0BAB8AA05D36A.tmp' to '../../../../../../Users/jowet/OneDrive/Documents/UNI Year 2/TechDemo4-UnrealShooter/Tech_Demo_4/Content/Blueprints/PlayerAnims_BP.uasset'
+[2024.01.02-20.33.47:291][670]AssetCheck: New page: Asset Save: PlayerAnims_BP
+[2024.01.02-20.33.47:291][670]LogContentValidation: Display: Validating AnimBlueprint /Game/Blueprints/PlayerAnims_BP.PlayerAnims_BP

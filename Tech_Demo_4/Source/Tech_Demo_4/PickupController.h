@@ -12,7 +12,7 @@ UENUM()
 enum EPickups
 {
 	DoubleDamage,
-	Recovery,
+	Health,
 	Ammo
 };
 

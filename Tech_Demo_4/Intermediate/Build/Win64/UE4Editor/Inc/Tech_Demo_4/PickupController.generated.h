@@ -103,6 +103,6 @@ template<> TECH_DEMO_4_API UClass* StaticClass<class APickupController>();
 
 #define FOREACH_ENUM_EPICKUPS(op) \
 	op(DoubleDamage) \
-	op(Recovery) \
+	op(Health) \
 	op(Ammo) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

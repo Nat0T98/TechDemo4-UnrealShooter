@@ -40,7 +40,7 @@ void EmptyLinkFunctionForGeneratedCodePickupController() {}
 		return EPickups_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EPickups(EPickups_StaticEnum, TEXT("/Script/Tech_Demo_4"), TEXT("EPickups"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_Tech_Demo_4_EPickups_Hash() { return 1792798591U; }
+	uint32 Get_Z_Construct_UEnum_Tech_Demo_4_EPickups_Hash() { return 3236994791U; }
 	UEnum* Z_Construct_UEnum_Tech_Demo_4_EPickups()
 	{
 #if WITH_HOT_RELOAD
@@ -53,15 +53,15 @@ void EmptyLinkFunctionForGeneratedCodePickupController() {}
 		{
 			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
 				{ "DoubleDamage", (int64)DoubleDamage },
-				{ "Recovery", (int64)Recovery },
+				{ "Health", (int64)Health },
 				{ "Ammo", (int64)Ammo },
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 				{ "Ammo.Name", "Ammo" },
 				{ "DoubleDamage.Name", "DoubleDamage" },
+				{ "Health.Name", "Health" },
 				{ "ModuleRelativePath", "PickupController.h" },
-				{ "Recovery.Name", "Recovery" },
 			};
 #endif
 			static const UE4CodeGen_Private::FEnumParams EnumParams = {

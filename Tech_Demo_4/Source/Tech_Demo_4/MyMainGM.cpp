@@ -232,7 +232,7 @@ void AMyMainGM::SpawnPickup()
 					}
 					break;
 				case 1:
-					PickupInstance->PickupType = EPickups::Recovery;
+					PickupInstance->PickupType = EPickups::Health;
 					if (Cube)
 					{
 						Cube->SetMaterial(0, HealthGainMaterial);
@@ -258,13 +258,7 @@ void AMyMainGM::NewRound()
 	GetWorldTimerManager().ClearTimer(TimerMins);
 	GetWorldTimerManager().ClearTimer(TimerSecs);
 	Audio->AdjustVolume(4.0f, 0.0f, EAudioFaderCurve::Linear);
-	
-
-	for (uint8 Index = 0; Index < Players.Num(); ++Index)
-	{
-		Players[Index]->CustomTimeDilation = 0.1f;
-	}
-
+		
 	Round++;
 
 	if (Players.Num() == 2)
@@ -291,7 +285,7 @@ void AMyMainGM::NewRound()
 		}
 		else
 		{
-			WinnerName = "No-one";
+			WinnerName = "None";
 		}
 
 		WinnerVisibility = ESlateVisibility::Visible;
