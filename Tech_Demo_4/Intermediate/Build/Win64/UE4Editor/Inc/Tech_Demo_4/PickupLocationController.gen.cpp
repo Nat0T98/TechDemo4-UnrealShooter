@@ -33,14 +33,14 @@ void EmptyLinkFunctionForGeneratedCodePickupLocationController() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsOccupied_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IsUsed_MetaData[];
 #endif
-		static void NewProp_bIsOccupied_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsOccupied;
+		static void NewProp_IsUsed_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsUsed;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OccupyingPickup_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ActiveLoc_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OccupyingPickup;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ActiveLoc;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -56,26 +56,26 @@ void EmptyLinkFunctionForGeneratedCodePickupLocationController() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickupLocationController_Statics::NewProp_bIsOccupied_MetaData[] = {
-		{ "Category", "Location Occupied" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickupLocationController_Statics::NewProp_IsUsed_MetaData[] = {
+		{ "Category", "Location Used" },
 		{ "ModuleRelativePath", "PickupLocationController.h" },
 	};
 #endif
-	void Z_Construct_UClass_APickupLocationController_Statics::NewProp_bIsOccupied_SetBit(void* Obj)
+	void Z_Construct_UClass_APickupLocationController_Statics::NewProp_IsUsed_SetBit(void* Obj)
 	{
-		((APickupLocationController*)Obj)->bIsOccupied = 1;
+		((APickupLocationController*)Obj)->IsUsed = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APickupLocationController_Statics::NewProp_bIsOccupied = { "bIsOccupied", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APickupLocationController), &Z_Construct_UClass_APickupLocationController_Statics::NewProp_bIsOccupied_SetBit, METADATA_PARAMS(Z_Construct_UClass_APickupLocationController_Statics::NewProp_bIsOccupied_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APickupLocationController_Statics::NewProp_bIsOccupied_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APickupLocationController_Statics::NewProp_IsUsed = { "IsUsed", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(APickupLocationController), &Z_Construct_UClass_APickupLocationController_Statics::NewProp_IsUsed_SetBit, METADATA_PARAMS(Z_Construct_UClass_APickupLocationController_Statics::NewProp_IsUsed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APickupLocationController_Statics::NewProp_IsUsed_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickupLocationController_Statics::NewProp_OccupyingPickup_MetaData[] = {
-		{ "Category", "Occupying Pickup" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickupLocationController_Statics::NewProp_ActiveLoc_MetaData[] = {
+		{ "Category", "Active Pickup Location" },
 		{ "ModuleRelativePath", "PickupLocationController.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APickupLocationController_Statics::NewProp_OccupyingPickup = { "OccupyingPickup", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickupLocationController, OccupyingPickup), Z_Construct_UClass_APickupController_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APickupLocationController_Statics::NewProp_OccupyingPickup_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APickupLocationController_Statics::NewProp_OccupyingPickup_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APickupLocationController_Statics::NewProp_ActiveLoc = { "ActiveLoc", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APickupLocationController, ActiveLoc), Z_Construct_UClass_APickupController_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APickupLocationController_Statics::NewProp_ActiveLoc_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APickupLocationController_Statics::NewProp_ActiveLoc_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APickupLocationController_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupLocationController_Statics::NewProp_bIsOccupied,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupLocationController_Statics::NewProp_OccupyingPickup,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupLocationController_Statics::NewProp_IsUsed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APickupLocationController_Statics::NewProp_ActiveLoc,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APickupLocationController_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<APickupLocationController>::IsAbstract,
@@ -104,7 +104,7 @@ void EmptyLinkFunctionForGeneratedCodePickupLocationController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APickupLocationController, 139282367);
+	IMPLEMENT_CLASS(APickupLocationController, 2168538930);
 	template<> TECH_DEMO_4_API UClass* StaticClass<APickupLocationController>()
 	{
 		return APickupLocationController::StaticClass();

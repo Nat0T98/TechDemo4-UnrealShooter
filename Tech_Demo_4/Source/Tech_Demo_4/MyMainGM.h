@@ -85,7 +85,7 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Pickups")
 	TSubclassOf<APickupController> PickupObject;
 
-	int PickupsInLevel;
+	int PickupsSpawned;
 
 	UFUNCTION(BlueprintCallable, Category = "Timer")
 	FText GetMinutes() const;

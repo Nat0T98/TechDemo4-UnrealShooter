@@ -17,33 +17,14 @@ AMyMainGM::AMyMainGM()
 	CountdownTimer = nullptr;
 	GameMusic = nullptr;
 	Audio = CreateDefaultSubobject<UAudioComponent>(TEXT("Audio"));
-
 	Minutes = 3;
 	Seconds = 0;
 	MaxRounds = 5;
 	Round = 1;
-	PickupsInLevel = 0;
-
+	PickupsSpawned = 0;
 	WinnerVisibility = ESlateVisibility::Hidden;
 }
 
-FText AMyMainGM::GetMinutes() const
-{
-	FNumberFormattingOptions FormattingOptions;
-	FormattingOptions.MinimumIntegralDigits = 2;
-	FormattingOptions.MaximumIntegralDigits = 2;
-
-	return FText::AsNumber(Minutes, &FormattingOptions);
-}
-
-FText AMyMainGM::GetSeconds() const
-{
-	FNumberFormattingOptions FormattingOptions;
-	FormattingOptions.MinimumIntegralDigits = 2;
-	FormattingOptions.MaximumIntegralDigits = 2;
-
-	return FText::AsNumber(Seconds, &FormattingOptions);
-}
 
 void AMyMainGM::StartPlay()
 {
@@ -125,7 +106,7 @@ void AMyMainGM::StartPlay()
 
 	for (uint8 Index = 0; Index != Players.Num(); ++Index)
 	{
-		Players[Index]->FindComponentByClass<USkeletalMeshComponent>()->SetMaterial(1, Materials[Index]);
+		Players[Index]->FindComponentByClass<USkeletalMeshComponent>()->SetMaterial(0, Materials[Index]);
 
 		if (Materials[Index] == RedTeam)
 		{
@@ -136,6 +117,24 @@ void AMyMainGM::StartPlay()
 			Cast<ACharacterController>(Players[Index])->Name = "Blue";
 		}
 	}
+}
+
+FText AMyMainGM::GetMinutes() const
+{
+	FNumberFormattingOptions FormattingOptions;
+	FormattingOptions.MinimumIntegralDigits = 2;
+	FormattingOptions.MaximumIntegralDigits = 2;
+
+	return FText::AsNumber(Minutes, &FormattingOptions);
+}
+
+FText AMyMainGM::GetSeconds() const
+{
+	FNumberFormattingOptions FormattingOptions;
+	FormattingOptions.MinimumIntegralDigits = 2;
+	FormattingOptions.MaximumIntegralDigits = 2;
+
+	return FText::AsNumber(Seconds, &FormattingOptions);
 }
 
 void AMyMainGM::Countdown()
@@ -171,86 +170,26 @@ void AMyMainGM::Respawn()
 	GetWorldTimerManager().ClearTimer(TimerMins);
 	Audio->Play();
 	
-
 	for (uint8 Index = 0; Index < Players.Num(); ++Index)
 	{
 		Players[Index]->Respawn();
-		Players[Index]->CustomTimeDilation = 1.0f;
+	}
+
+	for (uint8 Index = 0; Index < PickupLocations.Num(); ++Index)
+	{
+		if (PickupLocations[Index]->IsUsed)
+		{
+			PickupLocations[Index]->ActiveLoc->Destroy();
+			PickupLocations[Index]->ActiveLoc = nullptr;
+			PickupLocations[Index]->IsUsed = false;
+		}
 	}
 
 	Minutes = 3;
 	Seconds = 0;
-
-	for (uint8 Index = 0; Index < PickupLocations.Num(); ++Index)
-	{
-		if (PickupLocations[Index]->bIsOccupied)
-		{
-			PickupLocations[Index]->OccupyingPickup->Destroy();
-			PickupLocations[Index]->OccupyingPickup = nullptr;
-			PickupLocations[Index]->bIsOccupied = false;
-		}
-	}
-
-	PickupsInLevel = 0;
-
+	PickupsSpawned = 0;
 	GetWorldTimerManager().SetTimer(TimerMins, this, &AMyMainGM::Countdown, 1.0f, true, 0.0f);
 	GetWorldTimerManager().SetTimer(TimerSecs, this, &AMyMainGM::SpawnPickup, 15.0f, true, 0.0f);
-}
-
-void AMyMainGM::SpawnPickup()
-{
-	if (PickupsInLevel < 4)
-	{
-		bool bLocationChosen = false;
-
-		while (!bLocationChosen)
-		{
-			const int Random = FMath::RandRange(0, PickupLocations.Num() - 1);
-
-			if (!PickupLocations[Random]->bIsOccupied && PickupObject != nullptr)
-			{
-				bLocationChosen = true;
-
-				const FActorSpawnParameters SpawnParameters;
-				PickupLocations[Random]->bIsOccupied = true;
-				APickupController* PickupInstance = GetWorld()->SpawnActor<APickupController>(PickupObject, PickupLocations[Random]->GetActorLocation(), FRotator(0), SpawnParameters);
-				PickupsInLevel++;
-
-				PickupInstance->PickupLocationController = PickupLocations[Random];
-				PickupLocations[Random]->OccupyingPickup = PickupInstance;
-				PickupInstance->GameModeBase = this;
-
-				UStaticMeshComponent* Cube = PickupInstance->FindComponentByClass<UStaticMeshComponent>();
-
-				switch (FMath::RandRange(0, 2))
-				{
-				case 0:
-					PickupInstance->PickupType = EPickups::DoubleDamage;
-					if (Cube)
-					{
-						Cube->SetMaterial(0, DoubleDamageMaterial);
-					}
-					break;
-				case 1:
-					PickupInstance->PickupType = EPickups::Health;
-					if (Cube)
-					{
-						Cube->SetMaterial(0, HealthGainMaterial);
-					}
-					break;
-				case 2:
-					PickupInstance->PickupType = EPickups::Ammo;
-					if (Cube)
-					{
-						Cube->SetMaterial(0, AmmoMaterial);
-					}
-					break;
-				default:
-					break;
-				}
-			}
-		}
-	}
 }
 
 void AMyMainGM::NewRound()
@@ -305,10 +244,65 @@ void AMyMainGM::RestartLevel()
 	for (uint8 Index = 0; Index < Players.Num(); ++Index)
 	{
 		Players[Index]->Kills = 0;
-		Players[Index]->CustomTimeDilation = 1.0f;
 	}
 
 	Respawn();
 }
 
+
+void AMyMainGM::SpawnPickup()
+{
+	if (PickupsSpawned < 4)
+	{
+		bool IsLocationSet = false;
+
+		while (!IsLocationSet)
+		{
+			const int Random = FMath::RandRange(0, PickupLocations.Num() - 1);
+
+			if (!PickupLocations[Random]->IsUsed && PickupObject != nullptr)
+			{
+				IsLocationSet = true;
+
+				const FActorSpawnParameters SpawnParameters;
+				PickupLocations[Random]->IsUsed = true;
+				APickupController* PickupObj = GetWorld()->SpawnActor<APickupController>(PickupObject, PickupLocations[Random]->GetActorLocation(), FRotator(0), SpawnParameters);
+				PickupsSpawned++;
+
+				PickupObj->PickupLocationController = PickupLocations[Random];
+				PickupLocations[Random]->ActiveLoc = PickupObj;
+				PickupObj->GameModeBase = this;
+
+				UStaticMeshComponent* CubeObj = PickupObj->FindComponentByClass<UStaticMeshComponent>();
+
+				switch (FMath::RandRange(0, 2))
+				{
+				case 0:
+					PickupObj->PickupType = EPickups::DoubleDamage;
+					if (CubeObj)
+					{
+						CubeObj->SetMaterial(0, DoubleDamageMaterial);
+					}
+					break;
+				case 1:
+					PickupObj->PickupType = EPickups::Health;
+					if (CubeObj)
+					{
+						CubeObj->SetMaterial(0, HealthGainMaterial);
+					}
+					break;
+				case 2:
+					PickupObj->PickupType = EPickups::Ammo;
+					if (CubeObj)
+					{
+						CubeObj->SetMaterial(0, AmmoMaterial);
+					}
+					break;
+				default:
+					break;
+				}
+			}
+		}
+	}
+}
 

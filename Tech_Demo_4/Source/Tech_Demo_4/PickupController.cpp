@@ -4,12 +4,10 @@
 #include "CharacterController.h"
 #include "Kismet/GameplayStatics.h"
 
-// Sets default values
-APickupController::APickupController()
-{
-	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
 
+APickupController::APickupController()
+{	
+	PrimaryActorTick.bCanEverTick = true;
 	GameModeBase = nullptr;
 	PickupLocationController = nullptr;
 	BoxCollider = nullptr;
@@ -25,10 +23,9 @@ void APickupController::OnBeginOverlapComponentEvent(UPrimitiveComponent* Overla
 {
 	if (Cast<ACharacterController>(OtherActor))
 	{
-		ACharacterController* CharacterController = Cast<ACharacterController>(OtherActor);
-		
-		GameModeBase->PickupsInLevel--;
-		PickupLocationController->bIsOccupied = false;
+		ACharacterController* CharacterController = Cast<ACharacterController>(OtherActor);		
+		GameModeBase->PickupsSpawned--;
+		PickupLocationController->IsUsed = false;
 		UGameplayStatics::PlaySoundAtLocation(this, PickupSFX, GetActorLocation(), 0.5f);
 		
 		switch(PickupType)
@@ -49,19 +46,15 @@ void APickupController::OnBeginOverlapComponentEvent(UPrimitiveComponent* Overla
 	}
 }
 
-// Called when the game starts or when spawned
 void APickupController::BeginPlay()
 {
 	Super::BeginPlay();
 	BoxCollider = FindComponentByClass<UStaticMeshComponent>();
-
 	BoxCollider->OnComponentBeginOverlap.AddDynamic(this, &APickupController::OnBeginOverlapComponentEvent);
 }
 
-// Called every frame
 void APickupController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 

@@ -25,10 +25,10 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(VisibleAnywhere, Category = "Location Occupied")
-	bool bIsOccupied;
+	UPROPERTY(VisibleAnywhere, Category = "Location Used")
+	bool IsUsed;
 
-	UPROPERTY(VisibleAnywhere, Category = "Occupying Pickup")
-	APickupController* OccupyingPickup;
+	UPROPERTY(VisibleAnywhere, Category = "Active Pickup Location")
+	APickupController* ActiveLoc;
 
 };

@@ -5,21 +5,16 @@
 #include "Kismet/GameplayStatics.h"
 #include "Particles/ParticleSystemComponent.h"
 
-// Sets default values
 AWeaponController::AWeaponController()
-{
-	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+{	
 	PrimaryActorTick.bCanEverTick = true;
-
-	bLaserCreated = false;
-	
+	isLaserOn = false;	
 	Player = nullptr;
 	LaserAsset = nullptr;
 	Arrow = nullptr;
 	Laser = nullptr;
 }
 
-// Called when the game starts or when spawned
 void AWeaponController::BeginPlay()
 {
 	Super::BeginPlay();
@@ -30,35 +25,33 @@ void AWeaponController::BeginPlay()
 	}
 }
 
-// Called every frame
 void AWeaponController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	
-	if (!bLaserCreated)
+	if (!isLaserOn)
 	{
 		Laser = UGameplayStatics::SpawnEmitterAttached(LaserAsset, Arrow);
-		bLaserCreated = true;
+		isLaserOn = true;
 	}
 	else
 	{
-		FVector Start = Arrow->GetComponentLocation();
-		FVector ForwardVector = Player->Camera->GetForwardVector();
-		FVector End = Start + (ForwardVector * 10000.0f);
-
-		Laser->SetBeamSourcePoint(0, Start, 0);
+		FVector StartPos = Arrow->GetComponentLocation();
+		FVector LaserDir = Player->Camera->GetForwardVector();
+		FVector EndPos = StartPos + (LaserDir * 5000.0f);
+		Laser->SetBeamSourcePoint(0, StartPos, 0);
 
 		FHitResult Hit;
-		FCollisionQueryParams CollisionParams;
-		CollisionParams.AddIgnoredActor(this->GetOwner());
+		FCollisionQueryParams Col;
+		Col.AddIgnoredActor(this->GetOwner());
 		if (Player)
 		{
-			CollisionParams.AddIgnoredActor(Player->GetOwner());
+			Col.AddIgnoredActor(Player->GetOwner());
 		}
 
-		bool bHit = GetWorld()->LineTraceSingleByChannel(Hit, Start, End, ECC_Visibility, CollisionParams);
+		bool isHit = GetWorld()->LineTraceSingleByChannel(Hit, StartPos, EndPos, ECC_Visibility, Col);
     
-		if (bHit)
+		if (isHit)
 		{
 			Laser->SetBeamTargetPoint(0, Hit.Location, 0);
 		}

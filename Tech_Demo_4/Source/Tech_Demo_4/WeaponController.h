@@ -38,5 +38,5 @@ public:
 	
 
 private:
-	bool bLaserCreated;
+	bool isLaserOn;
 };
