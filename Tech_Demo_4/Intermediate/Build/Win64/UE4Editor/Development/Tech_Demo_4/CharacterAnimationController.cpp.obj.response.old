@@ -262,8 +262,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
+/FI"C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Intermediate\Build\Win64\Tech_Demo_4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Intermediate\Build\Win64\Tech_Demo_4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Intermediate\Build\Win64\Tech_Demo_4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
 "C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Source\Tech_Demo_4\CharacterAnimationController.cpp"
-/FI"C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Intermediate\Build\Win64\UE4Editor\Development\Tech_Demo_4\Definitions.h"
+/FI"C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Intermediate\Build\Win64\UE4Editor\Development\Tech_Demo_4\Definitions.Tech_Demo_4.h"
 /Fo"C:\Users\jowet\OneDrive\Documents\UNI Year 2\TechDemo4-UnrealShooter\Tech_Demo_4\Intermediate\Build\Win64\UE4Editor\Development\Tech_Demo_4\CharacterAnimationController.cpp.obj"
 /TP
 /GR-
